@@ -1,0 +1,52 @@
+{
+  "columns": [
+    {
+      "name": "OT_PER",
+      "type": "C",
+      "length": 4,
+      "decimal": 0
+    },
+    {
+      "name": "CODE_UR",
+      "type": "C",
+      "length": 6,
+      "decimal": 0
+    },
+    {
+      "name": "MSK_OT",
+      "type": "C",
+      "length": 2,
+      "decimal": 0
+    },
+    {
+      "name": "USL_OK",
+      "type": "N",
+      "length": 6,
+      "decimal": 0
+    },
+    {
+      "name": "KOL_PRIK",
+      "type": "N",
+      "length": 10,
+      "decimal": 0
+    },
+    {
+      "name": "NORM_PDF",
+      "type": "N",
+      "length": 8,
+      "decimal": 2
+    },
+    {
+      "name": "SKDI_PDF",
+      "type": "N",
+      "length": 6,
+      "decimal": 3
+    },
+    {
+      "name": "VAL_PDF",
+      "type": "N",
+      "length": 16,
+      "decimal": 2
+    }
+  ]
+}

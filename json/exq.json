@@ -1,0 +1,82 @@
+{
+  "columns": [
+    {
+      "name": "TF_OKATO",
+      "type": "C",
+      "length": 5,
+      "decimal": 0
+    },
+    {
+      "name": "N_EXPERT",
+      "type": "C",
+      "length": 7,
+      "decimal": 0
+    },
+    {
+      "name": "IDMSP",
+      "type": "N",
+      "length": 4,
+      "decimal": 0
+    },
+    {
+      "name": "VERS",
+      "type": "C",
+      "length": 4,
+      "decimal": 0
+    },
+    {
+      "name": "FAM",
+      "type": "C",
+      "length": 40,
+      "decimal": 0
+    },
+    {
+      "name": "IM",
+      "type": "C",
+      "length": 40,
+      "decimal": 0
+    },
+    {
+      "name": "OT",
+      "type": "C",
+      "length": 40,
+      "decimal": 0
+    },
+    {
+      "name": "SNILS",
+      "type": "C",
+      "length": 14,
+      "decimal": 0
+    },
+    {
+      "name": "DATE_IN",
+      "type": "D",
+      "length": 8,
+      "decimal": 0
+    },
+    {
+      "name": "DATE_OUT",
+      "type": "D",
+      "length": 8,
+      "decimal": 0
+    },
+    {
+      "name": "DATE_K",
+      "type": "D",
+      "length": 8,
+      "decimal": 0
+    },
+    {
+      "name": "ID_GIS",
+      "type": "C",
+      "length": 11,
+      "decimal": 0
+    },
+    {
+      "name": "PROFIL",
+      "type": "C",
+      "length": 20,
+      "decimal": 0
+    }
+  ]
+}

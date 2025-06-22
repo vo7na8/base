@@ -1,0 +1,15 @@
+CREATE TABLE [zap] (
+    [Kod] NVARCHAR(MAX),
+    [IDVID] NVARCHAR(MAX),
+    [Naim] NVARCHAR(MAX),
+    [Osn] NVARCHAR(MAX),
+    [Komment] NVARCHAR(MAX),
+    [K_NO] NVARCHAR(MAX),
+    [K_SH] NVARCHAR(MAX),
+    [KodPG] NVARCHAR(MAX),
+    [DATEBEG] NVARCHAR(MAX),
+    [DATEEND] NVARCHAR(MAX),
+    [OT_PER_Y] NVARCHAR(2),
+    [OT_PER_M] NVARCHAR(2),
+    [OT_PER_N] NVARCHAR(4)
+);

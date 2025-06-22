@@ -1,0 +1,46 @@
+{
+  "columns": [
+    {
+      "name": "DISP",
+      "type": "C",
+      "length": 3,
+      "decimal": 0
+    },
+    {
+      "name": "CODE_USL",
+      "type": "C",
+      "length": 15,
+      "decimal": 0
+    },
+    {
+      "name": "SEX",
+      "type": "C",
+      "length": 2,
+      "decimal": 0
+    },
+    {
+      "name": "VOZR",
+      "type": "C",
+      "length": 150,
+      "decimal": 0
+    },
+    {
+      "name": "P_CEL",
+      "type": "C",
+      "length": 3,
+      "decimal": 0
+    },
+    {
+      "name": "RES_GOSP",
+      "type": "C",
+      "length": 150,
+      "decimal": 0
+    },
+    {
+      "name": "ISH_MOV",
+      "type": "C",
+      "length": 150,
+      "decimal": 0
+    }
+  ]
+}

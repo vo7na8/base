@@ -1,0 +1,9 @@
+CREATE TABLE [kgp] (
+    [KOD] NVARCHAR(6),
+    [NAME] NVARCHAR(250),
+    [PROFIL] INT,
+    [PROFIL_K] INT,
+    [OT_PER_Y] NVARCHAR(2),
+    [OT_PER_M] NVARCHAR(2),
+    [OT_PER_N] NVARCHAR(4)
+);

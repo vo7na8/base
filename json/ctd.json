@@ -1,0 +1,22 @@
+{
+  "columns": [
+    {
+      "name": "OKATOOLD",
+      "type": "C",
+      "length": 11,
+      "decimal": 0
+    },
+    {
+      "name": "OKATONEW",
+      "type": "C",
+      "length": 11,
+      "decimal": 0
+    },
+    {
+      "name": "OT_PER",
+      "type": "C",
+      "length": 4,
+      "decimal": 0
+    }
+  ]
+}

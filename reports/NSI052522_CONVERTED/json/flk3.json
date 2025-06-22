@@ -1,0 +1,16 @@
+{
+  "columns": [
+    {
+      "name": "MPCOD",
+      "type": "C",
+      "length": 8,
+      "decimal": 0
+    },
+    {
+      "name": "VID_MP",
+      "type": "N",
+      "length": 2,
+      "decimal": 0
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "columns": [
+    {
+      "name": "MKB",
+      "type": "C",
+      "length": 6,
+      "decimal": 0
+    },
+    {
+      "name": "DIAG_NAME",
+      "type": "C",
+      "length": 250,
+      "decimal": 0
+    },
+    {
+      "name": "SEX",
+      "type": "C",
+      "length": 2,
+      "decimal": 0
+    },
+    {
+      "name": "VOZR_IN",
+      "type": "N",
+      "length": 3,
+      "decimal": 0
+    },
+    {
+      "name": "VOZR_OUT",
+      "type": "N",
+      "length": 3,
+      "decimal": 0
+    },
+    {
+      "name": "EXPERT",
+      "type": "C",
+      "length": 1,
+      "decimal": 0
+    },
+    {
+      "name": "TERR_PRG",
+      "type": "C",
+      "length": 1,
+      "decimal": 0
+    },
+    {
+      "name": "BAZ_PRG",
+      "type": "C",
+      "length": 1,
+      "decimal": 0
+    },
+    {
+      "name": "ANAT_AREA",
+      "type": "C",
+      "length": 2,
+      "decimal": 0
+    },
+    {
+      "name": "PREMATURE",
+      "type": "L",
+      "length": 1,
+      "decimal": 0
+    },
+    {
+      "name": "KSG",
+      "type": "L",
+      "length": 1,
+      "decimal": 0
+    },
+    {
+      "name": "EXTRKS",
+      "type": "N",
+      "length": 1,
+      "decimal": 0
+    },
+    {
+      "name": "EXTRKSD",
+      "type": "N",
+      "length": 1,
+      "decimal": 0
+    },
+    {
+      "name": "EXTRAPP",
+      "type": "N",
+      "length": 1,
+      "decimal": 0
+    },
+    {
+      "name": "KLASS",
+      "type": "C",
+      "length": 3,
+      "decimal": 0
+    }
+  ]
+}

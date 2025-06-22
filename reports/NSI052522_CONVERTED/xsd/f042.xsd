@@ -1,0 +1,37 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="packet">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="zglv">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="type"/>
+              <xs:element type="xs:string" name="version"/>
+              <xs:element type="xs:string" name="date"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="zap" maxOccurs="unbounded" minOccurs="0">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="UIDEKMP"/>
+              <xs:element type="xs:string" name="IDEKMP"/>
+              <xs:element type="xs:string" name="N_EXPERT"/>
+              <xs:element type="xs:string" name="OKTMO_P"/>
+              <xs:element type="xs:string" name="SUBJ"/>
+              <xs:element type="xs:string" name="D_BEGIN"/>
+              <xs:element type="xs:string" name="D_END"/>
+              <xs:element type="xs:string" name="NAME_E"/>
+              <xs:element type="xs:string" name="EKS"/>
+              <xs:element type="xs:string" name="ZSL"/>
+              <xs:element type="xs:string" name="KMO"/>
+              <xs:element type="xs:string" name="ZAK"/>
+              <xs:element type="xs:string" name="DATEBEG"/>
+              <xs:element type="xs:string" name="DATEEND"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

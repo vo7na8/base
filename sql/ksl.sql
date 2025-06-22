@@ -1,0 +1,14 @@
+CREATE TABLE [ksl] (
+    [IDSL] INT,
+    [CODE] NVARCHAR(3),
+    [USL_OK] INT,
+    [NPR] INT,
+    [USLKOEF] NVARCHAR(254),
+    [ZKOEF] DECIMAL(7, 5),
+    [DATE_IN] DATE,
+    [DATE_OUT] DATE,
+    [KDD] DECIMAL(5, 3),
+    [OT_PER_Y] NVARCHAR(2),
+    [OT_PER_M] NVARCHAR(2),
+    [OT_PER_N] NVARCHAR(4)
+);

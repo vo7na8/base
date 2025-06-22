@@ -1,0 +1,46 @@
+{
+  "columns": [
+    {
+      "name": "CODE_UR",
+      "type": "C",
+      "length": 6,
+      "decimal": 0
+    },
+    {
+      "name": "MPCOD",
+      "type": "C",
+      "length": 8,
+      "decimal": 0
+    },
+    {
+      "name": "PODR",
+      "type": "C",
+      "length": 17,
+      "decimal": 0
+    },
+    {
+      "name": "USL_OK",
+      "type": "N",
+      "length": 1,
+      "decimal": 0
+    },
+    {
+      "name": "KPG",
+      "type": "C",
+      "length": 4,
+      "decimal": 0
+    },
+    {
+      "name": "PROFIL",
+      "type": "N",
+      "length": 3,
+      "decimal": 0
+    },
+    {
+      "name": "SUBLEVEL",
+      "type": "C",
+      "length": 2,
+      "decimal": 0
+    }
+  ]
+}

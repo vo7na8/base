@@ -1,0 +1,13 @@
+CREATE TABLE [qpf] (
+    [OT_PER] NVARCHAR(4),
+    [CODE_UR] NVARCHAR(6),
+    [MSK_OT] NVARCHAR(2),
+    [USL_OK] INT,
+    [KOL_PRIK] BIGINT,
+    [NORM_PDF] DECIMAL(8, 2),
+    [SKDI_PDF] DECIMAL(6, 3),
+    [VAL_PDF] DECIMAL(16, 2),
+    [OT_PER_Y] NVARCHAR(2),
+    [OT_PER_M] NVARCHAR(2),
+    [OT_PER_N] NVARCHAR(4)
+);

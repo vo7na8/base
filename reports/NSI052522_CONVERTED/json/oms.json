@@ -1,0 +1,16 @@
+{
+  "columns": [
+    {
+      "name": "REGION",
+      "type": "C",
+      "length": 8,
+      "decimal": 0
+    },
+    {
+      "name": "R_NAME",
+      "type": "C",
+      "length": 250,
+      "decimal": 0
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "columns": [
+    {
+      "name": "KOD",
+      "type": "C",
+      "length": 5,
+      "decimal": 0
+    },
+    {
+      "name": "NAME",
+      "type": "C",
+      "length": 100,
+      "decimal": 0
+    }
+  ]
+}

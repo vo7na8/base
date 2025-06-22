@@ -1,0 +1,7 @@
+CREATE TABLE [mes] (
+    [CODE_USL] NVARCHAR(15),
+    [MKB] NVARCHAR(6),
+    [OT_PER_Y] NVARCHAR(2),
+    [OT_PER_M] NVARCHAR(2),
+    [OT_PER_N] NVARCHAR(4)
+);

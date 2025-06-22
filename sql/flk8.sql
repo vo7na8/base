@@ -1,0 +1,8 @@
+CREATE TABLE [flk8] (
+    [USL_OK] INT,
+    [CODE_LPU] NVARCHAR(6),
+    [CODE_USL] NVARCHAR(15),
+    [OT_PER_Y] NVARCHAR(2),
+    [OT_PER_M] NVARCHAR(2),
+    [OT_PER_N] NVARCHAR(4)
+);

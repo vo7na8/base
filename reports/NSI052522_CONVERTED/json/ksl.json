@@ -1,0 +1,58 @@
+{
+  "columns": [
+    {
+      "name": "IDSL",
+      "type": "N",
+      "length": 2,
+      "decimal": 0
+    },
+    {
+      "name": "CODE",
+      "type": "C",
+      "length": 3,
+      "decimal": 0
+    },
+    {
+      "name": "USL_OK",
+      "type": "N",
+      "length": 1,
+      "decimal": 0
+    },
+    {
+      "name": "NPR",
+      "type": "N",
+      "length": 2,
+      "decimal": 0
+    },
+    {
+      "name": "USLKOEF",
+      "type": "C",
+      "length": 254,
+      "decimal": 0
+    },
+    {
+      "name": "ZKOEF",
+      "type": "N",
+      "length": 7,
+      "decimal": 5
+    },
+    {
+      "name": "DATE_IN",
+      "type": "D",
+      "length": 8,
+      "decimal": 0
+    },
+    {
+      "name": "DATE_OUT",
+      "type": "D",
+      "length": 8,
+      "decimal": 0
+    },
+    {
+      "name": "KDD",
+      "type": "N",
+      "length": 5,
+      "decimal": 3
+    }
+  ]
+}

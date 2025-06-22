@@ -1,0 +1,34 @@
+{
+  "columns": [
+    {
+      "name": "MKB",
+      "type": "C",
+      "length": 6,
+      "decimal": 0
+    },
+    {
+      "name": "DIAG_TIP",
+      "type": "N",
+      "length": 1,
+      "decimal": 0
+    },
+    {
+      "name": "DIAG_CODE",
+      "type": "N",
+      "length": 3,
+      "decimal": 0
+    },
+    {
+      "name": "DIAG_RSLT",
+      "type": "N",
+      "length": 3,
+      "decimal": 0
+    },
+    {
+      "name": "REGNUM",
+      "type": "C",
+      "length": 6,
+      "decimal": 0
+    }
+  ]
+}

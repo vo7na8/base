@@ -7437,3 +7437,1270 @@ shutil.SameFileError: WindowsPath('C:/Users/Artemy/Desktop/base/nsi/NSI032558.zi
 2025-06-22 12:53:12,701 - pack_csv - DEBUG - Added source: NSI052522.zip
 2025-06-22 12:53:12,702 - pack_csv - INFO - Created conversion package: NSI052522_CONVERTED.zip
 2025-06-22 12:53:12,767 - pack_csv - ERROR - Cleanup failed: type object 'Config' has no attribute 'JSON_DIRs'
+2025-06-22 13:25:39,183 - nsimp - ERROR - Error processing package: WindowsPath('C:/Users/087/Desktop/git/base/nsi/NSI052522.zip') and WindowsPath('C:/Users/087/Desktop/git/base/nsi/NSI052522.zip') are the same file
+Traceback (most recent call last):
+  File "C:\Users\087\Desktop\git\base\nsimp.py", line 28, in process_package
+    shutil.copy(zip_path, original_copy)
+  File "C:\Users\087\AppData\Local\Programs\Python\Python311\Lib\shutil.py", line 419, in copy
+    copyfile(src, dst, follow_symlinks=follow_symlinks)
+  File "C:\Users\087\AppData\Local\Programs\Python\Python311\Lib\shutil.py", line 236, in copyfile
+    raise SameFileError("{!r} and {!r} are the same file".format(src, dst))
+shutil.SameFileError: WindowsPath('C:/Users/087/Desktop/git/base/nsi/NSI052522.zip') and WindowsPath('C:/Users/087/Desktop/git/base/nsi/NSI052522.zip') are the same file
+2025-06-22 13:31:52,964 - nsimp - INFO - Extracted: cgr0525.DBF
+2025-06-22 13:31:52,965 - nsimp - INFO - Extracted: ctd0119.dbf
+2025-06-22 13:31:52,966 - nsimp - INFO - Extracted: def0525.dbf
+2025-06-22 13:31:52,968 - nsimp - INFO - Extracted: drg0525.dbf
+2025-06-22 13:31:52,971 - nsimp - INFO - Extracted: dvn0325.dbf
+2025-06-22 13:31:52,972 - nsimp - INFO - Extracted: dvs0315.dbf
+2025-06-22 13:31:52,979 - nsimp - INFO - Extracted: erm0525.DBF
+2025-06-22 13:31:52,984 - nsimp - INFO - Extracted: EXQ0525.dbf
+2025-06-22 13:31:52,986 - nsimp - INFO - Extracted: F0020525.xml
+2025-06-22 13:31:53,024 - nsimp - INFO - Extracted: F0030624.xml
+2025-06-22 13:31:53,025 - nsimp - INFO - Extracted: F0060722.xml
+2025-06-22 13:31:53,026 - nsimp - INFO - Extracted: F0070524.xml
+2025-06-22 13:31:53,026 - nsimp - INFO - Extracted: F0080121.xml
+2025-06-22 13:31:53,026 - nsimp - INFO - Extracted: F0100121.xml
+2025-06-22 13:31:53,027 - nsimp - INFO - Extracted: F0110525.xml
+2025-06-22 13:31:53,037 - nsimp - INFO - Extracted: F0130225.xml
+2025-06-22 13:31:53,038 - nsimp - INFO - Extracted: F0141124.xml
+2025-06-22 13:31:53,068 - nsimp - INFO - Extracted: F0310525.xml
+2025-06-22 13:31:53,121 - nsimp - INFO - Extracted: F0320525.xml
+2025-06-22 13:31:53,337 - nsimp - INFO - Extracted: F0330525.xml
+2025-06-22 13:31:53,848 - nsimp - INFO - Extracted: F0340525.xml
+2025-06-22 13:31:53,860 - nsimp - INFO - Extracted: F0360525.xml
+2025-06-22 13:31:53,870 - nsimp - INFO - Extracted: F0370525.xml
+2025-06-22 13:31:54,084 - nsimp - INFO - Extracted: F0380525.xml
+2025-06-22 13:31:54,111 - nsimp - INFO - Extracted: F0420525.xml
+2025-06-22 13:31:54,112 - nsimp - INFO - Extracted: flk10424.DBF
+2025-06-22 13:31:54,113 - nsimp - INFO - Extracted: flk20325.dbf
+2025-06-22 13:31:54,114 - nsimp - INFO - Extracted: flk30320.DBF
+2025-06-22 13:31:54,115 - nsimp - INFO - Extracted: FLK40425.dbf
+2025-06-22 13:31:54,116 - nsimp - INFO - Extracted: flk50525.DBF
+2025-06-22 13:31:54,116 - nsimp - INFO - Extracted: flk60125.DBF
+2025-06-22 13:31:54,116 - nsimp - INFO - Extracted: flk70525.DBF
+2025-06-22 13:31:54,117 - nsimp - INFO - Extracted: flk80422.DBF
+2025-06-22 13:31:54,117 - nsimp - INFO - Extracted: flk90924.DBF
+2025-06-22 13:31:54,361 - nsimp - INFO - Extracted: gdg0525.DBF
+2025-06-22 13:31:54,365 - nsimp - INFO - Extracted: gdk0425.DBF
+2025-06-22 13:31:54,366 - nsimp - INFO - Extracted: hmp0225.dbf
+2025-06-22 13:31:54,366 - nsimp - INFO - Extracted: K0020124.xml
+2025-06-22 13:31:54,367 - nsimp - INFO - Extracted: K0030124.xml
+2025-06-22 13:31:54,373 - nsimp - INFO - Extracted: K0040920.xml
+2025-06-22 13:31:54,373 - nsimp - INFO - Extracted: kdg0125.DBF
+2025-06-22 13:31:54,374 - nsimp - INFO - Extracted: kgp0624.DBF
+2025-06-22 13:31:54,374 - nsimp - INFO - Extracted: ksl0525.dbf
+2025-06-22 13:31:54,376 - nsimp - INFO - Extracted: LPU0425.DBF
+2025-06-22 13:31:54,379 - nsimp - INFO - Extracted: M0021222.xml
+2025-06-22 13:31:54,379 - nsimp - INFO - Extracted: M0031022.xml
+2025-06-22 13:31:54,380 - nsimp - INFO - Extracted: M0040123.xml
+2025-06-22 13:31:54,394 - nsimp - INFO - Extracted: mdu0525.dbf
+2025-06-22 13:31:54,396 - nsimp - INFO - Extracted: mes0225.dbf
+2025-06-22 13:31:54,405 - nsimp - INFO - Extracted: mkb0225.dbf
+2025-06-22 13:31:54,405 - nsimp - INFO - Extracted: N0010121.xml
+2025-06-22 13:31:54,406 - nsimp - INFO - Extracted: N0020824.xml
+2025-06-22 13:31:54,407 - nsimp - INFO - Extracted: N0030824.xml
+2025-06-22 13:31:54,408 - nsimp - INFO - Extracted: N0040824.xml
+2025-06-22 13:31:54,408 - nsimp - INFO - Extracted: N0050824.xml
+2025-06-22 13:31:54,409 - nsimp - INFO - Extracted: N0061218.xml
+2025-06-22 13:31:54,410 - nsimp - INFO - Extracted: N0070121.xml
+2025-06-22 13:31:54,410 - nsimp - INFO - Extracted: N0080121.xml
+2025-06-22 13:31:54,411 - nsimp - INFO - Extracted: N0090121.xml
+2025-06-22 13:31:54,411 - nsimp - INFO - Extracted: N0100325.xml
+2025-06-22 13:31:54,411 - nsimp - INFO - Extracted: N0110325.xml
+2025-06-22 13:31:54,412 - nsimp - INFO - Extracted: N0120325.xml
+2025-06-22 13:31:54,412 - nsimp - INFO - Extracted: N0130121.xml
+2025-06-22 13:31:54,413 - nsimp - INFO - Extracted: N0140121.xml
+2025-06-22 13:31:54,413 - nsimp - INFO - Extracted: N0150121.xml
+2025-06-22 13:31:54,413 - nsimp - INFO - Extracted: N0160121.xml
+2025-06-22 13:31:54,414 - nsimp - INFO - Extracted: N0170121.xml
+2025-06-22 13:31:54,414 - nsimp - INFO - Extracted: N0180121.xml
+2025-06-22 13:31:54,414 - nsimp - INFO - Extracted: N0190121.xml
+2025-06-22 13:31:54,418 - nsimp - INFO - Extracted: N0200125.xml
+2025-06-22 13:31:54,424 - nsimp - INFO - Extracted: N0210225.xml
+2025-06-22 13:31:54,424 - nsimp - INFO - Extracted: NPI0425.dbf
+2025-06-22 13:31:54,528 - nsimp - INFO - Extracted: NPR0923.dbf
+2025-06-22 13:31:54,529 - nsimp - INFO - Extracted: O0010322.xml
+2025-06-22 13:31:54,726 - nsimp - INFO - Extracted: O0020224.xml
+2025-06-22 13:31:54,734 - nsimp - INFO - Extracted: odg0525.dbf
+2025-06-22 13:31:54,735 - nsimp - INFO - Extracted: oms0123.dbf
+2025-06-22 13:31:54,735 - nsimp - INFO - Extracted: pmp0125.dbf
+2025-06-22 13:31:54,735 - nsimp - INFO - Extracted: psp0824.dbf
+2025-06-22 13:31:54,736 - nsimp - INFO - Extracted: Q0230425.xml
+2025-06-22 13:31:54,737 - nsimp - INFO - Extracted: QMK0525.DBF
+2025-06-22 13:31:54,739 - nsimp - INFO - Extracted: QMV0525.DBF
+2025-06-22 13:31:54,739 - nsimp - INFO - Extracted: QPD0119.dbf
+2025-06-22 13:31:54,740 - nsimp - INFO - Extracted: QPF0525.DBF
+2025-06-22 13:31:54,740 - nsimp - INFO - Extracted: qva0525.dbf
+2025-06-22 13:31:54,741 - nsimp - INFO - Extracted: rgn0125.dbf
+2025-06-22 13:31:54,742 - nsimp - INFO - Extracted: sbr0525.dbf
+2025-06-22 13:31:54,742 - nsimp - INFO - Extracted: sdg0425.dbf
+2025-06-22 13:31:54,743 - nsimp - INFO - Extracted: smo1124.dbf
+2025-06-22 13:31:54,846 - nsimp - INFO - Extracted: tmu0525.DBF
+2025-06-22 13:31:54,856 - nsimp - INFO - Extracted: V0010421.xml
+2025-06-22 13:31:54,856 - nsimp - INFO - Extracted: V0020125.xml
+2025-06-22 13:31:54,857 - nsimp - INFO - Extracted: V0050121.xml
+2025-06-22 13:31:54,857 - nsimp - INFO - Extracted: V0060121.xml
+2025-06-22 13:31:54,858 - nsimp - INFO - Extracted: V0080121.xml
+2025-06-22 13:31:54,858 - nsimp - INFO - Extracted: V0090425.xml
+2025-06-22 13:31:54,858 - nsimp - INFO - Extracted: V0100121.xml
+2025-06-22 13:31:54,859 - nsimp - INFO - Extracted: V0120121.xml
+2025-06-22 13:31:54,859 - nsimp - INFO - Extracted: V0130322.xml
+2025-06-22 13:31:54,860 - nsimp - INFO - Extracted: V0150121.xml
+2025-06-22 13:31:54,860 - nsimp - INFO - Extracted: V0160425.xml
+2025-06-22 13:31:54,861 - nsimp - INFO - Extracted: V0170424.xml
+2025-06-22 13:31:54,862 - nsimp - INFO - Extracted: V0180225.xml
+2025-06-22 13:31:54,870 - nsimp - INFO - Extracted: V0190225.xml
+2025-06-22 13:31:54,871 - nsimp - INFO - Extracted: V0200121.xml
+2025-06-22 13:31:54,872 - nsimp - INFO - Extracted: V0210324.xml
+2025-06-22 13:31:54,874 - nsimp - INFO - Extracted: V0220225.xml
+2025-06-22 13:31:54,878 - nsimp - INFO - Extracted: V0230425.xml
+2025-06-22 13:31:54,883 - nsimp - INFO - Extracted: V0240125.xml
+2025-06-22 13:31:54,884 - nsimp - INFO - Extracted: V0250425.xml
+2025-06-22 13:31:54,884 - nsimp - INFO - Extracted: V0260123.xml
+2025-06-22 13:31:54,885 - nsimp - INFO - Extracted: V0270121.xml
+2025-06-22 13:31:54,885 - nsimp - INFO - Extracted: V0280121.xml
+2025-06-22 13:31:54,886 - nsimp - INFO - Extracted: V0290121.xml
+2025-06-22 13:31:54,886 - nsimp - INFO - Extracted: V0300123.xml
+2025-06-22 13:31:54,887 - nsimp - INFO - Extracted: V0310123.xml
+2025-06-22 13:31:54,887 - nsimp - INFO - Extracted: V0320123.xml
+2025-06-22 13:31:54,888 - nsimp - INFO - Extracted: V0330123.xml
+2025-06-22 13:31:54,888 - nsimp - INFO - Extracted: V0340122.xml
+2025-06-22 13:31:54,889 - nsimp - INFO - Extracted: V0350122.xml
+2025-06-22 13:31:54,890 - nsimp - INFO - Extracted: V0360323.xml
+2025-06-22 13:31:54,891 - nsimp - INFO - Extracted: V0370425.xml
+2025-06-22 13:31:54,891 - nsimp - INFO - Extracted: vpr0523.DBF
+2025-06-22 13:31:54,892 - nsimp - INFO - Extracted: vsp0920.dbf
+2025-06-22 13:31:54,892 - nsimp - INFO - Extracted: zfv1220.dbf
+2025-06-22 13:31:54,892 - nsimp - INFO - Processing complete: C:\Users\087\Desktop\git\base\reports\NSI_report_0525_22.csv
+2025-06-22 13:31:54,911 - xml_to_csv - INFO - Converted: F0020525.xml -> f002.csv
+2025-06-22 13:31:55,472 - xml_to_csv - INFO - Converted: F0030624.xml -> f003.csv
+2025-06-22 13:31:55,481 - xml_to_csv - INFO - Converted: F0060722.xml -> f006.csv
+2025-06-22 13:31:55,481 - xml_to_csv - INFO - Converted: F0070524.xml -> f007.csv
+2025-06-22 13:31:55,482 - xml_to_csv - INFO - Converted: F0080121.xml -> f008.csv
+2025-06-22 13:31:55,483 - xml_to_csv - INFO - Converted: F0100121.xml -> f010.csv
+2025-06-22 13:31:55,485 - xml_to_csv - INFO - Converted: F0110525.xml -> f011.csv
+2025-06-22 13:31:55,596 - xml_to_csv - INFO - Converted: F0130225.xml -> f013.csv
+2025-06-22 13:31:55,606 - xml_to_csv - INFO - Converted: F0141124.xml -> f014.csv
+2025-06-22 13:31:55,950 - xml_to_csv - INFO - Converted: F0310525.xml -> f031.csv
+2025-06-22 13:31:56,722 - xml_to_csv - INFO - Converted: F0320525.xml -> f032.csv
+2025-06-22 13:31:59,741 - xml_to_csv - INFO - Converted: F0330525.xml -> f033.csv
+2025-06-22 13:32:10,521 - xml_to_csv - INFO - Converted: F0340525.xml -> f034.csv
+2025-06-22 13:32:10,943 - xml_to_csv - INFO - Converted: F0360525.xml -> f036.csv
+2025-06-22 13:32:11,052 - xml_to_csv - INFO - Converted: F0370525.xml -> f037.csv
+2025-06-22 13:32:13,663 - xml_to_csv - INFO - Converted: F0380525.xml -> f038.csv
+2025-06-22 13:32:14,209 - xml_to_csv - INFO - Converted: F0420525.xml -> f042.csv
+2025-06-22 13:32:14,225 - xml_to_csv - INFO - Converted: K0020124.xml -> k002.csv
+2025-06-22 13:32:14,227 - xml_to_csv - INFO - Converted: K0030124.xml -> k003.csv
+2025-06-22 13:32:14,314 - xml_to_csv - INFO - Converted: K0040920.xml -> k004.csv
+2025-06-22 13:32:14,342 - xml_to_csv - INFO - Converted: M0021222.xml -> m002.csv
+2025-06-22 13:32:14,344 - xml_to_csv - INFO - Converted: M0031022.xml -> m003.csv
+2025-06-22 13:32:14,353 - xml_to_csv - INFO - Converted: M0040123.xml -> m004.csv
+2025-06-22 13:32:14,353 - xml_to_csv - INFO - Converted: N0010121.xml -> n001.csv
+2025-06-22 13:32:14,362 - xml_to_csv - INFO - Converted: N0020824.xml -> n002.csv
+2025-06-22 13:32:14,369 - xml_to_csv - INFO - Converted: N0030824.xml -> n003.csv
+2025-06-22 13:32:14,373 - xml_to_csv - INFO - Converted: N0040824.xml -> n004.csv
+2025-06-22 13:32:14,376 - xml_to_csv - INFO - Converted: N0050824.xml -> n005.csv
+2025-06-22 13:32:14,395 - xml_to_csv - INFO - Converted: N0061218.xml -> n006.csv
+2025-06-22 13:32:14,397 - xml_to_csv - INFO - Converted: N0070121.xml -> n007.csv
+2025-06-22 13:32:14,398 - xml_to_csv - INFO - Converted: N0080121.xml -> n008.csv
+2025-06-22 13:32:14,399 - xml_to_csv - INFO - Converted: N0090121.xml -> n009.csv
+2025-06-22 13:32:14,400 - xml_to_csv - INFO - Converted: N0100325.xml -> n010.csv
+2025-06-22 13:32:14,401 - xml_to_csv - INFO - Converted: N0110325.xml -> n011.csv
+2025-06-22 13:32:14,401 - xml_to_csv - INFO - Converted: N0120325.xml -> n012.csv
+2025-06-22 13:32:14,402 - xml_to_csv - INFO - Converted: N0130121.xml -> n013.csv
+2025-06-22 13:32:14,403 - xml_to_csv - INFO - Converted: N0140121.xml -> n014.csv
+2025-06-22 13:32:14,404 - xml_to_csv - INFO - Converted: N0150121.xml -> n015.csv
+2025-06-22 13:32:14,404 - xml_to_csv - INFO - Converted: N0160121.xml -> n016.csv
+2025-06-22 13:32:14,405 - xml_to_csv - INFO - Converted: N0170121.xml -> n017.csv
+2025-06-22 13:32:14,406 - xml_to_csv - INFO - Converted: N0180121.xml -> n018.csv
+2025-06-22 13:32:14,407 - xml_to_csv - INFO - Converted: N0190121.xml -> n019.csv
+2025-06-22 13:32:14,455 - xml_to_csv - INFO - Converted: N0200125.xml -> n020.csv
+2025-06-22 13:32:14,557 - xml_to_csv - INFO - Converted: N0210225.xml -> n021.csv
+2025-06-22 13:32:14,564 - xml_to_csv - INFO - Converted: O0010322.xml -> o001.csv
+2025-06-22 13:32:19,234 - xml_to_csv - INFO - Converted: O0020224.xml -> o002.csv
+2025-06-22 13:32:19,360 - xml_to_csv - INFO - Converted: Q0230425.xml -> q023.csv
+2025-06-22 13:32:19,438 - xml_to_csv - INFO - Converted: V0010421.xml -> v001.csv
+2025-06-22 13:32:19,442 - xml_to_csv - INFO - Converted: V0020125.xml -> v002.csv
+2025-06-22 13:32:19,442 - xml_to_csv - INFO - Converted: V0050121.xml -> v005.csv
+2025-06-22 13:32:19,443 - xml_to_csv - INFO - Converted: V0060121.xml -> v006.csv
+2025-06-22 13:32:19,444 - xml_to_csv - INFO - Converted: V0080121.xml -> v008.csv
+2025-06-22 13:32:19,446 - xml_to_csv - INFO - Converted: V0090425.xml -> v009.csv
+2025-06-22 13:32:19,449 - xml_to_csv - INFO - Converted: V0100121.xml -> v010.csv
+2025-06-22 13:32:19,450 - xml_to_csv - INFO - Converted: V0120121.xml -> v012.csv
+2025-06-22 13:32:19,451 - xml_to_csv - INFO - Converted: V0130322.xml -> v013.csv
+2025-06-22 13:32:19,454 - xml_to_csv - INFO - Converted: V0150121.xml -> v015.csv
+2025-06-22 13:32:19,455 - xml_to_csv - INFO - Converted: V0160425.xml -> v016.csv
+2025-06-22 13:32:19,456 - xml_to_csv - INFO - Converted: V0170424.xml -> v017.csv
+2025-06-22 13:32:19,462 - xml_to_csv - INFO - Converted: V0180225.xml -> v018.csv
+2025-06-22 13:32:19,561 - xml_to_csv - INFO - Converted: V0190225.xml -> v019.csv
+2025-06-22 13:32:19,564 - xml_to_csv - INFO - Converted: V0200121.xml -> v020.csv
+2025-06-22 13:32:19,568 - xml_to_csv - INFO - Converted: V0210324.xml -> v021.csv
+2025-06-22 13:32:19,578 - xml_to_csv - INFO - Converted: V0220225.xml -> v022.csv
+2025-06-22 13:32:19,626 - xml_to_csv - INFO - Converted: V0230425.xml -> v023.csv
+2025-06-22 13:32:19,676 - xml_to_csv - INFO - Converted: V0240125.xml -> v024.csv
+2025-06-22 13:32:19,678 - xml_to_csv - INFO - Converted: V0250425.xml -> v025.csv
+2025-06-22 13:32:19,680 - xml_to_csv - INFO - Converted: V0260123.xml -> v026.csv
+2025-06-22 13:32:19,681 - xml_to_csv - INFO - Converted: V0270121.xml -> v027.csv
+2025-06-22 13:32:19,682 - xml_to_csv - INFO - Converted: V0280121.xml -> v028.csv
+2025-06-22 13:32:19,682 - xml_to_csv - INFO - Converted: V0290121.xml -> v029.csv
+2025-06-22 13:32:19,683 - xml_to_csv - INFO - Converted: V0300123.xml -> v030.csv
+2025-06-22 13:32:19,684 - xml_to_csv - INFO - Converted: V0310123.xml -> v031.csv
+2025-06-22 13:32:19,685 - xml_to_csv - INFO - Converted: V0320123.xml -> v032.csv
+2025-06-22 13:32:19,689 - xml_to_csv - INFO - Converted: V0330123.xml -> v033.csv
+2025-06-22 13:32:19,699 - xml_to_csv - INFO - Converted: V0340122.xml -> v034.csv
+2025-06-22 13:32:19,701 - xml_to_csv - INFO - Converted: V0350122.xml -> v035.csv
+2025-06-22 13:32:19,705 - xml_to_csv - INFO - Converted: V0360323.xml -> v036.csv
+2025-06-22 13:32:19,713 - xml_to_csv - INFO - Converted: V0370425.xml -> v037.csv
+2025-06-22 13:32:22,836 - dbf_to_csv_json - INFO - Processed: cgr0525.DBF -> cgr.csv, cgr.json
+2025-06-22 13:32:22,838 - dbf_to_csv_json - INFO - Processed: ctd0119.dbf -> ctd.csv, ctd.json
+2025-06-22 13:32:22,842 - dbf_to_csv_json - INFO - Processed: def0525.dbf -> def.csv, def.json
+2025-06-22 13:32:22,873 - dbf_to_csv_json - INFO - Processed: drg0525.dbf -> drg.csv, drg.json
+2025-06-22 13:32:23,020 - dbf_to_csv_json - INFO - Processed: dvn0325.dbf -> dvn.csv, dvn.json
+2025-06-22 13:32:23,024 - dbf_to_csv_json - INFO - Processed: dvs0315.dbf -> dvs.csv, dvs.json
+2025-06-22 13:32:23,066 - dbf_to_csv_json - INFO - Processed: erm0525.DBF -> erm.csv, erm.json
+2025-06-22 13:32:23,138 - dbf_to_csv_json - INFO - Processed: EXQ0525.dbf -> exq.csv, exq.json
+2025-06-22 13:32:23,140 - dbf_to_csv_json - INFO - Processed: flk10424.DBF -> flk1.csv, flk1.json
+2025-06-22 13:32:23,148 - dbf_to_csv_json - INFO - Processed: flk20325.dbf -> flk2.csv, flk2.json
+2025-06-22 13:32:23,178 - dbf_to_csv_json - INFO - Processed: flk30320.DBF -> flk3.csv, flk3.json
+2025-06-22 13:32:23,202 - dbf_to_csv_json - INFO - Processed: FLK40425.dbf -> flk4.csv, flk4.json
+2025-06-22 13:32:23,204 - dbf_to_csv_json - INFO - Processed: flk50525.DBF -> flk5.csv, flk5.json
+2025-06-22 13:32:23,206 - dbf_to_csv_json - INFO - Processed: flk60125.DBF -> flk6.csv, flk6.json
+2025-06-22 13:32:23,208 - dbf_to_csv_json - INFO - Processed: flk70525.DBF -> flk7.csv, flk7.json
+2025-06-22 13:32:23,209 - dbf_to_csv_json - INFO - Processed: flk80422.DBF -> flk8.csv, flk8.json
+2025-06-22 13:32:23,212 - dbf_to_csv_json - INFO - Processed: flk90924.DBF -> flk9.csv, flk9.json
+2025-06-22 13:32:31,614 - dbf_to_csv_json - INFO - Processed: gdg0525.DBF -> gdg.csv, gdg.json
+2025-06-22 13:32:31,701 - dbf_to_csv_json - INFO - Processed: gdk0425.DBF -> gdk.csv, gdk.json
+2025-06-22 13:32:31,706 - dbf_to_csv_json - INFO - Processed: hmp0225.dbf -> hmp.csv, hmp.json
+2025-06-22 13:32:31,708 - dbf_to_csv_json - INFO - Processed: kdg0125.DBF -> kdg.csv, kdg.json
+2025-06-22 13:32:31,710 - dbf_to_csv_json - INFO - Processed: kgp0624.DBF -> kgp.csv, kgp.json
+2025-06-22 13:32:31,712 - dbf_to_csv_json - INFO - Processed: ksl0525.dbf -> ksl.csv, ksl.json
+2025-06-22 13:32:31,723 - dbf_to_csv_json - INFO - Processed: LPU0425.DBF -> lpu.csv, lpu.json
+2025-06-22 13:32:31,868 - dbf_to_csv_json - INFO - Processed: mdu0525.dbf -> mdu.csv, mdu.json
+2025-06-22 13:32:31,905 - dbf_to_csv_json - INFO - Processed: mes0225.dbf -> mes.csv, mes.json
+2025-06-22 13:32:32,022 - dbf_to_csv_json - INFO - Processed: mkb0225.dbf -> mkb.csv, mkb.json
+2025-06-22 13:32:32,024 - dbf_to_csv_json - INFO - Processed: NPI0425.dbf -> npi.csv, npi.json
+2025-06-22 13:32:34,113 - dbf_to_csv_json - INFO - Processed: NPR0923.dbf -> npr.csv, npr.json
+2025-06-22 13:32:34,830 - dbf_to_csv_json - INFO - Processed: odg0525.dbf -> odg.csv, odg.json
+2025-06-22 13:32:34,834 - dbf_to_csv_json - INFO - Processed: oms0123.dbf -> oms.csv, oms.json
+2025-06-22 13:32:34,838 - dbf_to_csv_json - INFO - Processed: pmp0125.dbf -> pmp.csv, pmp.json
+2025-06-22 13:32:34,843 - dbf_to_csv_json - INFO - Processed: psp0824.dbf -> psp.csv, psp.json
+2025-06-22 13:32:34,853 - dbf_to_csv_json - INFO - Processed: QMK0525.DBF -> qmk.csv, qmk.json
+2025-06-22 13:32:34,931 - dbf_to_csv_json - INFO - Processed: QMV0525.DBF -> qmv.csv, qmv.json
+2025-06-22 13:32:34,942 - dbf_to_csv_json - INFO - Processed: QPD0119.dbf -> qpd.csv, qpd.json
+2025-06-22 13:32:34,945 - dbf_to_csv_json - INFO - Processed: QPF0525.DBF -> qpf.csv, qpf.json
+2025-06-22 13:32:34,948 - dbf_to_csv_json - INFO - Processed: qva0525.dbf -> qva.csv, qva.json
+2025-06-22 13:32:34,951 - dbf_to_csv_json - INFO - Processed: rgn0125.dbf -> rgn.csv, rgn.json
+2025-06-22 13:32:34,960 - dbf_to_csv_json - INFO - Processed: sbr0525.dbf -> sbr.csv, sbr.json
+2025-06-22 13:32:34,968 - dbf_to_csv_json - INFO - Processed: sdg0425.dbf -> sdg.csv, sdg.json
+2025-06-22 13:32:34,978 - dbf_to_csv_json - INFO - Processed: smo1124.dbf -> smo.csv, smo.json
+2025-06-22 13:32:44,883 - dbf_to_csv_json - INFO - Processed: tmu0525.DBF -> tmu.csv, tmu.json
+2025-06-22 13:32:44,886 - dbf_to_csv_json - INFO - Processed: vpr0523.DBF -> vpr.csv, vpr.json
+2025-06-22 13:32:44,888 - dbf_to_csv_json - INFO - Processed: vsp0920.dbf -> vsp.csv, vsp.json
+2025-06-22 13:32:44,893 - dbf_to_csv_json - INFO - Processed: zfv1220.dbf -> zfv.csv, zfv.json
+2025-06-22 13:32:45,256 - pack_csv - DEBUG - Added CSV: cgr.csv
+2025-06-22 13:32:45,256 - pack_csv - DEBUG - Added CSV: ctd.csv
+2025-06-22 13:32:45,258 - pack_csv - DEBUG - Added CSV: def.csv
+2025-06-22 13:32:45,267 - pack_csv - DEBUG - Added CSV: drg.csv
+2025-06-22 13:32:45,285 - pack_csv - DEBUG - Added CSV: dvn.csv
+2025-06-22 13:32:45,286 - pack_csv - DEBUG - Added CSV: dvs.csv
+2025-06-22 13:32:45,313 - pack_csv - DEBUG - Added CSV: erm.csv
+2025-06-22 13:32:45,344 - pack_csv - DEBUG - Added CSV: exq.csv
+2025-06-22 13:32:45,349 - pack_csv - DEBUG - Added CSV: f002.csv
+2025-06-22 13:32:45,571 - pack_csv - DEBUG - Added CSV: f003.csv
+2025-06-22 13:32:45,573 - pack_csv - DEBUG - Added CSV: f006.csv
+2025-06-22 13:32:45,573 - pack_csv - DEBUG - Added CSV: f007.csv
+2025-06-22 13:32:45,574 - pack_csv - DEBUG - Added CSV: f008.csv
+2025-06-22 13:32:45,574 - pack_csv - DEBUG - Added CSV: f010.csv
+2025-06-22 13:32:45,575 - pack_csv - DEBUG - Added CSV: f011.csv
+2025-06-22 13:32:45,632 - pack_csv - DEBUG - Added CSV: f013.csv
+2025-06-22 13:32:45,641 - pack_csv - DEBUG - Added CSV: f014.csv
+2025-06-22 13:32:45,798 - pack_csv - DEBUG - Added CSV: f031.csv
+2025-06-22 13:32:46,069 - pack_csv - DEBUG - Added CSV: f032.csv
+2025-06-22 13:32:47,060 - pack_csv - DEBUG - Added CSV: f033.csv
+2025-06-22 13:32:47,971 - pack_csv - DEBUG - Added CSV: f034.csv
+2025-06-22 13:32:48,027 - pack_csv - DEBUG - Added CSV: f036.csv
+2025-06-22 13:32:48,072 - pack_csv - DEBUG - Added CSV: f037.csv
+2025-06-22 13:32:48,964 - pack_csv - DEBUG - Added CSV: f038.csv
+2025-06-22 13:32:49,034 - pack_csv - DEBUG - Added CSV: f042.csv
+2025-06-22 13:32:49,035 - pack_csv - DEBUG - Added CSV: flk1.csv
+2025-06-22 13:32:49,036 - pack_csv - DEBUG - Added CSV: flk2.csv
+2025-06-22 13:32:49,044 - pack_csv - DEBUG - Added CSV: flk3.csv
+2025-06-22 13:32:49,050 - pack_csv - DEBUG - Added CSV: flk4.csv
+2025-06-22 13:32:49,051 - pack_csv - DEBUG - Added CSV: flk5.csv
+2025-06-22 13:32:49,051 - pack_csv - DEBUG - Added CSV: flk6.csv
+2025-06-22 13:32:49,052 - pack_csv - DEBUG - Added CSV: flk7.csv
+2025-06-22 13:32:49,052 - pack_csv - DEBUG - Added CSV: flk8.csv
+2025-06-22 13:32:49,052 - pack_csv - DEBUG - Added CSV: flk9.csv
+2025-06-22 13:32:49,658 - pack_csv - DEBUG - Added CSV: gdg.csv
+2025-06-22 13:32:49,674 - pack_csv - DEBUG - Added CSV: gdk.csv
+2025-06-22 13:32:49,675 - pack_csv - DEBUG - Added CSV: hmp.csv
+2025-06-22 13:32:49,676 - pack_csv - DEBUG - Added CSV: k002.csv
+2025-06-22 13:32:49,677 - pack_csv - DEBUG - Added CSV: k003.csv
+2025-06-22 13:32:49,696 - pack_csv - DEBUG - Added CSV: k004.csv
+2025-06-22 13:32:49,696 - pack_csv - DEBUG - Added CSV: kdg.csv
+2025-06-22 13:32:49,697 - pack_csv - DEBUG - Added CSV: kgp.csv
+2025-06-22 13:32:49,697 - pack_csv - DEBUG - Added CSV: ksl.csv
+2025-06-22 13:32:49,704 - pack_csv - DEBUG - Added CSV: lpu.csv
+2025-06-22 13:32:49,720 - pack_csv - DEBUG - Added CSV: m002.csv
+2025-06-22 13:32:49,721 - pack_csv - DEBUG - Added CSV: m003.csv
+2025-06-22 13:32:49,724 - pack_csv - DEBUG - Added CSV: m004.csv
+2025-06-22 13:32:49,772 - pack_csv - DEBUG - Added CSV: mdu.csv
+2025-06-22 13:32:49,780 - pack_csv - DEBUG - Added CSV: mes.csv
+2025-06-22 13:32:49,822 - pack_csv - DEBUG - Added CSV: mkb.csv
+2025-06-22 13:32:49,823 - pack_csv - DEBUG - Added CSV: n001.csv
+2025-06-22 13:32:49,824 - pack_csv - DEBUG - Added CSV: n002.csv
+2025-06-22 13:32:49,826 - pack_csv - DEBUG - Added CSV: n003.csv
+2025-06-22 13:32:49,827 - pack_csv - DEBUG - Added CSV: n004.csv
+2025-06-22 13:32:49,828 - pack_csv - DEBUG - Added CSV: n005.csv
+2025-06-22 13:32:49,831 - pack_csv - DEBUG - Added CSV: n006.csv
+2025-06-22 13:32:49,832 - pack_csv - DEBUG - Added CSV: n007.csv
+2025-06-22 13:32:49,832 - pack_csv - DEBUG - Added CSV: n008.csv
+2025-06-22 13:32:49,832 - pack_csv - DEBUG - Added CSV: n009.csv
+2025-06-22 13:32:49,833 - pack_csv - DEBUG - Added CSV: n010.csv
+2025-06-22 13:32:49,833 - pack_csv - DEBUG - Added CSV: n011.csv
+2025-06-22 13:32:49,834 - pack_csv - DEBUG - Added CSV: n012.csv
+2025-06-22 13:32:49,834 - pack_csv - DEBUG - Added CSV: n013.csv
+2025-06-22 13:32:49,835 - pack_csv - DEBUG - Added CSV: n014.csv
+2025-06-22 13:32:49,835 - pack_csv - DEBUG - Added CSV: n015.csv
+2025-06-22 13:32:49,835 - pack_csv - DEBUG - Added CSV: n016.csv
+2025-06-22 13:32:49,836 - pack_csv - DEBUG - Added CSV: n017.csv
+2025-06-22 13:32:49,836 - pack_csv - DEBUG - Added CSV: n018.csv
+2025-06-22 13:32:49,837 - pack_csv - DEBUG - Added CSV: n019.csv
+2025-06-22 13:32:49,852 - pack_csv - DEBUG - Added CSV: n020.csv
+2025-06-22 13:32:49,868 - pack_csv - DEBUG - Added CSV: n021.csv
+2025-06-22 13:32:49,869 - pack_csv - DEBUG - Added CSV: npi.csv
+2025-06-22 13:32:50,642 - pack_csv - DEBUG - Added CSV: npr.csv
+2025-06-22 13:32:50,643 - pack_csv - DEBUG - Added CSV: o001.csv
+2025-06-22 13:32:51,189 - pack_csv - DEBUG - Added CSV: o002.csv
+2025-06-22 13:32:51,213 - pack_csv - DEBUG - Added CSV: odg.csv
+2025-06-22 13:32:51,214 - pack_csv - DEBUG - Added CSV: oms.csv
+2025-06-22 13:32:51,214 - pack_csv - DEBUG - Added CSV: pmp.csv
+2025-06-22 13:32:51,215 - pack_csv - DEBUG - Added CSV: psp.csv
+2025-06-22 13:32:51,216 - pack_csv - DEBUG - Added CSV: q023.csv
+2025-06-22 13:32:51,217 - pack_csv - DEBUG - Added CSV: qmk.csv
+2025-06-22 13:32:51,223 - pack_csv - DEBUG - Added CSV: qmv.csv
+2025-06-22 13:32:51,225 - pack_csv - DEBUG - Added CSV: qpd.csv
+2025-06-22 13:32:51,225 - pack_csv - DEBUG - Added CSV: qpf.csv
+2025-06-22 13:32:51,226 - pack_csv - DEBUG - Added CSV: qva.csv
+2025-06-22 13:32:51,226 - pack_csv - DEBUG - Added CSV: rgn.csv
+2025-06-22 13:32:51,230 - pack_csv - DEBUG - Added CSV: sbr.csv
+2025-06-22 13:32:51,231 - pack_csv - DEBUG - Added CSV: sdg.csv
+2025-06-22 13:32:51,233 - pack_csv - DEBUG - Added CSV: smo.csv
+2025-06-22 13:32:51,815 - pack_csv - DEBUG - Added CSV: tmu.csv
+2025-06-22 13:32:51,883 - pack_csv - DEBUG - Added CSV: v001.csv
+2025-06-22 13:32:51,884 - pack_csv - DEBUG - Added CSV: v002.csv
+2025-06-22 13:32:51,884 - pack_csv - DEBUG - Added CSV: v005.csv
+2025-06-22 13:32:51,885 - pack_csv - DEBUG - Added CSV: v006.csv
+2025-06-22 13:32:51,885 - pack_csv - DEBUG - Added CSV: v008.csv
+2025-06-22 13:32:51,886 - pack_csv - DEBUG - Added CSV: v009.csv
+2025-06-22 13:32:51,886 - pack_csv - DEBUG - Added CSV: v010.csv
+2025-06-22 13:32:51,887 - pack_csv - DEBUG - Added CSV: v012.csv
+2025-06-22 13:32:51,887 - pack_csv - DEBUG - Added CSV: v013.csv
+2025-06-22 13:32:51,888 - pack_csv - DEBUG - Added CSV: v015.csv
+2025-06-22 13:32:51,889 - pack_csv - DEBUG - Added CSV: v016.csv
+2025-06-22 13:32:51,889 - pack_csv - DEBUG - Added CSV: v017.csv
+2025-06-22 13:32:51,896 - pack_csv - DEBUG - Added CSV: v018.csv
+2025-06-22 13:32:51,934 - pack_csv - DEBUG - Added CSV: v019.csv
+2025-06-22 13:32:51,934 - pack_csv - DEBUG - Added CSV: v020.csv
+2025-06-22 13:32:51,935 - pack_csv - DEBUG - Added CSV: v021.csv
+2025-06-22 13:32:51,953 - pack_csv - DEBUG - Added CSV: v022.csv
+2025-06-22 13:32:51,975 - pack_csv - DEBUG - Added CSV: v023.csv
+2025-06-22 13:32:51,995 - pack_csv - DEBUG - Added CSV: v024.csv
+2025-06-22 13:32:51,996 - pack_csv - DEBUG - Added CSV: v025.csv
+2025-06-22 13:32:51,996 - pack_csv - DEBUG - Added CSV: v026.csv
+2025-06-22 13:32:51,997 - pack_csv - DEBUG - Added CSV: v027.csv
+2025-06-22 13:32:51,997 - pack_csv - DEBUG - Added CSV: v028.csv
+2025-06-22 13:32:51,997 - pack_csv - DEBUG - Added CSV: v029.csv
+2025-06-22 13:32:51,998 - pack_csv - DEBUG - Added CSV: v030.csv
+2025-06-22 13:32:51,998 - pack_csv - DEBUG - Added CSV: v031.csv
+2025-06-22 13:32:51,999 - pack_csv - DEBUG - Added CSV: v032.csv
+2025-06-22 13:32:51,999 - pack_csv - DEBUG - Added CSV: v033.csv
+2025-06-22 13:32:52,001 - pack_csv - DEBUG - Added CSV: v034.csv
+2025-06-22 13:32:52,001 - pack_csv - DEBUG - Added CSV: v035.csv
+2025-06-22 13:32:52,004 - pack_csv - DEBUG - Added CSV: v036.csv
+2025-06-22 13:32:52,012 - pack_csv - DEBUG - Added CSV: v037.csv
+2025-06-22 13:32:52,012 - pack_csv - DEBUG - Added CSV: vpr.csv
+2025-06-22 13:32:52,012 - pack_csv - DEBUG - Added CSV: vsp.csv
+2025-06-22 13:32:52,013 - pack_csv - DEBUG - Added CSV: zfv.csv
+2025-06-22 13:32:52,014 - pack_csv - DEBUG - Added JSON: cgr.json
+2025-06-22 13:32:52,014 - pack_csv - DEBUG - Added JSON: ctd.json
+2025-06-22 13:32:52,014 - pack_csv - DEBUG - Added JSON: def.json
+2025-06-22 13:32:52,015 - pack_csv - DEBUG - Added JSON: drg.json
+2025-06-22 13:32:52,015 - pack_csv - DEBUG - Added JSON: dvn.json
+2025-06-22 13:32:52,015 - pack_csv - DEBUG - Added JSON: dvs.json
+2025-06-22 13:32:52,016 - pack_csv - DEBUG - Added JSON: erm.json
+2025-06-22 13:32:52,016 - pack_csv - DEBUG - Added JSON: exq.json
+2025-06-22 13:32:52,016 - pack_csv - DEBUG - Added JSON: flk1.json
+2025-06-22 13:32:52,017 - pack_csv - DEBUG - Added JSON: flk2.json
+2025-06-22 13:32:52,017 - pack_csv - DEBUG - Added JSON: flk3.json
+2025-06-22 13:32:52,017 - pack_csv - DEBUG - Added JSON: flk4.json
+2025-06-22 13:32:52,018 - pack_csv - DEBUG - Added JSON: flk5.json
+2025-06-22 13:32:52,018 - pack_csv - DEBUG - Added JSON: flk6.json
+2025-06-22 13:32:52,019 - pack_csv - DEBUG - Added JSON: flk7.json
+2025-06-22 13:32:52,019 - pack_csv - DEBUG - Added JSON: flk8.json
+2025-06-22 13:32:52,019 - pack_csv - DEBUG - Added JSON: flk9.json
+2025-06-22 13:32:52,020 - pack_csv - DEBUG - Added JSON: gdg.json
+2025-06-22 13:32:52,020 - pack_csv - DEBUG - Added JSON: gdk.json
+2025-06-22 13:32:52,021 - pack_csv - DEBUG - Added JSON: hmp.json
+2025-06-22 13:32:52,021 - pack_csv - DEBUG - Added JSON: kdg.json
+2025-06-22 13:32:52,022 - pack_csv - DEBUG - Added JSON: kgp.json
+2025-06-22 13:32:52,022 - pack_csv - DEBUG - Added JSON: ksl.json
+2025-06-22 13:32:52,022 - pack_csv - DEBUG - Added JSON: lpu.json
+2025-06-22 13:32:52,023 - pack_csv - DEBUG - Added JSON: mdu.json
+2025-06-22 13:32:52,023 - pack_csv - DEBUG - Added JSON: mes.json
+2025-06-22 13:32:52,024 - pack_csv - DEBUG - Added JSON: mkb.json
+2025-06-22 13:32:52,024 - pack_csv - DEBUG - Added JSON: npi.json
+2025-06-22 13:32:52,025 - pack_csv - DEBUG - Added JSON: npr.json
+2025-06-22 13:32:52,025 - pack_csv - DEBUG - Added JSON: odg.json
+2025-06-22 13:32:52,025 - pack_csv - DEBUG - Added JSON: oms.json
+2025-06-22 13:32:52,026 - pack_csv - DEBUG - Added JSON: pmp.json
+2025-06-22 13:32:52,026 - pack_csv - DEBUG - Added JSON: psp.json
+2025-06-22 13:32:52,026 - pack_csv - DEBUG - Added JSON: qmk.json
+2025-06-22 13:32:52,027 - pack_csv - DEBUG - Added JSON: qmv.json
+2025-06-22 13:32:52,027 - pack_csv - DEBUG - Added JSON: qpd.json
+2025-06-22 13:32:52,028 - pack_csv - DEBUG - Added JSON: qpf.json
+2025-06-22 13:32:52,028 - pack_csv - DEBUG - Added JSON: qva.json
+2025-06-22 13:32:52,028 - pack_csv - DEBUG - Added JSON: rgn.json
+2025-06-22 13:32:52,029 - pack_csv - DEBUG - Added JSON: sbr.json
+2025-06-22 13:32:52,029 - pack_csv - DEBUG - Added JSON: sdg.json
+2025-06-22 13:32:52,029 - pack_csv - DEBUG - Added JSON: smo.json
+2025-06-22 13:32:52,030 - pack_csv - DEBUG - Added JSON: tmu.json
+2025-06-22 13:32:52,030 - pack_csv - DEBUG - Added JSON: vpr.json
+2025-06-22 13:32:52,031 - pack_csv - DEBUG - Added JSON: vsp.json
+2025-06-22 13:32:52,031 - pack_csv - DEBUG - Added JSON: zfv.json
+2025-06-22 13:32:52,032 - pack_csv - DEBUG - Added XSD: f002.xsd
+2025-06-22 13:32:52,032 - pack_csv - DEBUG - Added XSD: f003.xsd
+2025-06-22 13:32:52,032 - pack_csv - DEBUG - Added XSD: f006.xsd
+2025-06-22 13:32:52,033 - pack_csv - DEBUG - Added XSD: f007.xsd
+2025-06-22 13:32:52,033 - pack_csv - DEBUG - Added XSD: f008.xsd
+2025-06-22 13:32:52,033 - pack_csv - DEBUG - Added XSD: f010.xsd
+2025-06-22 13:32:52,034 - pack_csv - DEBUG - Added XSD: f011.xsd
+2025-06-22 13:32:52,034 - pack_csv - DEBUG - Added XSD: f013.xsd
+2025-06-22 13:32:52,035 - pack_csv - DEBUG - Added XSD: f014.xsd
+2025-06-22 13:32:52,035 - pack_csv - DEBUG - Added XSD: f031.xsd
+2025-06-22 13:32:52,035 - pack_csv - DEBUG - Added XSD: f032.xsd
+2025-06-22 13:32:52,036 - pack_csv - DEBUG - Added XSD: f033.xsd
+2025-06-22 13:32:52,036 - pack_csv - DEBUG - Added XSD: f034.xsd
+2025-06-22 13:32:52,036 - pack_csv - DEBUG - Added XSD: f036.xsd
+2025-06-22 13:32:52,037 - pack_csv - DEBUG - Added XSD: f037.xsd
+2025-06-22 13:32:52,037 - pack_csv - DEBUG - Added XSD: f038.xsd
+2025-06-22 13:32:52,038 - pack_csv - DEBUG - Added XSD: f042.xsd
+2025-06-22 13:32:52,038 - pack_csv - DEBUG - Added XSD: k002.xsd
+2025-06-22 13:32:52,038 - pack_csv - DEBUG - Added XSD: k003.xsd
+2025-06-22 13:32:52,039 - pack_csv - DEBUG - Added XSD: k004.xsd
+2025-06-22 13:32:52,039 - pack_csv - DEBUG - Added XSD: m002.xsd
+2025-06-22 13:32:52,039 - pack_csv - DEBUG - Added XSD: m003.xsd
+2025-06-22 13:32:52,040 - pack_csv - DEBUG - Added XSD: m004.xsd
+2025-06-22 13:32:52,040 - pack_csv - DEBUG - Added XSD: n001.xsd
+2025-06-22 13:32:52,041 - pack_csv - DEBUG - Added XSD: n002.xsd
+2025-06-22 13:32:52,041 - pack_csv - DEBUG - Added XSD: n003.xsd
+2025-06-22 13:32:52,041 - pack_csv - DEBUG - Added XSD: n004.xsd
+2025-06-22 13:32:52,042 - pack_csv - DEBUG - Added XSD: n005.xsd
+2025-06-22 13:32:52,042 - pack_csv - DEBUG - Added XSD: n006.xsd
+2025-06-22 13:32:52,042 - pack_csv - DEBUG - Added XSD: n007.xsd
+2025-06-22 13:32:52,043 - pack_csv - DEBUG - Added XSD: n008.xsd
+2025-06-22 13:32:52,043 - pack_csv - DEBUG - Added XSD: n009.xsd
+2025-06-22 13:32:52,043 - pack_csv - DEBUG - Added XSD: n010.xsd
+2025-06-22 13:32:52,044 - pack_csv - DEBUG - Added XSD: n011.xsd
+2025-06-22 13:32:52,044 - pack_csv - DEBUG - Added XSD: n012.xsd
+2025-06-22 13:32:52,045 - pack_csv - DEBUG - Added XSD: n013.xsd
+2025-06-22 13:32:52,045 - pack_csv - DEBUG - Added XSD: n014.xsd
+2025-06-22 13:32:52,045 - pack_csv - DEBUG - Added XSD: n015.xsd
+2025-06-22 13:32:52,046 - pack_csv - DEBUG - Added XSD: n016.xsd
+2025-06-22 13:32:52,046 - pack_csv - DEBUG - Added XSD: n017.xsd
+2025-06-22 13:32:52,046 - pack_csv - DEBUG - Added XSD: n018.xsd
+2025-06-22 13:32:52,047 - pack_csv - DEBUG - Added XSD: n019.xsd
+2025-06-22 13:32:52,047 - pack_csv - DEBUG - Added XSD: n020.xsd
+2025-06-22 13:32:52,048 - pack_csv - DEBUG - Added XSD: n021.xsd
+2025-06-22 13:32:52,048 - pack_csv - DEBUG - Added XSD: o001.xsd
+2025-06-22 13:32:52,048 - pack_csv - DEBUG - Added XSD: o002.xsd
+2025-06-22 13:32:52,049 - pack_csv - DEBUG - Added XSD: q023.xsd
+2025-06-22 13:32:52,049 - pack_csv - DEBUG - Added XSD: v001.xsd
+2025-06-22 13:32:52,049 - pack_csv - DEBUG - Added XSD: v002.xsd
+2025-06-22 13:32:52,050 - pack_csv - DEBUG - Added XSD: v005.xsd
+2025-06-22 13:32:52,050 - pack_csv - DEBUG - Added XSD: v006.xsd
+2025-06-22 13:32:52,050 - pack_csv - DEBUG - Added XSD: v008.xsd
+2025-06-22 13:32:52,051 - pack_csv - DEBUG - Added XSD: v009.xsd
+2025-06-22 13:32:52,051 - pack_csv - DEBUG - Added XSD: v010.xsd
+2025-06-22 13:32:52,052 - pack_csv - DEBUG - Added XSD: v012.xsd
+2025-06-22 13:32:52,052 - pack_csv - DEBUG - Added XSD: v013.xsd
+2025-06-22 13:32:52,053 - pack_csv - DEBUG - Added XSD: v015.xsd
+2025-06-22 13:32:52,053 - pack_csv - DEBUG - Added XSD: v016.xsd
+2025-06-22 13:32:52,053 - pack_csv - DEBUG - Added XSD: v017.xsd
+2025-06-22 13:32:52,054 - pack_csv - DEBUG - Added XSD: v018.xsd
+2025-06-22 13:32:52,054 - pack_csv - DEBUG - Added XSD: v019.xsd
+2025-06-22 13:32:52,054 - pack_csv - DEBUG - Added XSD: v020.xsd
+2025-06-22 13:32:52,055 - pack_csv - DEBUG - Added XSD: v021.xsd
+2025-06-22 13:32:52,055 - pack_csv - DEBUG - Added XSD: v022.xsd
+2025-06-22 13:32:52,055 - pack_csv - DEBUG - Added XSD: v023.xsd
+2025-06-22 13:32:52,056 - pack_csv - DEBUG - Added XSD: v024.xsd
+2025-06-22 13:32:52,056 - pack_csv - DEBUG - Added XSD: v025.xsd
+2025-06-22 13:32:52,057 - pack_csv - DEBUG - Added XSD: v026.xsd
+2025-06-22 13:32:52,057 - pack_csv - DEBUG - Added XSD: v027.xsd
+2025-06-22 13:32:52,057 - pack_csv - DEBUG - Added XSD: v028.xsd
+2025-06-22 13:32:52,058 - pack_csv - DEBUG - Added XSD: v029.xsd
+2025-06-22 13:32:52,058 - pack_csv - DEBUG - Added XSD: v030.xsd
+2025-06-22 13:32:52,058 - pack_csv - DEBUG - Added XSD: v031.xsd
+2025-06-22 13:32:52,059 - pack_csv - DEBUG - Added XSD: v032.xsd
+2025-06-22 13:32:52,059 - pack_csv - DEBUG - Added XSD: v033.xsd
+2025-06-22 13:32:52,059 - pack_csv - DEBUG - Added XSD: v034.xsd
+2025-06-22 13:32:52,060 - pack_csv - DEBUG - Added XSD: v035.xsd
+2025-06-22 13:32:52,060 - pack_csv - DEBUG - Added XSD: v036.xsd
+2025-06-22 13:32:52,061 - pack_csv - DEBUG - Added XSD: v037.xsd
+2025-06-22 13:32:52,990 - pack_csv - DEBUG - Added source: NSI052522.zip
+2025-06-22 13:32:52,991 - pack_csv - INFO - Created conversion package: NSI052522_CONVERTED.zip
+2025-06-22 13:32:53,080 - pack_csv - INFO - Cleaned temporary directories
+2025-06-22 13:54:57,339 - __main__ - INFO - —генерирован SQL: f002.sql
+2025-06-22 13:54:57,340 - __main__ - INFO - —генерирован SQL: f003.sql
+2025-06-22 13:54:57,341 - __main__ - INFO - —генерирован SQL: f006.sql
+2025-06-22 13:54:57,342 - __main__ - INFO - —генерирован SQL: f007.sql
+2025-06-22 13:54:57,343 - __main__ - INFO - —генерирован SQL: f008.sql
+2025-06-22 13:54:57,344 - __main__ - INFO - —генерирован SQL: f010.sql
+2025-06-22 13:54:57,344 - __main__ - INFO - —генерирован SQL: f011.sql
+2025-06-22 13:54:57,345 - __main__ - INFO - —генерирован SQL: f013.sql
+2025-06-22 13:54:57,346 - __main__ - INFO - —генерирован SQL: f014.sql
+2025-06-22 13:54:57,347 - __main__ - INFO - —генерирован SQL: f031.sql
+2025-06-22 13:54:57,348 - __main__ - INFO - —генерирован SQL: f032.sql
+2025-06-22 13:54:57,349 - __main__ - INFO - —генерирован SQL: f033.sql
+2025-06-22 13:54:57,350 - __main__ - INFO - —генерирован SQL: f034.sql
+2025-06-22 13:54:57,350 - __main__ - INFO - —генерирован SQL: f036.sql
+2025-06-22 13:54:57,351 - __main__ - INFO - —генерирован SQL: f037.sql
+2025-06-22 13:54:57,352 - __main__ - INFO - —генерирован SQL: f038.sql
+2025-06-22 13:54:57,353 - __main__ - INFO - —генерирован SQL: f042.sql
+2025-06-22 13:54:57,354 - __main__ - INFO - —генерирован SQL: k002.sql
+2025-06-22 13:54:57,355 - __main__ - INFO - —генерирован SQL: k003.sql
+2025-06-22 13:54:57,356 - __main__ - INFO - —генерирован SQL: k004.sql
+2025-06-22 13:54:57,357 - __main__ - INFO - —генерирован SQL: m002.sql
+2025-06-22 13:54:57,358 - __main__ - INFO - —генерирован SQL: m003.sql
+2025-06-22 13:54:57,359 - __main__ - INFO - —генерирован SQL: m004.sql
+2025-06-22 13:54:57,360 - __main__ - INFO - —генерирован SQL: n001.sql
+2025-06-22 13:54:57,361 - __main__ - INFO - —генерирован SQL: n002.sql
+2025-06-22 13:54:57,362 - __main__ - INFO - —генерирован SQL: n003.sql
+2025-06-22 13:54:57,363 - __main__ - INFO - —генерирован SQL: n004.sql
+2025-06-22 13:54:57,363 - __main__ - INFO - —генерирован SQL: n005.sql
+2025-06-22 13:54:57,364 - __main__ - INFO - —генерирован SQL: n006.sql
+2025-06-22 13:54:57,365 - __main__ - INFO - —генерирован SQL: n007.sql
+2025-06-22 13:54:57,366 - __main__ - INFO - —генерирован SQL: n008.sql
+2025-06-22 13:54:57,367 - __main__ - INFO - —генерирован SQL: n009.sql
+2025-06-22 13:54:57,367 - __main__ - INFO - —генерирован SQL: n010.sql
+2025-06-22 13:54:57,368 - __main__ - INFO - —генерирован SQL: n011.sql
+2025-06-22 13:54:57,369 - __main__ - INFO - —генерирован SQL: n012.sql
+2025-06-22 13:54:57,370 - __main__ - INFO - —генерирован SQL: n013.sql
+2025-06-22 13:54:57,371 - __main__ - INFO - —генерирован SQL: n014.sql
+2025-06-22 13:54:57,371 - __main__ - INFO - —генерирован SQL: n015.sql
+2025-06-22 13:54:57,372 - __main__ - INFO - —генерирован SQL: n016.sql
+2025-06-22 13:54:57,373 - __main__ - INFO - —генерирован SQL: n017.sql
+2025-06-22 13:54:57,374 - __main__ - INFO - —генерирован SQL: n018.sql
+2025-06-22 13:54:57,374 - __main__ - INFO - —генерирован SQL: n019.sql
+2025-06-22 13:54:57,375 - __main__ - INFO - —генерирован SQL: n020.sql
+2025-06-22 13:54:57,376 - __main__ - INFO - —генерирован SQL: n021.sql
+2025-06-22 13:54:57,376 - __main__ - INFO - —генерирован SQL: o001.sql
+2025-06-22 13:54:57,377 - __main__ - INFO - —генерирован SQL: o002.sql
+2025-06-22 13:54:57,378 - __main__ - INFO - —генерирован SQL: q023.sql
+2025-06-22 13:54:57,378 - __main__ - INFO - —генерирован SQL: v001.sql
+2025-06-22 13:54:57,379 - __main__ - INFO - —генерирован SQL: v002.sql
+2025-06-22 13:54:57,379 - __main__ - INFO - —генерирован SQL: v005.sql
+2025-06-22 13:54:57,380 - __main__ - INFO - —генерирован SQL: v006.sql
+2025-06-22 13:54:57,381 - __main__ - INFO - —генерирован SQL: v008.sql
+2025-06-22 13:54:57,381 - __main__ - INFO - —генерирован SQL: v009.sql
+2025-06-22 13:54:57,382 - __main__ - INFO - —генерирован SQL: v010.sql
+2025-06-22 13:54:57,383 - __main__ - INFO - —генерирован SQL: v012.sql
+2025-06-22 13:54:57,383 - __main__ - INFO - —генерирован SQL: v013.sql
+2025-06-22 13:54:57,384 - __main__ - INFO - —генерирован SQL: v015.sql
+2025-06-22 13:54:57,384 - __main__ - INFO - —генерирован SQL: v016.sql
+2025-06-22 13:54:57,385 - __main__ - INFO - —генерирован SQL: v017.sql
+2025-06-22 13:54:57,386 - __main__ - INFO - —генерирован SQL: v018.sql
+2025-06-22 13:54:57,386 - __main__ - INFO - —генерирован SQL: v019.sql
+2025-06-22 13:54:57,387 - __main__ - INFO - —генерирован SQL: v020.sql
+2025-06-22 13:54:57,388 - __main__ - INFO - —генерирован SQL: v021.sql
+2025-06-22 13:54:57,388 - __main__ - INFO - —генерирован SQL: v022.sql
+2025-06-22 13:54:57,389 - __main__ - INFO - —генерирован SQL: v023.sql
+2025-06-22 13:54:57,389 - __main__ - INFO - —генерирован SQL: v024.sql
+2025-06-22 13:54:57,390 - __main__ - INFO - —генерирован SQL: v025.sql
+2025-06-22 13:54:57,391 - __main__ - INFO - —генерирован SQL: v026.sql
+2025-06-22 13:54:57,392 - __main__ - INFO - —генерирован SQL: v027.sql
+2025-06-22 13:54:57,392 - __main__ - INFO - —генерирован SQL: v028.sql
+2025-06-22 13:54:57,393 - __main__ - INFO - —генерирован SQL: v029.sql
+2025-06-22 13:54:57,394 - __main__ - INFO - —генерирован SQL: v030.sql
+2025-06-22 13:54:57,394 - __main__ - INFO - —генерирован SQL: v031.sql
+2025-06-22 13:54:57,395 - __main__ - INFO - —генерирован SQL: v032.sql
+2025-06-22 13:54:57,396 - __main__ - INFO - —генерирован SQL: v033.sql
+2025-06-22 13:54:57,396 - __main__ - INFO - —генерирован SQL: v034.sql
+2025-06-22 13:54:57,397 - __main__ - INFO - —генерирован SQL: v035.sql
+2025-06-22 13:54:57,398 - __main__ - INFO - —генерирован SQL: v036.sql
+2025-06-22 13:54:57,398 - __main__ - INFO - —генерирован SQL: v037.sql
+2025-06-22 14:06:47,340 - __main__ - INFO - Generated SQL: cgr.sql
+2025-06-22 14:06:47,341 - __main__ - INFO - Generated SQL: ctd.sql
+2025-06-22 14:06:47,341 - __main__ - INFO - Generated SQL: def.sql
+2025-06-22 14:06:47,342 - __main__ - INFO - Generated SQL: drg.sql
+2025-06-22 14:06:47,343 - __main__ - INFO - Generated SQL: dvn.sql
+2025-06-22 14:06:47,344 - __main__ - INFO - Generated SQL: dvs.sql
+2025-06-22 14:06:47,344 - __main__ - INFO - Generated SQL: erm.sql
+2025-06-22 14:06:47,345 - __main__ - INFO - Generated SQL: exq.sql
+2025-06-22 14:06:47,346 - __main__ - INFO - Generated SQL: flk1.sql
+2025-06-22 14:06:47,346 - __main__ - INFO - Generated SQL: flk2.sql
+2025-06-22 14:06:47,347 - __main__ - INFO - Generated SQL: flk3.sql
+2025-06-22 14:06:47,348 - __main__ - INFO - Generated SQL: flk4.sql
+2025-06-22 14:06:47,349 - __main__ - INFO - Generated SQL: flk5.sql
+2025-06-22 14:06:47,350 - __main__ - INFO - Generated SQL: flk6.sql
+2025-06-22 14:06:47,351 - __main__ - INFO - Generated SQL: flk7.sql
+2025-06-22 14:06:47,352 - __main__ - INFO - Generated SQL: flk8.sql
+2025-06-22 14:06:47,353 - __main__ - INFO - Generated SQL: flk9.sql
+2025-06-22 14:06:47,353 - __main__ - INFO - Generated SQL: gdg.sql
+2025-06-22 14:06:47,354 - __main__ - INFO - Generated SQL: gdk.sql
+2025-06-22 14:06:47,354 - __main__ - INFO - Generated SQL: hmp.sql
+2025-06-22 14:06:47,355 - __main__ - INFO - Generated SQL: kdg.sql
+2025-06-22 14:06:47,355 - __main__ - INFO - Generated SQL: kgp.sql
+2025-06-22 14:06:47,356 - __main__ - INFO - Generated SQL: ksl.sql
+2025-06-22 14:06:47,356 - __main__ - INFO - Generated SQL: lpu.sql
+2025-06-22 14:06:47,357 - __main__ - INFO - Generated SQL: mdu.sql
+2025-06-22 14:06:47,358 - __main__ - INFO - Generated SQL: mes.sql
+2025-06-22 14:06:47,358 - __main__ - INFO - Generated SQL: mkb.sql
+2025-06-22 14:06:47,359 - __main__ - INFO - Generated SQL: npi.sql
+2025-06-22 14:06:47,359 - __main__ - INFO - Generated SQL: npr.sql
+2025-06-22 14:06:47,360 - __main__ - INFO - Generated SQL: odg.sql
+2025-06-22 14:06:47,360 - __main__ - INFO - Generated SQL: oms.sql
+2025-06-22 14:06:47,361 - __main__ - INFO - Generated SQL: pmp.sql
+2025-06-22 14:06:47,361 - __main__ - INFO - Generated SQL: psp.sql
+2025-06-22 14:06:47,362 - __main__ - INFO - Generated SQL: qmk.sql
+2025-06-22 14:06:47,362 - __main__ - INFO - Generated SQL: qmv.sql
+2025-06-22 14:06:47,363 - __main__ - INFO - Generated SQL: qpd.sql
+2025-06-22 14:06:47,363 - __main__ - INFO - Generated SQL: qpf.sql
+2025-06-22 14:06:47,364 - __main__ - INFO - Generated SQL: qva.sql
+2025-06-22 14:06:47,364 - __main__ - INFO - Generated SQL: rgn.sql
+2025-06-22 14:06:47,365 - __main__ - INFO - Generated SQL: sbr.sql
+2025-06-22 14:06:47,366 - __main__ - INFO - Generated SQL: sdg.sql
+2025-06-22 14:06:47,366 - __main__ - INFO - Generated SQL: smo.sql
+2025-06-22 14:06:47,367 - __main__ - INFO - Generated SQL: tmu.sql
+2025-06-22 14:06:47,368 - __main__ - INFO - Generated SQL: vpr.sql
+2025-06-22 14:06:47,368 - __main__ - INFO - Generated SQL: vsp.sql
+2025-06-22 14:06:47,369 - __main__ - INFO - Generated SQL: zfv.sql
+2025-06-22 14:25:07,278 - __main__ - INFO - —генерирован SQL: f002.sql
+2025-06-22 14:25:07,280 - __main__ - INFO - —генерирован SQL: f003.sql
+2025-06-22 14:25:07,280 - __main__ - INFO - —генерирован SQL: f006.sql
+2025-06-22 14:25:07,281 - __main__ - INFO - —генерирован SQL: f007.sql
+2025-06-22 14:25:07,282 - __main__ - INFO - —генерирован SQL: f008.sql
+2025-06-22 14:25:07,282 - __main__ - INFO - —генерирован SQL: f010.sql
+2025-06-22 14:25:07,283 - __main__ - INFO - —генерирован SQL: f011.sql
+2025-06-22 14:25:07,284 - __main__ - INFO - —генерирован SQL: f013.sql
+2025-06-22 14:25:07,285 - __main__ - INFO - —генерирован SQL: f014.sql
+2025-06-22 14:25:07,285 - __main__ - INFO - —генерирован SQL: f031.sql
+2025-06-22 14:25:07,286 - __main__ - INFO - —генерирован SQL: f032.sql
+2025-06-22 14:25:07,287 - __main__ - INFO - —генерирован SQL: f033.sql
+2025-06-22 14:25:07,287 - __main__ - INFO - —генерирован SQL: f034.sql
+2025-06-22 14:25:07,288 - __main__ - INFO - —генерирован SQL: f036.sql
+2025-06-22 14:25:07,289 - __main__ - INFO - —генерирован SQL: f037.sql
+2025-06-22 14:25:07,289 - __main__ - INFO - —генерирован SQL: f038.sql
+2025-06-22 14:25:07,290 - __main__ - INFO - —генерирован SQL: f042.sql
+2025-06-22 14:25:07,291 - __main__ - INFO - —генерирован SQL: k002.sql
+2025-06-22 14:25:07,291 - __main__ - INFO - —генерирован SQL: k003.sql
+2025-06-22 14:25:07,292 - __main__ - INFO - —генерирован SQL: k004.sql
+2025-06-22 14:25:07,293 - __main__ - INFO - —генерирован SQL: m002.sql
+2025-06-22 14:25:07,293 - __main__ - INFO - —генерирован SQL: m003.sql
+2025-06-22 14:25:07,294 - __main__ - INFO - —генерирован SQL: m004.sql
+2025-06-22 14:25:07,294 - __main__ - INFO - —генерирован SQL: n001.sql
+2025-06-22 14:25:07,295 - __main__ - INFO - —генерирован SQL: n002.sql
+2025-06-22 14:25:07,295 - __main__ - INFO - —генерирован SQL: n003.sql
+2025-06-22 14:25:07,296 - __main__ - INFO - —генерирован SQL: n004.sql
+2025-06-22 14:25:07,296 - __main__ - INFO - —генерирован SQL: n005.sql
+2025-06-22 14:25:07,297 - __main__ - INFO - —генерирован SQL: n006.sql
+2025-06-22 14:25:07,298 - __main__ - INFO - —генерирован SQL: n007.sql
+2025-06-22 14:25:07,298 - __main__ - INFO - —генерирован SQL: n008.sql
+2025-06-22 14:25:07,299 - __main__ - INFO - —генерирован SQL: n009.sql
+2025-06-22 14:25:07,300 - __main__ - INFO - —генерирован SQL: n010.sql
+2025-06-22 14:25:07,300 - __main__ - INFO - —генерирован SQL: n011.sql
+2025-06-22 14:25:07,301 - __main__ - INFO - —генерирован SQL: n012.sql
+2025-06-22 14:25:07,302 - __main__ - INFO - —генерирован SQL: n013.sql
+2025-06-22 14:25:07,302 - __main__ - INFO - —генерирован SQL: n014.sql
+2025-06-22 14:25:07,303 - __main__ - INFO - —генерирован SQL: n015.sql
+2025-06-22 14:25:07,303 - __main__ - INFO - —генерирован SQL: n016.sql
+2025-06-22 14:25:07,304 - __main__ - INFO - —генерирован SQL: n017.sql
+2025-06-22 14:25:07,305 - __main__ - INFO - —генерирован SQL: n018.sql
+2025-06-22 14:25:07,305 - __main__ - INFO - —генерирован SQL: n019.sql
+2025-06-22 14:25:07,306 - __main__ - INFO - —генерирован SQL: n020.sql
+2025-06-22 14:25:07,306 - __main__ - INFO - —генерирован SQL: n021.sql
+2025-06-22 14:25:07,307 - __main__ - INFO - —генерирован SQL: o001.sql
+2025-06-22 14:25:07,307 - __main__ - INFO - —генерирован SQL: o002.sql
+2025-06-22 14:25:07,308 - __main__ - INFO - —генерирован SQL: q023.sql
+2025-06-22 14:25:07,309 - __main__ - INFO - —генерирован SQL: v001.sql
+2025-06-22 14:25:07,309 - __main__ - INFO - —генерирован SQL: v002.sql
+2025-06-22 14:25:07,310 - __main__ - INFO - —генерирован SQL: v005.sql
+2025-06-22 14:25:07,310 - __main__ - INFO - —генерирован SQL: v006.sql
+2025-06-22 14:25:07,311 - __main__ - INFO - —генерирован SQL: v008.sql
+2025-06-22 14:25:07,311 - __main__ - INFO - —генерирован SQL: v009.sql
+2025-06-22 14:25:07,312 - __main__ - INFO - —генерирован SQL: v010.sql
+2025-06-22 14:25:07,312 - __main__ - INFO - —генерирован SQL: v012.sql
+2025-06-22 14:25:07,313 - __main__ - INFO - —генерирован SQL: v013.sql
+2025-06-22 14:25:07,314 - __main__ - INFO - —генерирован SQL: v015.sql
+2025-06-22 14:25:07,314 - __main__ - INFO - —генерирован SQL: v016.sql
+2025-06-22 14:25:07,315 - __main__ - INFO - —генерирован SQL: v017.sql
+2025-06-22 14:25:07,315 - __main__ - INFO - —генерирован SQL: v018.sql
+2025-06-22 14:25:07,316 - __main__ - INFO - —генерирован SQL: v019.sql
+2025-06-22 14:25:07,317 - __main__ - INFO - —генерирован SQL: v020.sql
+2025-06-22 14:25:07,318 - __main__ - INFO - —генерирован SQL: v021.sql
+2025-06-22 14:25:07,318 - __main__ - INFO - —генерирован SQL: v022.sql
+2025-06-22 14:25:07,319 - __main__ - INFO - —генерирован SQL: v023.sql
+2025-06-22 14:25:07,319 - __main__ - INFO - —генерирован SQL: v024.sql
+2025-06-22 14:25:07,320 - __main__ - INFO - —генерирован SQL: v025.sql
+2025-06-22 14:25:07,321 - __main__ - INFO - —генерирован SQL: v026.sql
+2025-06-22 14:25:07,321 - __main__ - INFO - —генерирован SQL: v027.sql
+2025-06-22 14:25:07,322 - __main__ - INFO - —генерирован SQL: v028.sql
+2025-06-22 14:25:07,322 - __main__ - INFO - —генерирован SQL: v029.sql
+2025-06-22 14:25:07,323 - __main__ - INFO - —генерирован SQL: v030.sql
+2025-06-22 14:25:07,323 - __main__ - INFO - —генерирован SQL: v031.sql
+2025-06-22 14:25:07,324 - __main__ - INFO - —генерирован SQL: v032.sql
+2025-06-22 14:25:07,324 - __main__ - INFO - —генерирован SQL: v033.sql
+2025-06-22 14:25:07,325 - __main__ - INFO - —генерирован SQL: v034.sql
+2025-06-22 14:25:07,325 - __main__ - INFO - —генерирован SQL: v035.sql
+2025-06-22 14:25:07,326 - __main__ - INFO - —генерирован SQL: v036.sql
+2025-06-22 14:25:07,327 - __main__ - INFO - —генерирован SQL: v037.sql
+2025-06-22 14:25:47,046 - __main__ - INFO - Generated SQL: cgr.sql
+2025-06-22 14:25:47,047 - __main__ - INFO - Generated SQL: ctd.sql
+2025-06-22 14:25:47,048 - __main__ - INFO - Generated SQL: def.sql
+2025-06-22 14:25:47,049 - __main__ - INFO - Generated SQL: drg.sql
+2025-06-22 14:25:47,049 - __main__ - INFO - Generated SQL: dvn.sql
+2025-06-22 14:25:47,049 - __main__ - INFO - Generated SQL: dvs.sql
+2025-06-22 14:25:47,050 - __main__ - INFO - Generated SQL: erm.sql
+2025-06-22 14:25:47,051 - __main__ - INFO - Generated SQL: exq.sql
+2025-06-22 14:25:47,051 - __main__ - INFO - Generated SQL: flk1.sql
+2025-06-22 14:25:47,051 - __main__ - INFO - Generated SQL: flk2.sql
+2025-06-22 14:25:47,052 - __main__ - INFO - Generated SQL: flk3.sql
+2025-06-22 14:25:47,053 - __main__ - INFO - Generated SQL: flk4.sql
+2025-06-22 14:25:47,053 - __main__ - INFO - Generated SQL: flk5.sql
+2025-06-22 14:25:47,054 - __main__ - INFO - Generated SQL: flk6.sql
+2025-06-22 14:25:47,054 - __main__ - INFO - Generated SQL: flk7.sql
+2025-06-22 14:25:47,055 - __main__ - INFO - Generated SQL: flk8.sql
+2025-06-22 14:25:47,055 - __main__ - INFO - Generated SQL: flk9.sql
+2025-06-22 14:25:47,056 - __main__ - INFO - Generated SQL: gdg.sql
+2025-06-22 14:25:47,056 - __main__ - INFO - Generated SQL: gdk.sql
+2025-06-22 14:25:47,057 - __main__ - INFO - Generated SQL: hmp.sql
+2025-06-22 14:25:47,057 - __main__ - INFO - Generated SQL: kdg.sql
+2025-06-22 14:25:47,058 - __main__ - INFO - Generated SQL: kgp.sql
+2025-06-22 14:25:47,058 - __main__ - INFO - Generated SQL: ksl.sql
+2025-06-22 14:25:47,059 - __main__ - INFO - Generated SQL: lpu.sql
+2025-06-22 14:25:47,059 - __main__ - INFO - Generated SQL: mdu.sql
+2025-06-22 14:25:47,060 - __main__ - INFO - Generated SQL: mes.sql
+2025-06-22 14:25:47,060 - __main__ - INFO - Generated SQL: mkb.sql
+2025-06-22 14:25:47,061 - __main__ - INFO - Generated SQL: npi.sql
+2025-06-22 14:25:47,061 - __main__ - INFO - Generated SQL: npr.sql
+2025-06-22 14:25:47,061 - __main__ - INFO - Generated SQL: odg.sql
+2025-06-22 14:25:47,062 - __main__ - INFO - Generated SQL: oms.sql
+2025-06-22 14:25:47,062 - __main__ - INFO - Generated SQL: pmp.sql
+2025-06-22 14:25:47,063 - __main__ - INFO - Generated SQL: psp.sql
+2025-06-22 14:25:47,064 - __main__ - INFO - Generated SQL: qmk.sql
+2025-06-22 14:25:47,064 - __main__ - INFO - Generated SQL: qmv.sql
+2025-06-22 14:25:47,065 - __main__ - INFO - Generated SQL: qpd.sql
+2025-06-22 14:25:47,065 - __main__ - INFO - Generated SQL: qpf.sql
+2025-06-22 14:25:47,066 - __main__ - INFO - Generated SQL: qva.sql
+2025-06-22 14:25:47,066 - __main__ - INFO - Generated SQL: rgn.sql
+2025-06-22 14:25:47,067 - __main__ - INFO - Generated SQL: sbr.sql
+2025-06-22 14:25:47,068 - __main__ - INFO - Generated SQL: sdg.sql
+2025-06-22 14:25:47,068 - __main__ - INFO - Generated SQL: smo.sql
+2025-06-22 14:25:47,069 - __main__ - INFO - Generated SQL: tmu.sql
+2025-06-22 14:25:47,069 - __main__ - INFO - Generated SQL: vpr.sql
+2025-06-22 14:25:47,069 - __main__ - INFO - Generated SQL: vsp.sql
+2025-06-22 14:25:47,070 - __main__ - INFO - Generated SQL: zfv.sql
+2025-06-23 00:29:37,646 - nsi_processor - INFO - Extracted: cgr0525.DBF
+2025-06-23 00:29:37,647 - nsi_processor - INFO - Extracted: ctd0119.dbf
+2025-06-23 00:29:37,648 - nsi_processor - INFO - Extracted: def0525.dbf
+2025-06-23 00:29:37,650 - nsi_processor - INFO - Extracted: drg0525.dbf
+2025-06-23 00:29:37,653 - nsi_processor - INFO - Extracted: dvn0325.dbf
+2025-06-23 00:29:37,654 - nsi_processor - INFO - Extracted: dvs0315.dbf
+2025-06-23 00:29:37,661 - nsi_processor - INFO - Extracted: erm0525.DBF
+2025-06-23 00:29:37,667 - nsi_processor - INFO - Extracted: EXQ0525.dbf
+2025-06-23 00:29:37,669 - nsi_processor - INFO - Extracted: F0020525.xml
+2025-06-23 00:29:37,709 - nsi_processor - INFO - Extracted: F0030624.xml
+2025-06-23 00:29:37,710 - nsi_processor - INFO - Extracted: F0060722.xml
+2025-06-23 00:29:37,710 - nsi_processor - INFO - Extracted: F0070524.xml
+2025-06-23 00:29:37,711 - nsi_processor - INFO - Extracted: F0080121.xml
+2025-06-23 00:29:37,711 - nsi_processor - INFO - Extracted: F0100121.xml
+2025-06-23 00:29:37,712 - nsi_processor - INFO - Extracted: F0110525.xml
+2025-06-23 00:29:37,723 - nsi_processor - INFO - Extracted: F0130225.xml
+2025-06-23 00:29:37,724 - nsi_processor - INFO - Extracted: F0141124.xml
+2025-06-23 00:29:37,753 - nsi_processor - INFO - Extracted: F0310525.xml
+2025-06-23 00:29:37,808 - nsi_processor - INFO - Extracted: F0320525.xml
+2025-06-23 00:29:38,030 - nsi_processor - INFO - Extracted: F0330525.xml
+2025-06-23 00:29:38,547 - nsi_processor - INFO - Extracted: F0340525.xml
+2025-06-23 00:29:38,559 - nsi_processor - INFO - Extracted: F0360525.xml
+2025-06-23 00:29:38,569 - nsi_processor - INFO - Extracted: F0370525.xml
+2025-06-23 00:29:38,783 - nsi_processor - INFO - Extracted: F0380525.xml
+2025-06-23 00:29:38,809 - nsi_processor - INFO - Extracted: F0420525.xml
+2025-06-23 00:29:38,810 - nsi_processor - INFO - Extracted: flk10424.DBF
+2025-06-23 00:29:38,811 - nsi_processor - INFO - Extracted: flk20325.dbf
+2025-06-23 00:29:38,812 - nsi_processor - INFO - Extracted: flk30320.DBF
+2025-06-23 00:29:38,813 - nsi_processor - INFO - Extracted: FLK40425.dbf
+2025-06-23 00:29:38,814 - nsi_processor - INFO - Extracted: flk50525.DBF
+2025-06-23 00:29:38,815 - nsi_processor - INFO - Extracted: flk60125.DBF
+2025-06-23 00:29:38,815 - nsi_processor - INFO - Extracted: flk70525.DBF
+2025-06-23 00:29:38,816 - nsi_processor - INFO - Extracted: flk80422.DBF
+2025-06-23 00:29:38,817 - nsi_processor - INFO - Extracted: flk90924.DBF
+2025-06-23 00:29:39,064 - nsi_processor - INFO - Extracted: gdg0525.DBF
+2025-06-23 00:29:39,068 - nsi_processor - INFO - Extracted: gdk0425.DBF
+2025-06-23 00:29:39,069 - nsi_processor - INFO - Extracted: hmp0225.dbf
+2025-06-23 00:29:39,069 - nsi_processor - INFO - Extracted: K0020124.xml
+2025-06-23 00:29:39,070 - nsi_processor - INFO - Extracted: K0030124.xml
+2025-06-23 00:29:39,076 - nsi_processor - INFO - Extracted: K0040920.xml
+2025-06-23 00:29:39,076 - nsi_processor - INFO - Extracted: kdg0125.DBF
+2025-06-23 00:29:39,077 - nsi_processor - INFO - Extracted: kgp0624.DBF
+2025-06-23 00:29:39,077 - nsi_processor - INFO - Extracted: ksl0525.dbf
+2025-06-23 00:29:39,079 - nsi_processor - INFO - Extracted: LPU0425.DBF
+2025-06-23 00:29:39,082 - nsi_processor - INFO - Extracted: M0021222.xml
+2025-06-23 00:29:39,083 - nsi_processor - INFO - Extracted: M0031022.xml
+2025-06-23 00:29:39,084 - nsi_processor - INFO - Extracted: M0040123.xml
+2025-06-23 00:29:39,098 - nsi_processor - INFO - Extracted: mdu0525.dbf
+2025-06-23 00:29:39,100 - nsi_processor - INFO - Extracted: mes0225.dbf
+2025-06-23 00:29:39,110 - nsi_processor - INFO - Extracted: mkb0225.dbf
+2025-06-23 00:29:39,110 - nsi_processor - INFO - Extracted: N0010121.xml
+2025-06-23 00:29:39,111 - nsi_processor - INFO - Extracted: N0020824.xml
+2025-06-23 00:29:39,112 - nsi_processor - INFO - Extracted: N0030824.xml
+2025-06-23 00:29:39,112 - nsi_processor - INFO - Extracted: N0040824.xml
+2025-06-23 00:29:39,113 - nsi_processor - INFO - Extracted: N0050824.xml
+2025-06-23 00:29:39,115 - nsi_processor - INFO - Extracted: N0061218.xml
+2025-06-23 00:29:39,115 - nsi_processor - INFO - Extracted: N0070121.xml
+2025-06-23 00:29:39,116 - nsi_processor - INFO - Extracted: N0080121.xml
+2025-06-23 00:29:39,116 - nsi_processor - INFO - Extracted: N0090121.xml
+2025-06-23 00:29:39,117 - nsi_processor - INFO - Extracted: N0100325.xml
+2025-06-23 00:29:39,118 - nsi_processor - INFO - Extracted: N0110325.xml
+2025-06-23 00:29:39,118 - nsi_processor - INFO - Extracted: N0120325.xml
+2025-06-23 00:29:39,119 - nsi_processor - INFO - Extracted: N0130121.xml
+2025-06-23 00:29:39,119 - nsi_processor - INFO - Extracted: N0140121.xml
+2025-06-23 00:29:39,120 - nsi_processor - INFO - Extracted: N0150121.xml
+2025-06-23 00:29:39,120 - nsi_processor - INFO - Extracted: N0160121.xml
+2025-06-23 00:29:39,120 - nsi_processor - INFO - Extracted: N0170121.xml
+2025-06-23 00:29:39,121 - nsi_processor - INFO - Extracted: N0180121.xml
+2025-06-23 00:29:39,121 - nsi_processor - INFO - Extracted: N0190121.xml
+2025-06-23 00:29:39,124 - nsi_processor - INFO - Extracted: N0200125.xml
+2025-06-23 00:29:39,131 - nsi_processor - INFO - Extracted: N0210225.xml
+2025-06-23 00:29:39,131 - nsi_processor - INFO - Extracted: NPI0425.dbf
+2025-06-23 00:29:39,236 - nsi_processor - INFO - Extracted: NPR0923.dbf
+2025-06-23 00:29:39,237 - nsi_processor - INFO - Extracted: O0010322.xml
+2025-06-23 00:29:39,434 - nsi_processor - INFO - Extracted: O0020224.xml
+2025-06-23 00:29:39,442 - nsi_processor - INFO - Extracted: odg0525.dbf
+2025-06-23 00:29:39,443 - nsi_processor - INFO - Extracted: oms0123.dbf
+2025-06-23 00:29:39,443 - nsi_processor - INFO - Extracted: pmp0125.dbf
+2025-06-23 00:29:39,444 - nsi_processor - INFO - Extracted: psp0824.dbf
+2025-06-23 00:29:39,444 - nsi_processor - INFO - Extracted: Q0230425.xml
+2025-06-23 00:29:39,445 - nsi_processor - INFO - Extracted: QMK0525.DBF
+2025-06-23 00:29:39,447 - nsi_processor - INFO - Extracted: QMV0525.DBF
+2025-06-23 00:29:39,448 - nsi_processor - INFO - Extracted: QPD0119.dbf
+2025-06-23 00:29:39,448 - nsi_processor - INFO - Extracted: QPF0525.DBF
+2025-06-23 00:29:39,449 - nsi_processor - INFO - Extracted: qva0525.dbf
+2025-06-23 00:29:39,449 - nsi_processor - INFO - Extracted: rgn0125.dbf
+2025-06-23 00:29:39,451 - nsi_processor - INFO - Extracted: sbr0525.dbf
+2025-06-23 00:29:39,451 - nsi_processor - INFO - Extracted: sdg0425.dbf
+2025-06-23 00:29:39,452 - nsi_processor - INFO - Extracted: smo1124.dbf
+2025-06-23 00:29:39,554 - nsi_processor - INFO - Extracted: tmu0525.DBF
+2025-06-23 00:29:39,564 - nsi_processor - INFO - Extracted: V0010421.xml
+2025-06-23 00:29:39,564 - nsi_processor - INFO - Extracted: V0020125.xml
+2025-06-23 00:29:39,565 - nsi_processor - INFO - Extracted: V0050121.xml
+2025-06-23 00:29:39,565 - nsi_processor - INFO - Extracted: V0060121.xml
+2025-06-23 00:29:39,566 - nsi_processor - INFO - Extracted: V0080121.xml
+2025-06-23 00:29:39,567 - nsi_processor - INFO - Extracted: V0090425.xml
+2025-06-23 00:29:39,567 - nsi_processor - INFO - Extracted: V0100121.xml
+2025-06-23 00:29:39,568 - nsi_processor - INFO - Extracted: V0120121.xml
+2025-06-23 00:29:39,568 - nsi_processor - INFO - Extracted: V0130322.xml
+2025-06-23 00:29:39,569 - nsi_processor - INFO - Extracted: V0150121.xml
+2025-06-23 00:29:39,569 - nsi_processor - INFO - Extracted: V0160425.xml
+2025-06-23 00:29:39,570 - nsi_processor - INFO - Extracted: V0170424.xml
+2025-06-23 00:29:39,571 - nsi_processor - INFO - Extracted: V0180225.xml
+2025-06-23 00:29:39,579 - nsi_processor - INFO - Extracted: V0190225.xml
+2025-06-23 00:29:39,580 - nsi_processor - INFO - Extracted: V0200121.xml
+2025-06-23 00:29:39,580 - nsi_processor - INFO - Extracted: V0210324.xml
+2025-06-23 00:29:39,582 - nsi_processor - INFO - Extracted: V0220225.xml
+2025-06-23 00:29:39,587 - nsi_processor - INFO - Extracted: V0230425.xml
+2025-06-23 00:29:39,592 - nsi_processor - INFO - Extracted: V0240125.xml
+2025-06-23 00:29:39,592 - nsi_processor - INFO - Extracted: V0250425.xml
+2025-06-23 00:29:39,593 - nsi_processor - INFO - Extracted: V0260123.xml
+2025-06-23 00:29:39,594 - nsi_processor - INFO - Extracted: V0270121.xml
+2025-06-23 00:29:39,594 - nsi_processor - INFO - Extracted: V0280121.xml
+2025-06-23 00:29:39,594 - nsi_processor - INFO - Extracted: V0290121.xml
+2025-06-23 00:29:39,595 - nsi_processor - INFO - Extracted: V0300123.xml
+2025-06-23 00:29:39,595 - nsi_processor - INFO - Extracted: V0310123.xml
+2025-06-23 00:29:39,596 - nsi_processor - INFO - Extracted: V0320123.xml
+2025-06-23 00:29:39,596 - nsi_processor - INFO - Extracted: V0330123.xml
+2025-06-23 00:29:39,597 - nsi_processor - INFO - Extracted: V0340122.xml
+2025-06-23 00:29:39,598 - nsi_processor - INFO - Extracted: V0350122.xml
+2025-06-23 00:29:39,598 - nsi_processor - INFO - Extracted: V0360323.xml
+2025-06-23 00:29:39,600 - nsi_processor - INFO - Extracted: V0370425.xml
+2025-06-23 00:29:39,600 - nsi_processor - INFO - Extracted: vpr0523.DBF
+2025-06-23 00:29:39,601 - nsi_processor - INFO - Extracted: vsp0920.dbf
+2025-06-23 00:29:39,601 - nsi_processor - INFO - Extracted: zfv1220.dbf
+2025-06-23 00:29:39,602 - nsi_processor - INFO - Processing complete: C:\Users\087\Desktop\git\base\reports\NSI_report_0525_22.csv
+2025-06-23 00:29:39,619 - xml_to_csv - INFO - Converted: F0020525.xml -> f002.csv
+2025-06-23 00:29:40,172 - xml_to_csv - INFO - Converted: F0030624.xml -> f003.csv
+2025-06-23 00:29:40,184 - xml_to_csv - INFO - Converted: F0060722.xml -> f006.csv
+2025-06-23 00:29:40,185 - xml_to_csv - INFO - Converted: F0070524.xml -> f007.csv
+2025-06-23 00:29:40,186 - xml_to_csv - INFO - Converted: F0080121.xml -> f008.csv
+2025-06-23 00:29:40,187 - xml_to_csv - INFO - Converted: F0100121.xml -> f010.csv
+2025-06-23 00:29:40,189 - xml_to_csv - INFO - Converted: F0110525.xml -> f011.csv
+2025-06-23 00:29:40,299 - xml_to_csv - INFO - Converted: F0130225.xml -> f013.csv
+2025-06-23 00:29:40,309 - xml_to_csv - INFO - Converted: F0141124.xml -> f014.csv
+2025-06-23 00:29:40,657 - xml_to_csv - INFO - Converted: F0310525.xml -> f031.csv
+2025-06-23 00:29:41,424 - xml_to_csv - INFO - Converted: F0320525.xml -> f032.csv
+2025-06-23 00:29:44,447 - xml_to_csv - INFO - Converted: F0330525.xml -> f033.csv
+2025-06-23 00:29:55,366 - xml_to_csv - INFO - Converted: F0340525.xml -> f034.csv
+2025-06-23 00:29:55,783 - xml_to_csv - INFO - Converted: F0360525.xml -> f036.csv
+2025-06-23 00:29:55,892 - xml_to_csv - INFO - Converted: F0370525.xml -> f037.csv
+2025-06-23 00:29:58,499 - xml_to_csv - INFO - Converted: F0380525.xml -> f038.csv
+2025-06-23 00:29:59,088 - xml_to_csv - INFO - Converted: F0420525.xml -> f042.csv
+2025-06-23 00:29:59,105 - xml_to_csv - INFO - Converted: K0020124.xml -> k002.csv
+2025-06-23 00:29:59,107 - xml_to_csv - INFO - Converted: K0030124.xml -> k003.csv
+2025-06-23 00:29:59,184 - xml_to_csv - INFO - Converted: K0040920.xml -> k004.csv
+2025-06-23 00:29:59,211 - xml_to_csv - INFO - Converted: M0021222.xml -> m002.csv
+2025-06-23 00:29:59,213 - xml_to_csv - INFO - Converted: M0031022.xml -> m003.csv
+2025-06-23 00:29:59,222 - xml_to_csv - INFO - Converted: M0040123.xml -> m004.csv
+2025-06-23 00:29:59,223 - xml_to_csv - INFO - Converted: N0010121.xml -> n001.csv
+2025-06-23 00:29:59,226 - xml_to_csv - INFO - Converted: N0020824.xml -> n002.csv
+2025-06-23 00:29:59,232 - xml_to_csv - INFO - Converted: N0030824.xml -> n003.csv
+2025-06-23 00:29:59,237 - xml_to_csv - INFO - Converted: N0040824.xml -> n004.csv
+2025-06-23 00:29:59,239 - xml_to_csv - INFO - Converted: N0050824.xml -> n005.csv
+2025-06-23 00:29:59,264 - xml_to_csv - INFO - Converted: N0061218.xml -> n006.csv
+2025-06-23 00:29:59,265 - xml_to_csv - INFO - Converted: N0070121.xml -> n007.csv
+2025-06-23 00:29:59,266 - xml_to_csv - INFO - Converted: N0080121.xml -> n008.csv
+2025-06-23 00:29:59,267 - xml_to_csv - INFO - Converted: N0090121.xml -> n009.csv
+2025-06-23 00:29:59,267 - xml_to_csv - INFO - Converted: N0100325.xml -> n010.csv
+2025-06-23 00:29:59,268 - xml_to_csv - INFO - Converted: N0110325.xml -> n011.csv
+2025-06-23 00:29:59,269 - xml_to_csv - INFO - Converted: N0120325.xml -> n012.csv
+2025-06-23 00:29:59,270 - xml_to_csv - INFO - Converted: N0130121.xml -> n013.csv
+2025-06-23 00:29:59,270 - xml_to_csv - INFO - Converted: N0140121.xml -> n014.csv
+2025-06-23 00:29:59,271 - xml_to_csv - INFO - Converted: N0150121.xml -> n015.csv
+2025-06-23 00:29:59,272 - xml_to_csv - INFO - Converted: N0160121.xml -> n016.csv
+2025-06-23 00:29:59,272 - xml_to_csv - INFO - Converted: N0170121.xml -> n017.csv
+2025-06-23 00:29:59,273 - xml_to_csv - INFO - Converted: N0180121.xml -> n018.csv
+2025-06-23 00:29:59,274 - xml_to_csv - INFO - Converted: N0190121.xml -> n019.csv
+2025-06-23 00:29:59,306 - xml_to_csv - INFO - Converted: N0200125.xml -> n020.csv
+2025-06-23 00:29:59,413 - xml_to_csv - INFO - Converted: N0210225.xml -> n021.csv
+2025-06-23 00:29:59,419 - xml_to_csv - INFO - Converted: O0010322.xml -> o001.csv
+2025-06-23 00:30:04,211 - xml_to_csv - INFO - Converted: O0020224.xml -> o002.csv
+2025-06-23 00:30:04,344 - xml_to_csv - INFO - Converted: Q0230425.xml -> q023.csv
+2025-06-23 00:30:04,423 - xml_to_csv - INFO - Converted: V0010421.xml -> v001.csv
+2025-06-23 00:30:04,426 - xml_to_csv - INFO - Converted: V0020125.xml -> v002.csv
+2025-06-23 00:30:04,427 - xml_to_csv - INFO - Converted: V0050121.xml -> v005.csv
+2025-06-23 00:30:04,428 - xml_to_csv - INFO - Converted: V0060121.xml -> v006.csv
+2025-06-23 00:30:04,429 - xml_to_csv - INFO - Converted: V0080121.xml -> v008.csv
+2025-06-23 00:30:04,431 - xml_to_csv - INFO - Converted: V0090425.xml -> v009.csv
+2025-06-23 00:30:04,434 - xml_to_csv - INFO - Converted: V0100121.xml -> v010.csv
+2025-06-23 00:30:04,435 - xml_to_csv - INFO - Converted: V0120121.xml -> v012.csv
+2025-06-23 00:30:04,436 - xml_to_csv - INFO - Converted: V0130322.xml -> v013.csv
+2025-06-23 00:30:04,439 - xml_to_csv - INFO - Converted: V0150121.xml -> v015.csv
+2025-06-23 00:30:04,440 - xml_to_csv - INFO - Converted: V0160425.xml -> v016.csv
+2025-06-23 00:30:04,441 - xml_to_csv - INFO - Converted: V0170424.xml -> v017.csv
+2025-06-23 00:30:04,447 - xml_to_csv - INFO - Converted: V0180225.xml -> v018.csv
+2025-06-23 00:30:04,539 - xml_to_csv - INFO - Converted: V0190225.xml -> v019.csv
+2025-06-23 00:30:04,542 - xml_to_csv - INFO - Converted: V0200121.xml -> v020.csv
+2025-06-23 00:30:04,545 - xml_to_csv - INFO - Converted: V0210324.xml -> v021.csv
+2025-06-23 00:30:04,556 - xml_to_csv - INFO - Converted: V0220225.xml -> v022.csv
+2025-06-23 00:30:04,597 - xml_to_csv - INFO - Converted: V0230425.xml -> v023.csv
+2025-06-23 00:30:04,648 - xml_to_csv - INFO - Converted: V0240125.xml -> v024.csv
+2025-06-23 00:30:04,651 - xml_to_csv - INFO - Converted: V0250425.xml -> v025.csv
+2025-06-23 00:30:04,653 - xml_to_csv - INFO - Converted: V0260123.xml -> v026.csv
+2025-06-23 00:30:04,654 - xml_to_csv - INFO - Converted: V0270121.xml -> v027.csv
+2025-06-23 00:30:04,655 - xml_to_csv - INFO - Converted: V0280121.xml -> v028.csv
+2025-06-23 00:30:04,656 - xml_to_csv - INFO - Converted: V0290121.xml -> v029.csv
+2025-06-23 00:30:04,657 - xml_to_csv - INFO - Converted: V0300123.xml -> v030.csv
+2025-06-23 00:30:04,657 - xml_to_csv - INFO - Converted: V0310123.xml -> v031.csv
+2025-06-23 00:30:04,659 - xml_to_csv - INFO - Converted: V0320123.xml -> v032.csv
+2025-06-23 00:30:04,662 - xml_to_csv - INFO - Converted: V0330123.xml -> v033.csv
+2025-06-23 00:30:04,667 - xml_to_csv - INFO - Converted: V0340122.xml -> v034.csv
+2025-06-23 00:30:04,669 - xml_to_csv - INFO - Converted: V0350122.xml -> v035.csv
+2025-06-23 00:30:04,673 - xml_to_csv - INFO - Converted: V0360323.xml -> v036.csv
+2025-06-23 00:30:04,680 - xml_to_csv - INFO - Converted: V0370425.xml -> v037.csv
+2025-06-23 00:30:07,844 - dbf_to_csv_json - INFO - Processed: cgr0525.DBF -> cgr.csv, cgr.json
+2025-06-23 00:30:07,847 - dbf_to_csv_json - INFO - Processed: ctd0119.dbf -> ctd.csv, ctd.json
+2025-06-23 00:30:07,854 - dbf_to_csv_json - INFO - Processed: def0525.dbf -> def.csv, def.json
+2025-06-23 00:30:07,888 - dbf_to_csv_json - INFO - Processed: drg0525.dbf -> drg.csv, drg.json
+2025-06-23 00:30:08,035 - dbf_to_csv_json - INFO - Processed: dvn0325.dbf -> dvn.csv, dvn.json
+2025-06-23 00:30:08,038 - dbf_to_csv_json - INFO - Processed: dvs0315.dbf -> dvs.csv, dvs.json
+2025-06-23 00:30:08,080 - dbf_to_csv_json - INFO - Processed: erm0525.DBF -> erm.csv, erm.json
+2025-06-23 00:30:08,143 - dbf_to_csv_json - INFO - Processed: EXQ0525.dbf -> exq.csv, exq.json
+2025-06-23 00:30:08,145 - dbf_to_csv_json - INFO - Processed: flk10424.DBF -> flk1.csv, flk1.json
+2025-06-23 00:30:08,153 - dbf_to_csv_json - INFO - Processed: flk20325.dbf -> flk2.csv, flk2.json
+2025-06-23 00:30:08,182 - dbf_to_csv_json - INFO - Processed: flk30320.DBF -> flk3.csv, flk3.json
+2025-06-23 00:30:08,204 - dbf_to_csv_json - INFO - Processed: FLK40425.dbf -> flk4.csv, flk4.json
+2025-06-23 00:30:08,205 - dbf_to_csv_json - INFO - Processed: flk50525.DBF -> flk5.csv, flk5.json
+2025-06-23 00:30:08,206 - dbf_to_csv_json - INFO - Processed: flk60125.DBF -> flk6.csv, flk6.json
+2025-06-23 00:30:08,208 - dbf_to_csv_json - INFO - Processed: flk70525.DBF -> flk7.csv, flk7.json
+2025-06-23 00:30:08,209 - dbf_to_csv_json - INFO - Processed: flk80422.DBF -> flk8.csv, flk8.json
+2025-06-23 00:30:08,211 - dbf_to_csv_json - INFO - Processed: flk90924.DBF -> flk9.csv, flk9.json
+2025-06-23 00:30:16,642 - dbf_to_csv_json - INFO - Processed: gdg0525.DBF -> gdg.csv, gdg.json
+2025-06-23 00:30:16,730 - dbf_to_csv_json - INFO - Processed: gdk0425.DBF -> gdk.csv, gdk.json
+2025-06-23 00:30:16,737 - dbf_to_csv_json - INFO - Processed: hmp0225.dbf -> hmp.csv, hmp.json
+2025-06-23 00:30:16,740 - dbf_to_csv_json - INFO - Processed: kdg0125.DBF -> kdg.csv, kdg.json
+2025-06-23 00:30:16,741 - dbf_to_csv_json - INFO - Processed: kgp0624.DBF -> kgp.csv, kgp.json
+2025-06-23 00:30:16,743 - dbf_to_csv_json - INFO - Processed: ksl0525.dbf -> ksl.csv, ksl.json
+2025-06-23 00:30:16,754 - dbf_to_csv_json - INFO - Processed: LPU0425.DBF -> lpu.csv, lpu.json
+2025-06-23 00:30:16,899 - dbf_to_csv_json - INFO - Processed: mdu0525.dbf -> mdu.csv, mdu.json
+2025-06-23 00:30:16,935 - dbf_to_csv_json - INFO - Processed: mes0225.dbf -> mes.csv, mes.json
+2025-06-23 00:30:17,051 - dbf_to_csv_json - INFO - Processed: mkb0225.dbf -> mkb.csv, mkb.json
+2025-06-23 00:30:17,054 - dbf_to_csv_json - INFO - Processed: NPI0425.dbf -> npi.csv, npi.json
+2025-06-23 00:30:19,190 - dbf_to_csv_json - INFO - Processed: NPR0923.dbf -> npr.csv, npr.json
+2025-06-23 00:30:19,586 - dbf_to_csv_json - INFO - Processed: odg0525.dbf -> odg.csv, odg.json
+2025-06-23 00:30:19,588 - dbf_to_csv_json - INFO - Processed: oms0123.dbf -> oms.csv, oms.json
+2025-06-23 00:30:19,591 - dbf_to_csv_json - INFO - Processed: pmp0125.dbf -> pmp.csv, pmp.json
+2025-06-23 00:30:19,594 - dbf_to_csv_json - INFO - Processed: psp0824.dbf -> psp.csv, psp.json
+2025-06-23 00:30:19,599 - dbf_to_csv_json - INFO - Processed: QMK0525.DBF -> qmk.csv, qmk.json
+2025-06-23 00:30:19,644 - dbf_to_csv_json - INFO - Processed: QMV0525.DBF -> qmv.csv, qmv.json
+2025-06-23 00:30:19,653 - dbf_to_csv_json - INFO - Processed: QPD0119.dbf -> qpd.csv, qpd.json
+2025-06-23 00:30:19,657 - dbf_to_csv_json - INFO - Processed: QPF0525.DBF -> qpf.csv, qpf.json
+2025-06-23 00:30:19,659 - dbf_to_csv_json - INFO - Processed: qva0525.dbf -> qva.csv, qva.json
+2025-06-23 00:30:19,662 - dbf_to_csv_json - INFO - Processed: rgn0125.dbf -> rgn.csv, rgn.json
+2025-06-23 00:30:19,669 - dbf_to_csv_json - INFO - Processed: sbr0525.dbf -> sbr.csv, sbr.json
+2025-06-23 00:30:19,672 - dbf_to_csv_json - INFO - Processed: sdg0425.dbf -> sdg.csv, sdg.json
+2025-06-23 00:30:19,678 - dbf_to_csv_json - INFO - Processed: smo1124.dbf -> smo.csv, smo.json
+2025-06-23 00:30:25,023 - dbf_to_csv_json - INFO - Processed: tmu0525.DBF -> tmu.csv, tmu.json
+2025-06-23 00:30:25,026 - dbf_to_csv_json - INFO - Processed: vpr0523.DBF -> vpr.csv, vpr.json
+2025-06-23 00:30:25,028 - dbf_to_csv_json - INFO - Processed: vsp0920.dbf -> vsp.csv, vsp.json
+2025-06-23 00:30:25,030 - dbf_to_csv_json - INFO - Processed: zfv1220.dbf -> zfv.csv, zfv.json
+2025-06-23 00:30:25,295 - pack_csv - DEBUG - Added CSV: cgr.csv
+2025-06-23 00:30:25,295 - pack_csv - DEBUG - Added CSV: ctd.csv
+2025-06-23 00:30:25,296 - pack_csv - DEBUG - Added CSV: def.csv
+2025-06-23 00:30:25,301 - pack_csv - DEBUG - Added CSV: drg.csv
+2025-06-23 00:30:25,312 - pack_csv - DEBUG - Added CSV: dvn.csv
+2025-06-23 00:30:25,312 - pack_csv - DEBUG - Added CSV: dvs.csv
+2025-06-23 00:30:25,328 - pack_csv - DEBUG - Added CSV: erm.csv
+2025-06-23 00:30:25,347 - pack_csv - DEBUG - Added CSV: exq.csv
+2025-06-23 00:30:25,350 - pack_csv - DEBUG - Added CSV: f002.csv
+2025-06-23 00:30:25,481 - pack_csv - DEBUG - Added CSV: f003.csv
+2025-06-23 00:30:25,482 - pack_csv - DEBUG - Added CSV: f006.csv
+2025-06-23 00:30:25,482 - pack_csv - DEBUG - Added CSV: f007.csv
+2025-06-23 00:30:25,483 - pack_csv - DEBUG - Added CSV: f008.csv
+2025-06-23 00:30:25,483 - pack_csv - DEBUG - Added CSV: f010.csv
+2025-06-23 00:30:25,483 - pack_csv - DEBUG - Added CSV: f011.csv
+2025-06-23 00:30:25,517 - pack_csv - DEBUG - Added CSV: f013.csv
+2025-06-23 00:30:25,522 - pack_csv - DEBUG - Added CSV: f014.csv
+2025-06-23 00:30:25,616 - pack_csv - DEBUG - Added CSV: f031.csv
+2025-06-23 00:30:25,781 - pack_csv - DEBUG - Added CSV: f032.csv
+2025-06-23 00:30:26,372 - pack_csv - DEBUG - Added CSV: f033.csv
+2025-06-23 00:30:26,922 - pack_csv - DEBUG - Added CSV: f034.csv
+2025-06-23 00:30:26,955 - pack_csv - DEBUG - Added CSV: f036.csv
+2025-06-23 00:30:26,982 - pack_csv - DEBUG - Added CSV: f037.csv
+2025-06-23 00:30:27,506 - pack_csv - DEBUG - Added CSV: f038.csv
+2025-06-23 00:30:27,547 - pack_csv - DEBUG - Added CSV: f042.csv
+2025-06-23 00:30:27,548 - pack_csv - DEBUG - Added CSV: flk1.csv
+2025-06-23 00:30:27,549 - pack_csv - DEBUG - Added CSV: flk2.csv
+2025-06-23 00:30:27,554 - pack_csv - DEBUG - Added CSV: flk3.csv
+2025-06-23 00:30:27,558 - pack_csv - DEBUG - Added CSV: flk4.csv
+2025-06-23 00:30:27,559 - pack_csv - DEBUG - Added CSV: flk5.csv
+2025-06-23 00:30:27,559 - pack_csv - DEBUG - Added CSV: flk6.csv
+2025-06-23 00:30:27,559 - pack_csv - DEBUG - Added CSV: flk7.csv
+2025-06-23 00:30:27,559 - pack_csv - DEBUG - Added CSV: flk8.csv
+2025-06-23 00:30:27,560 - pack_csv - DEBUG - Added CSV: flk9.csv
+2025-06-23 00:30:27,918 - pack_csv - DEBUG - Added CSV: gdg.csv
+2025-06-23 00:30:27,928 - pack_csv - DEBUG - Added CSV: gdk.csv
+2025-06-23 00:30:27,929 - pack_csv - DEBUG - Added CSV: hmp.csv
+2025-06-23 00:30:27,929 - pack_csv - DEBUG - Added CSV: k002.csv
+2025-06-23 00:30:27,930 - pack_csv - DEBUG - Added CSV: k003.csv
+2025-06-23 00:30:27,940 - pack_csv - DEBUG - Added CSV: k004.csv
+2025-06-23 00:30:27,941 - pack_csv - DEBUG - Added CSV: kdg.csv
+2025-06-23 00:30:27,942 - pack_csv - DEBUG - Added CSV: kgp.csv
+2025-06-23 00:30:27,942 - pack_csv - DEBUG - Added CSV: ksl.csv
+2025-06-23 00:30:27,946 - pack_csv - DEBUG - Added CSV: lpu.csv
+2025-06-23 00:30:27,956 - pack_csv - DEBUG - Added CSV: m002.csv
+2025-06-23 00:30:27,957 - pack_csv - DEBUG - Added CSV: m003.csv
+2025-06-23 00:30:27,959 - pack_csv - DEBUG - Added CSV: m004.csv
+2025-06-23 00:30:27,987 - pack_csv - DEBUG - Added CSV: mdu.csv
+2025-06-23 00:30:27,992 - pack_csv - DEBUG - Added CSV: mes.csv
+2025-06-23 00:30:28,016 - pack_csv - DEBUG - Added CSV: mkb.csv
+2025-06-23 00:30:28,017 - pack_csv - DEBUG - Added CSV: n001.csv
+2025-06-23 00:30:28,017 - pack_csv - DEBUG - Added CSV: n002.csv
+2025-06-23 00:30:28,019 - pack_csv - DEBUG - Added CSV: n003.csv
+2025-06-23 00:30:28,020 - pack_csv - DEBUG - Added CSV: n004.csv
+2025-06-23 00:30:28,021 - pack_csv - DEBUG - Added CSV: n005.csv
+2025-06-23 00:30:28,023 - pack_csv - DEBUG - Added CSV: n006.csv
+2025-06-23 00:30:28,023 - pack_csv - DEBUG - Added CSV: n007.csv
+2025-06-23 00:30:28,023 - pack_csv - DEBUG - Added CSV: n008.csv
+2025-06-23 00:30:28,024 - pack_csv - DEBUG - Added CSV: n009.csv
+2025-06-23 00:30:28,024 - pack_csv - DEBUG - Added CSV: n010.csv
+2025-06-23 00:30:28,024 - pack_csv - DEBUG - Added CSV: n011.csv
+2025-06-23 00:30:28,025 - pack_csv - DEBUG - Added CSV: n012.csv
+2025-06-23 00:30:28,025 - pack_csv - DEBUG - Added CSV: n013.csv
+2025-06-23 00:30:28,025 - pack_csv - DEBUG - Added CSV: n014.csv
+2025-06-23 00:30:28,026 - pack_csv - DEBUG - Added CSV: n015.csv
+2025-06-23 00:30:28,026 - pack_csv - DEBUG - Added CSV: n016.csv
+2025-06-23 00:30:28,026 - pack_csv - DEBUG - Added CSV: n017.csv
+2025-06-23 00:30:28,027 - pack_csv - DEBUG - Added CSV: n018.csv
+2025-06-23 00:30:28,027 - pack_csv - DEBUG - Added CSV: n019.csv
+2025-06-23 00:30:28,036 - pack_csv - DEBUG - Added CSV: n020.csv
+2025-06-23 00:30:28,045 - pack_csv - DEBUG - Added CSV: n021.csv
+2025-06-23 00:30:28,046 - pack_csv - DEBUG - Added CSV: npi.csv
+2025-06-23 00:30:28,511 - pack_csv - DEBUG - Added CSV: npr.csv
+2025-06-23 00:30:28,512 - pack_csv - DEBUG - Added CSV: o001.csv
+2025-06-23 00:30:28,828 - pack_csv - DEBUG - Added CSV: o002.csv
+2025-06-23 00:30:28,843 - pack_csv - DEBUG - Added CSV: odg.csv
+2025-06-23 00:30:28,843 - pack_csv - DEBUG - Added CSV: oms.csv
+2025-06-23 00:30:28,844 - pack_csv - DEBUG - Added CSV: pmp.csv
+2025-06-23 00:30:28,844 - pack_csv - DEBUG - Added CSV: psp.csv
+2025-06-23 00:30:28,845 - pack_csv - DEBUG - Added CSV: q023.csv
+2025-06-23 00:30:28,846 - pack_csv - DEBUG - Added CSV: qmk.csv
+2025-06-23 00:30:28,850 - pack_csv - DEBUG - Added CSV: qmv.csv
+2025-06-23 00:30:28,851 - pack_csv - DEBUG - Added CSV: qpd.csv
+2025-06-23 00:30:28,851 - pack_csv - DEBUG - Added CSV: qpf.csv
+2025-06-23 00:30:28,852 - pack_csv - DEBUG - Added CSV: qva.csv
+2025-06-23 00:30:28,852 - pack_csv - DEBUG - Added CSV: rgn.csv
+2025-06-23 00:30:28,854 - pack_csv - DEBUG - Added CSV: sbr.csv
+2025-06-23 00:30:28,855 - pack_csv - DEBUG - Added CSV: sdg.csv
+2025-06-23 00:30:28,857 - pack_csv - DEBUG - Added CSV: smo.csv
+2025-06-23 00:30:29,213 - pack_csv - DEBUG - Added CSV: tmu.csv
+2025-06-23 00:30:29,252 - pack_csv - DEBUG - Added CSV: v001.csv
+2025-06-23 00:30:29,253 - pack_csv - DEBUG - Added CSV: v002.csv
+2025-06-23 00:30:29,253 - pack_csv - DEBUG - Added CSV: v005.csv
+2025-06-23 00:30:29,254 - pack_csv - DEBUG - Added CSV: v006.csv
+2025-06-23 00:30:29,254 - pack_csv - DEBUG - Added CSV: v008.csv
+2025-06-23 00:30:29,255 - pack_csv - DEBUG - Added CSV: v009.csv
+2025-06-23 00:30:29,255 - pack_csv - DEBUG - Added CSV: v010.csv
+2025-06-23 00:30:29,256 - pack_csv - DEBUG - Added CSV: v012.csv
+2025-06-23 00:30:29,256 - pack_csv - DEBUG - Added CSV: v013.csv
+2025-06-23 00:30:29,257 - pack_csv - DEBUG - Added CSV: v015.csv
+2025-06-23 00:30:29,257 - pack_csv - DEBUG - Added CSV: v016.csv
+2025-06-23 00:30:29,258 - pack_csv - DEBUG - Added CSV: v017.csv
+2025-06-23 00:30:29,262 - pack_csv - DEBUG - Added CSV: v018.csv
+2025-06-23 00:30:29,284 - pack_csv - DEBUG - Added CSV: v019.csv
+2025-06-23 00:30:29,284 - pack_csv - DEBUG - Added CSV: v020.csv
+2025-06-23 00:30:29,285 - pack_csv - DEBUG - Added CSV: v021.csv
+2025-06-23 00:30:29,296 - pack_csv - DEBUG - Added CSV: v022.csv
+2025-06-23 00:30:29,309 - pack_csv - DEBUG - Added CSV: v023.csv
+2025-06-23 00:30:29,320 - pack_csv - DEBUG - Added CSV: v024.csv
+2025-06-23 00:30:29,321 - pack_csv - DEBUG - Added CSV: v025.csv
+2025-06-23 00:30:29,321 - pack_csv - DEBUG - Added CSV: v026.csv
+2025-06-23 00:30:29,321 - pack_csv - DEBUG - Added CSV: v027.csv
+2025-06-23 00:30:29,322 - pack_csv - DEBUG - Added CSV: v028.csv
+2025-06-23 00:30:29,322 - pack_csv - DEBUG - Added CSV: v029.csv
+2025-06-23 00:30:29,322 - pack_csv - DEBUG - Added CSV: v030.csv
+2025-06-23 00:30:29,323 - pack_csv - DEBUG - Added CSV: v031.csv
+2025-06-23 00:30:29,323 - pack_csv - DEBUG - Added CSV: v032.csv
+2025-06-23 00:30:29,324 - pack_csv - DEBUG - Added CSV: v033.csv
+2025-06-23 00:30:29,325 - pack_csv - DEBUG - Added CSV: v034.csv
+2025-06-23 00:30:29,325 - pack_csv - DEBUG - Added CSV: v035.csv
+2025-06-23 00:30:29,327 - pack_csv - DEBUG - Added CSV: v036.csv
+2025-06-23 00:30:29,332 - pack_csv - DEBUG - Added CSV: v037.csv
+2025-06-23 00:30:29,332 - pack_csv - DEBUG - Added CSV: vpr.csv
+2025-06-23 00:30:29,332 - pack_csv - DEBUG - Added CSV: vsp.csv
+2025-06-23 00:30:29,333 - pack_csv - DEBUG - Added CSV: zfv.csv
+2025-06-23 00:30:29,333 - pack_csv - DEBUG - Added JSON: cgr.json
+2025-06-23 00:30:29,334 - pack_csv - DEBUG - Added JSON: ctd.json
+2025-06-23 00:30:29,334 - pack_csv - DEBUG - Added JSON: def.json
+2025-06-23 00:30:29,334 - pack_csv - DEBUG - Added JSON: drg.json
+2025-06-23 00:30:29,335 - pack_csv - DEBUG - Added JSON: dvn.json
+2025-06-23 00:30:29,335 - pack_csv - DEBUG - Added JSON: dvs.json
+2025-06-23 00:30:29,336 - pack_csv - DEBUG - Added JSON: erm.json
+2025-06-23 00:30:29,336 - pack_csv - DEBUG - Added JSON: exq.json
+2025-06-23 00:30:29,336 - pack_csv - DEBUG - Added JSON: flk1.json
+2025-06-23 00:30:29,337 - pack_csv - DEBUG - Added JSON: flk2.json
+2025-06-23 00:30:29,337 - pack_csv - DEBUG - Added JSON: flk3.json
+2025-06-23 00:30:29,337 - pack_csv - DEBUG - Added JSON: flk4.json
+2025-06-23 00:30:29,338 - pack_csv - DEBUG - Added JSON: flk5.json
+2025-06-23 00:30:29,338 - pack_csv - DEBUG - Added JSON: flk6.json
+2025-06-23 00:30:29,338 - pack_csv - DEBUG - Added JSON: flk7.json
+2025-06-23 00:30:29,339 - pack_csv - DEBUG - Added JSON: flk8.json
+2025-06-23 00:30:29,339 - pack_csv - DEBUG - Added JSON: flk9.json
+2025-06-23 00:30:29,339 - pack_csv - DEBUG - Added JSON: gdg.json
+2025-06-23 00:30:29,339 - pack_csv - DEBUG - Added JSON: gdk.json
+2025-06-23 00:30:29,340 - pack_csv - DEBUG - Added JSON: hmp.json
+2025-06-23 00:30:29,340 - pack_csv - DEBUG - Added JSON: kdg.json
+2025-06-23 00:30:29,340 - pack_csv - DEBUG - Added JSON: kgp.json
+2025-06-23 00:30:29,341 - pack_csv - DEBUG - Added JSON: ksl.json
+2025-06-23 00:30:29,341 - pack_csv - DEBUG - Added JSON: lpu.json
+2025-06-23 00:30:29,341 - pack_csv - DEBUG - Added JSON: mdu.json
+2025-06-23 00:30:29,341 - pack_csv - DEBUG - Added JSON: mes.json
+2025-06-23 00:30:29,342 - pack_csv - DEBUG - Added JSON: mkb.json
+2025-06-23 00:30:29,342 - pack_csv - DEBUG - Added JSON: npi.json
+2025-06-23 00:30:29,342 - pack_csv - DEBUG - Added JSON: npr.json
+2025-06-23 00:30:29,343 - pack_csv - DEBUG - Added JSON: odg.json
+2025-06-23 00:30:29,343 - pack_csv - DEBUG - Added JSON: oms.json
+2025-06-23 00:30:29,343 - pack_csv - DEBUG - Added JSON: pmp.json
+2025-06-23 00:30:29,344 - pack_csv - DEBUG - Added JSON: psp.json
+2025-06-23 00:30:29,344 - pack_csv - DEBUG - Added JSON: qmk.json
+2025-06-23 00:30:29,344 - pack_csv - DEBUG - Added JSON: qmv.json
+2025-06-23 00:30:29,344 - pack_csv - DEBUG - Added JSON: qpd.json
+2025-06-23 00:30:29,345 - pack_csv - DEBUG - Added JSON: qpf.json
+2025-06-23 00:30:29,345 - pack_csv - DEBUG - Added JSON: qva.json
+2025-06-23 00:30:29,345 - pack_csv - DEBUG - Added JSON: rgn.json
+2025-06-23 00:30:29,345 - pack_csv - DEBUG - Added JSON: sbr.json
+2025-06-23 00:30:29,346 - pack_csv - DEBUG - Added JSON: sdg.json
+2025-06-23 00:30:29,346 - pack_csv - DEBUG - Added JSON: smo.json
+2025-06-23 00:30:29,346 - pack_csv - DEBUG - Added JSON: tmu.json
+2025-06-23 00:30:29,346 - pack_csv - DEBUG - Added JSON: vpr.json
+2025-06-23 00:30:29,347 - pack_csv - DEBUG - Added JSON: vsp.json
+2025-06-23 00:30:29,347 - pack_csv - DEBUG - Added JSON: zfv.json
+2025-06-23 00:30:29,347 - pack_csv - DEBUG - Added XSD: f002.xsd
+2025-06-23 00:30:29,348 - pack_csv - DEBUG - Added XSD: f003.xsd
+2025-06-23 00:30:29,348 - pack_csv - DEBUG - Added XSD: f006.xsd
+2025-06-23 00:30:29,348 - pack_csv - DEBUG - Added XSD: f007.xsd
+2025-06-23 00:30:29,349 - pack_csv - DEBUG - Added XSD: f008.xsd
+2025-06-23 00:30:29,349 - pack_csv - DEBUG - Added XSD: f010.xsd
+2025-06-23 00:30:29,349 - pack_csv - DEBUG - Added XSD: f011.xsd
+2025-06-23 00:30:29,349 - pack_csv - DEBUG - Added XSD: f013.xsd
+2025-06-23 00:30:29,350 - pack_csv - DEBUG - Added XSD: f014.xsd
+2025-06-23 00:30:29,350 - pack_csv - DEBUG - Added XSD: f031.xsd
+2025-06-23 00:30:29,350 - pack_csv - DEBUG - Added XSD: f032.xsd
+2025-06-23 00:30:29,350 - pack_csv - DEBUG - Added XSD: f033.xsd
+2025-06-23 00:30:29,351 - pack_csv - DEBUG - Added XSD: f034.xsd
+2025-06-23 00:30:29,351 - pack_csv - DEBUG - Added XSD: f036.xsd
+2025-06-23 00:30:29,351 - pack_csv - DEBUG - Added XSD: f037.xsd
+2025-06-23 00:30:29,352 - pack_csv - DEBUG - Added XSD: f038.xsd
+2025-06-23 00:30:29,352 - pack_csv - DEBUG - Added XSD: f042.xsd
+2025-06-23 00:30:29,352 - pack_csv - DEBUG - Added XSD: k002.xsd
+2025-06-23 00:30:29,352 - pack_csv - DEBUG - Added XSD: k003.xsd
+2025-06-23 00:30:29,353 - pack_csv - DEBUG - Added XSD: k004.xsd
+2025-06-23 00:30:29,353 - pack_csv - DEBUG - Added XSD: m002.xsd
+2025-06-23 00:30:29,353 - pack_csv - DEBUG - Added XSD: m003.xsd
+2025-06-23 00:30:29,353 - pack_csv - DEBUG - Added XSD: m004.xsd
+2025-06-23 00:30:29,354 - pack_csv - DEBUG - Added XSD: n001.xsd
+2025-06-23 00:30:29,354 - pack_csv - DEBUG - Added XSD: n002.xsd
+2025-06-23 00:30:29,354 - pack_csv - DEBUG - Added XSD: n003.xsd
+2025-06-23 00:30:29,354 - pack_csv - DEBUG - Added XSD: n004.xsd
+2025-06-23 00:30:29,355 - pack_csv - DEBUG - Added XSD: n005.xsd
+2025-06-23 00:30:29,355 - pack_csv - DEBUG - Added XSD: n006.xsd
+2025-06-23 00:30:29,355 - pack_csv - DEBUG - Added XSD: n007.xsd
+2025-06-23 00:30:29,355 - pack_csv - DEBUG - Added XSD: n008.xsd
+2025-06-23 00:30:29,356 - pack_csv - DEBUG - Added XSD: n009.xsd
+2025-06-23 00:30:29,356 - pack_csv - DEBUG - Added XSD: n010.xsd
+2025-06-23 00:30:29,356 - pack_csv - DEBUG - Added XSD: n011.xsd
+2025-06-23 00:30:29,356 - pack_csv - DEBUG - Added XSD: n012.xsd
+2025-06-23 00:30:29,356 - pack_csv - DEBUG - Added XSD: n013.xsd
+2025-06-23 00:30:29,357 - pack_csv - DEBUG - Added XSD: n014.xsd
+2025-06-23 00:30:29,357 - pack_csv - DEBUG - Added XSD: n015.xsd
+2025-06-23 00:30:29,357 - pack_csv - DEBUG - Added XSD: n016.xsd
+2025-06-23 00:30:29,357 - pack_csv - DEBUG - Added XSD: n017.xsd
+2025-06-23 00:30:29,358 - pack_csv - DEBUG - Added XSD: n018.xsd
+2025-06-23 00:30:29,358 - pack_csv - DEBUG - Added XSD: n019.xsd
+2025-06-23 00:30:29,358 - pack_csv - DEBUG - Added XSD: n020.xsd
+2025-06-23 00:30:29,358 - pack_csv - DEBUG - Added XSD: n021.xsd
+2025-06-23 00:30:29,359 - pack_csv - DEBUG - Added XSD: o001.xsd
+2025-06-23 00:30:29,359 - pack_csv - DEBUG - Added XSD: o002.xsd
+2025-06-23 00:30:29,359 - pack_csv - DEBUG - Added XSD: q023.xsd
+2025-06-23 00:30:29,359 - pack_csv - DEBUG - Added XSD: v001.xsd
+2025-06-23 00:30:29,359 - pack_csv - DEBUG - Added XSD: v002.xsd
+2025-06-23 00:30:29,360 - pack_csv - DEBUG - Added XSD: v005.xsd
+2025-06-23 00:30:29,360 - pack_csv - DEBUG - Added XSD: v006.xsd
+2025-06-23 00:30:29,360 - pack_csv - DEBUG - Added XSD: v008.xsd
+2025-06-23 00:30:29,360 - pack_csv - DEBUG - Added XSD: v009.xsd
+2025-06-23 00:30:29,360 - pack_csv - DEBUG - Added XSD: v010.xsd
+2025-06-23 00:30:29,361 - pack_csv - DEBUG - Added XSD: v012.xsd
+2025-06-23 00:30:29,361 - pack_csv - DEBUG - Added XSD: v013.xsd
+2025-06-23 00:30:29,361 - pack_csv - DEBUG - Added XSD: v015.xsd
+2025-06-23 00:30:29,361 - pack_csv - DEBUG - Added XSD: v016.xsd
+2025-06-23 00:30:29,361 - pack_csv - DEBUG - Added XSD: v017.xsd
+2025-06-23 00:30:29,362 - pack_csv - DEBUG - Added XSD: v018.xsd
+2025-06-23 00:30:29,362 - pack_csv - DEBUG - Added XSD: v019.xsd
+2025-06-23 00:30:29,362 - pack_csv - DEBUG - Added XSD: v020.xsd
+2025-06-23 00:30:29,362 - pack_csv - DEBUG - Added XSD: v021.xsd
+2025-06-23 00:30:29,362 - pack_csv - DEBUG - Added XSD: v022.xsd
+2025-06-23 00:30:29,362 - pack_csv - DEBUG - Added XSD: v023.xsd
+2025-06-23 00:30:29,363 - pack_csv - DEBUG - Added XSD: v024.xsd
+2025-06-23 00:30:29,363 - pack_csv - DEBUG - Added XSD: v025.xsd
+2025-06-23 00:30:29,363 - pack_csv - DEBUG - Added XSD: v026.xsd
+2025-06-23 00:30:29,363 - pack_csv - DEBUG - Added XSD: v027.xsd
+2025-06-23 00:30:29,363 - pack_csv - DEBUG - Added XSD: v028.xsd
+2025-06-23 00:30:29,364 - pack_csv - DEBUG - Added XSD: v029.xsd
+2025-06-23 00:30:29,364 - pack_csv - DEBUG - Added XSD: v030.xsd
+2025-06-23 00:30:29,364 - pack_csv - DEBUG - Added XSD: v031.xsd
+2025-06-23 00:30:29,364 - pack_csv - DEBUG - Added XSD: v032.xsd
+2025-06-23 00:30:29,365 - pack_csv - DEBUG - Added XSD: v033.xsd
+2025-06-23 00:30:29,365 - pack_csv - DEBUG - Added XSD: v034.xsd
+2025-06-23 00:30:29,365 - pack_csv - DEBUG - Added XSD: v035.xsd
+2025-06-23 00:30:29,365 - pack_csv - DEBUG - Added XSD: v036.xsd
+2025-06-23 00:30:29,365 - pack_csv - DEBUG - Added XSD: v037.xsd
+2025-06-23 00:30:29,932 - pack_csv - DEBUG - Added source: NSI052522.zip
+2025-06-23 00:30:29,933 - pack_csv - INFO - Created conversion package: NSI052522_CONVERTED.zip
+2025-06-23 00:30:29,933 - pack_csv - INFO - Cleaned temporary directories

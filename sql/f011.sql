@@ -1,0 +1,11 @@
+CREATE TABLE [zap] (
+    [IDDoc] NVARCHAR(MAX),
+    [DocName] NVARCHAR(MAX),
+    [DocSer] NVARCHAR(MAX),
+    [DocNum] NVARCHAR(MAX),
+    [DATEBEG] NVARCHAR(MAX),
+    [DATEEND] NVARCHAR(MAX),
+    [OT_PER_Y] NVARCHAR(2),
+    [OT_PER_M] NVARCHAR(2),
+    [OT_PER_N] NVARCHAR(4)
+);

@@ -1,0 +1,9 @@
+CREATE TABLE [kdg] (
+    [CODE] NVARCHAR(2),
+    [NAME] NVARCHAR(254),
+    [USL_OK] INT,
+    [VALUE] DECIMAL(16, 3),
+    [OT_PER_Y] NVARCHAR(2),
+    [OT_PER_M] NVARCHAR(2),
+    [OT_PER_N] NVARCHAR(4)
+);

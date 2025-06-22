@@ -1,0 +1,16 @@
+{
+  "columns": [
+    {
+      "name": "IDSPEC",
+      "type": "N",
+      "length": 3,
+      "decimal": 0
+    },
+    {
+      "name": "PROFIL",
+      "type": "N",
+      "length": 3,
+      "decimal": 0
+    }
+  ]
+}

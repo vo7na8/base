@@ -1,0 +1,22 @@
+CREATE TABLE [mdu] (
+    [CODE_USL] NVARCHAR(15),
+    [NAME_USL] NVARCHAR(250),
+    [ED_IZM] NVARCHAR(2),
+    [D_MIN] INT,
+    [D_NOR] INT,
+    [SP_OPL] INT,
+    [LEVEL1] BIT,
+    [LEVEL2] BIT,
+    [LEVEL3] BIT,
+    [DOP_M] NVARCHAR(1),
+    [GR_PLAN] NVARCHAR(3),
+    [KOL_UET] DECIMAL(8, 2),
+    [OZ] NVARCHAR(1),
+    [MAX_KOL] INT,
+    [PDF] INT,
+    [P_CEL] NVARCHAR(150),
+    [CODE_FOMS] NVARCHAR(15),
+    [OT_PER_Y] NVARCHAR(2),
+    [OT_PER_M] NVARCHAR(2),
+    [OT_PER_N] NVARCHAR(4)
+);

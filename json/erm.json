@@ -1,0 +1,76 @@
+{
+  "columns": [
+    {
+      "name": "UMO",
+      "type": "C",
+      "length": 11,
+      "decimal": 0
+    },
+    {
+      "name": "OGRN",
+      "type": "C",
+      "length": 13,
+      "decimal": 0
+    },
+    {
+      "name": "ADRES_SP",
+      "type": "C",
+      "length": 250,
+      "decimal": 0
+    },
+    {
+      "name": "PODR",
+      "type": "C",
+      "length": 17,
+      "decimal": 0
+    },
+    {
+      "name": "PODR_ER",
+      "type": "C",
+      "length": 17,
+      "decimal": 0
+    },
+    {
+      "name": "NAME_PODR",
+      "type": "C",
+      "length": 250,
+      "decimal": 0
+    },
+    {
+      "name": "DBEG",
+      "type": "D",
+      "length": 8,
+      "decimal": 0
+    },
+    {
+      "name": "DEND",
+      "type": "D",
+      "length": 8,
+      "decimal": 0
+    },
+    {
+      "name": "MOFID",
+      "type": "C",
+      "length": 35,
+      "decimal": 0
+    },
+    {
+      "name": "MODEPID",
+      "type": "C",
+      "length": 45,
+      "decimal": 0
+    },
+    {
+      "name": "TYPE_OTD",
+      "type": "C",
+      "length": 1,
+      "decimal": 0
+    },
+    {
+      "name": "VID_OTD",
+      "type": "C",
+      "length": 4,
+      "decimal": 0
+    }
+  ]
+}

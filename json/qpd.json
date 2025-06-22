@@ -1,0 +1,52 @@
+{
+  "columns": [
+    {
+      "name": "OT_PER",
+      "type": "C",
+      "length": 4,
+      "decimal": 0
+    },
+    {
+      "name": "CODE_UR",
+      "type": "C",
+      "length": 6,
+      "decimal": 0
+    },
+    {
+      "name": "KOL_PD_1",
+      "type": "N",
+      "length": 6,
+      "decimal": 0
+    },
+    {
+      "name": "FATAL_1",
+      "type": "L",
+      "length": 1,
+      "decimal": 0
+    },
+    {
+      "name": "KOL_PD_2",
+      "type": "N",
+      "length": 6,
+      "decimal": 0
+    },
+    {
+      "name": "FATAL_2",
+      "type": "L",
+      "length": 1,
+      "decimal": 0
+    },
+    {
+      "name": "KOL_PD_3",
+      "type": "N",
+      "length": 6,
+      "decimal": 0
+    },
+    {
+      "name": "FATAL_3",
+      "type": "L",
+      "length": 1,
+      "decimal": 0
+    }
+  ]
+}

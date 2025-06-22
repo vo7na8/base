@@ -1,0 +1,8 @@
+CREATE TABLE [npi] (
+    [MO_IN] NVARCHAR(6),
+    [MO_OUT] NVARCHAR(6),
+    [GR_PLAN] NVARCHAR(3),
+    [OT_PER_Y] NVARCHAR(2),
+    [OT_PER_M] NVARCHAR(2),
+    [OT_PER_N] NVARCHAR(4)
+);

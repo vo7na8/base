@@ -1,0 +1,7 @@
+CREATE TABLE [oms] (
+    [REGION] NVARCHAR(8),
+    [R_NAME] NVARCHAR(250),
+    [OT_PER_Y] NVARCHAR(2),
+    [OT_PER_M] NVARCHAR(2),
+    [OT_PER_N] NVARCHAR(4)
+);

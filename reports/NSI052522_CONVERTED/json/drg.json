@@ -1,0 +1,124 @@
+{
+  "columns": [
+    {
+      "name": "CODE_USL",
+      "type": "C",
+      "length": 15,
+      "decimal": 0
+    },
+    {
+      "name": "NUM_DRG",
+      "type": "C",
+      "length": 15,
+      "decimal": 0
+    },
+    {
+      "name": "NAME",
+      "type": "C",
+      "length": 254,
+      "decimal": 0
+    },
+    {
+      "name": "USL_OK",
+      "type": "N",
+      "length": 1,
+      "decimal": 0
+    },
+    {
+      "name": "KZ_VALUE",
+      "type": "N",
+      "length": 10,
+      "decimal": 5
+    },
+    {
+      "name": "KU_VALUE",
+      "type": "N",
+      "length": 6,
+      "decimal": 4
+    },
+    {
+      "name": "DZ_VALUE",
+      "type": "N",
+      "length": 7,
+      "decimal": 5
+    },
+    {
+      "name": "PROFIL",
+      "type": "N",
+      "length": 3,
+      "decimal": 0
+    },
+    {
+      "name": "KPG",
+      "type": "C",
+      "length": 4,
+      "decimal": 0
+    },
+    {
+      "name": "ULTRASHORT",
+      "type": "L",
+      "length": 1,
+      "decimal": 0
+    },
+    {
+      "name": "ULTRALONG",
+      "type": "L",
+      "length": 1,
+      "decimal": 0
+    },
+    {
+      "name": "USDAYSLIM",
+      "type": "N",
+      "length": 6,
+      "decimal": 0
+    },
+    {
+      "name": "ULDAYSLIM",
+      "type": "N",
+      "length": 6,
+      "decimal": 0
+    },
+    {
+      "name": "MKB_TRUE",
+      "type": "L",
+      "length": 1,
+      "decimal": 0
+    },
+    {
+      "name": "KUS1",
+      "type": "C",
+      "length": 1,
+      "decimal": 0
+    },
+    {
+      "name": "KZ_BASE",
+      "type": "N",
+      "length": 10,
+      "decimal": 5
+    },
+    {
+      "name": "KPS_A",
+      "type": "N",
+      "length": 6,
+      "decimal": 2
+    },
+    {
+      "name": "KPS_AH",
+      "type": "N",
+      "length": 6,
+      "decimal": 2
+    },
+    {
+      "name": "KPS_B",
+      "type": "N",
+      "length": 6,
+      "decimal": 2
+    },
+    {
+      "name": "KPS_BH",
+      "type": "N",
+      "length": 6,
+      "decimal": 2
+    }
+  ]
+}

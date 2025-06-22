@@ -1,0 +1,11 @@
+CREATE TABLE [pmp] (
+    [P_NAME] NVARCHAR(250),
+    [PROFIL] INT,
+    [DET] INT,
+    [SEX] NVARCHAR(2),
+    [VOZR_IN] INT,
+    [VOZR_OUT] INT,
+    [OT_PER_Y] NVARCHAR(2),
+    [OT_PER_M] NVARCHAR(2),
+    [OT_PER_N] NVARCHAR(4)
+);

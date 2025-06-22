@@ -1,0 +1,28 @@
+{
+  "columns": [
+    {
+      "name": "CODE",
+      "type": "C",
+      "length": 2,
+      "decimal": 0
+    },
+    {
+      "name": "NAME",
+      "type": "C",
+      "length": 254,
+      "decimal": 0
+    },
+    {
+      "name": "USL_OK",
+      "type": "N",
+      "length": 1,
+      "decimal": 0
+    },
+    {
+      "name": "VALUE",
+      "type": "N",
+      "length": 16,
+      "decimal": 3
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+CREATE TABLE [tmu] (
+    [CODE_LPU] NVARCHAR(6),
+    [VID_MP] INT,
+    [USL_OK] INT,
+    [VOZR] NVARCHAR(2),
+    [PROFIL] INT,
+    [CODE_USL] NVARCHAR(15),
+    [TARIF] DECIMAL(10, 2),
+    [TARIF_D] DECIMAL(10, 2),
+    [OT_PER_Y] NVARCHAR(2),
+    [OT_PER_M] NVARCHAR(2),
+    [OT_PER_N] NVARCHAR(4)
+);

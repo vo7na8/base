@@ -1,0 +1,40 @@
+{
+  "columns": [
+    {
+      "name": "P_NAME",
+      "type": "C",
+      "length": 250,
+      "decimal": 0
+    },
+    {
+      "name": "PROFIL",
+      "type": "N",
+      "length": 3,
+      "decimal": 0
+    },
+    {
+      "name": "DET",
+      "type": "N",
+      "length": 1,
+      "decimal": 0
+    },
+    {
+      "name": "SEX",
+      "type": "C",
+      "length": 2,
+      "decimal": 0
+    },
+    {
+      "name": "VOZR_IN",
+      "type": "N",
+      "length": 3,
+      "decimal": 0
+    },
+    {
+      "name": "VOZR_OUT",
+      "type": "N",
+      "length": 3,
+      "decimal": 0
+    }
+  ]
+}

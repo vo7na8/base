@@ -1,0 +1,12 @@
+CREATE TABLE [sdg] (
+    [CODE_UR] NVARCHAR(6),
+    [MPCOD] NVARCHAR(8),
+    [PODR] NVARCHAR(17),
+    [USL_OK] INT,
+    [KPG] NVARCHAR(4),
+    [PROFIL] INT,
+    [SUBLEVEL] NVARCHAR(2),
+    [OT_PER_Y] NVARCHAR(2),
+    [OT_PER_M] NVARCHAR(2),
+    [OT_PER_N] NVARCHAR(4)
+);

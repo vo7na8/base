@@ -1,0 +1,11 @@
+CREATE TABLE [zap] (
+    [SchemCode] NVARCHAR(MAX),
+    [Scheme] NVARCHAR(MAX),
+    [DegreeSeverity] NVARCHAR(MAX),
+    [COMMENT] NVARCHAR(MAX),
+    [DATEBEG] NVARCHAR(MAX),
+    [DATEEND] NVARCHAR(MAX),
+    [OT_PER_Y] NVARCHAR(2),
+    [OT_PER_M] NVARCHAR(2),
+    [OT_PER_N] NVARCHAR(4)
+);

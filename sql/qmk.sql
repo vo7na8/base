@@ -1,0 +1,16 @@
+CREATE TABLE [qmk] (
+    [CODE_UR] NVARCHAR(6),
+    [OT_PER] NVARCHAR(4),
+    [USL_OK] INT,
+    [VID_SF] NVARCHAR(2),
+    [GR_PLAN] NVARCHAR(3),
+    [PROFIL_K] INT,
+    [FATAL] BIT,
+    [VALUE_V] BIGINT,
+    [VALUE_R] BIGINT,
+    [VALUE_X] BIGINT,
+    [SMOCOD] NVARCHAR(5),
+    [OT_PER_Y] NVARCHAR(2),
+    [OT_PER_M] NVARCHAR(2),
+    [OT_PER_N] NVARCHAR(4)
+);

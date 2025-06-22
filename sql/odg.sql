@@ -1,0 +1,20 @@
+CREATE TABLE [odg] (
+    [CODE_USL1] NVARCHAR(15),
+    [CODE_USL2] NVARCHAR(15),
+    [USL_OK] INT,
+    [TYPE_EXC] NVARCHAR(2),
+    [CODE_UR] NVARCHAR(6),
+    [MKB] NVARCHAR(6),
+    [EXCLUS] NVARCHAR(1),
+    [DOP_M] NVARCHAR(1),
+    [KSKPVAL] DECIMAL(8, 4),
+    [AGE_IN] INT,
+    [AGE_OUT] INT,
+    [PRIOR] INT,
+    [K_SL] NVARCHAR(3),
+    [PRVS] INT,
+    [TARIF] DECIMAL(10, 2),
+    [OT_PER_Y] NVARCHAR(2),
+    [OT_PER_M] NVARCHAR(2),
+    [OT_PER_N] NVARCHAR(4)
+);

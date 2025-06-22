@@ -1,0 +1,7 @@
+CREATE TABLE [flk7] (
+    [CODE_LPU] NVARCHAR(6),
+    [OT_PER_U] NVARCHAR(4),
+    [OT_PER_Y] NVARCHAR(2),
+    [OT_PER_M] NVARCHAR(2),
+    [OT_PER_N] NVARCHAR(4)
+);

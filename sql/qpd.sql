@@ -1,0 +1,13 @@
+CREATE TABLE [qpd] (
+    [OT_PER] NVARCHAR(4),
+    [CODE_UR] NVARCHAR(6),
+    [KOL_PD_1] INT,
+    [FATAL_1] BIT,
+    [KOL_PD_2] INT,
+    [FATAL_2] BIT,
+    [KOL_PD_3] INT,
+    [FATAL_3] BIT,
+    [OT_PER_Y] NVARCHAR(2),
+    [OT_PER_M] NVARCHAR(2),
+    [OT_PER_N] NVARCHAR(4)
+);

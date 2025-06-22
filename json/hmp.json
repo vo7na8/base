@@ -1,0 +1,52 @@
+{
+  "columns": [
+    {
+      "name": "VID_HMP",
+      "type": "C",
+      "length": 12,
+      "decimal": 0
+    },
+    {
+      "name": "N_GR",
+      "type": "N",
+      "length": 3,
+      "decimal": 0
+    },
+    {
+      "name": "METOD_HMP",
+      "type": "N",
+      "length": 4,
+      "decimal": 0
+    },
+    {
+      "name": "CODE_USL",
+      "type": "C",
+      "length": 15,
+      "decimal": 0
+    },
+    {
+      "name": "PROF_P17",
+      "type": "C",
+      "length": 2,
+      "decimal": 0
+    },
+    {
+      "name": "NAME_P17",
+      "type": "C",
+      "length": 80,
+      "decimal": 0
+    },
+    {
+      "name": "PROFIL",
+      "type": "C",
+      "length": 30,
+      "decimal": 0
+    },
+    {
+      "name": "PROFIL_K",
+      "type": "C",
+      "length": 30,
+      "decimal": 0
+    }
+  ]
+}

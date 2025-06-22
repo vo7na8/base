@@ -1,0 +1,76 @@
+{
+  "columns": [
+    {
+      "name": "CODE_USL",
+      "type": "C",
+      "length": 15,
+      "decimal": 0
+    },
+    {
+      "name": "USL_OK",
+      "type": "N",
+      "length": 1,
+      "decimal": 0
+    },
+    {
+      "name": "MKB",
+      "type": "C",
+      "length": 6,
+      "decimal": 0
+    },
+    {
+      "name": "MKB2",
+      "type": "C",
+      "length": 6,
+      "decimal": 0
+    },
+    {
+      "name": "MKB3",
+      "type": "C",
+      "length": 6,
+      "decimal": 0
+    },
+    {
+      "name": "CODE_OPER",
+      "type": "C",
+      "length": 15,
+      "decimal": 0
+    },
+    {
+      "name": "VOZG",
+      "type": "C",
+      "length": 1,
+      "decimal": 0
+    },
+    {
+      "name": "SEX",
+      "type": "C",
+      "length": 2,
+      "decimal": 0
+    },
+    {
+      "name": "DURATION",
+      "type": "C",
+      "length": 1,
+      "decimal": 0
+    },
+    {
+      "name": "DKK",
+      "type": "C",
+      "length": 15,
+      "decimal": 0
+    },
+    {
+      "name": "CODE_OPER2",
+      "type": "C",
+      "length": 15,
+      "decimal": 0
+    },
+    {
+      "name": "FRAC",
+      "type": "C",
+      "length": 10,
+      "decimal": 0
+    }
+  ]
+}

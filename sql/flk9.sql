@@ -1,0 +1,10 @@
+CREATE TABLE [flk9] (
+    [MKB] NVARCHAR(6),
+    [DIAG_TIP] INT,
+    [DIAG_CODE] INT,
+    [DIAG_RSLT] INT,
+    [REGNUM] NVARCHAR(6),
+    [OT_PER_Y] NVARCHAR(2),
+    [OT_PER_M] NVARCHAR(2),
+    [OT_PER_N] NVARCHAR(4)
+);

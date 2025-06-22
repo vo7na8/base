@@ -1,0 +1,27 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="book">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="entries">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="entry" maxOccurs="unbounded" minOccurs="0">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="ID"/>
+                    <xs:element type="xs:string" name="RZN" minOccurs="0"/>
+                    <xs:element type="xs:string" name="PARENT" minOccurs="0"/>
+                    <xs:element type="xs:string" name="NAME"/>
+                    <xs:element type="xs:string" name="ACTUAL"/>
+                    <xs:element type="xs:string" name="EXISTENCE_NPA"/>
+                    <xs:element type="xs:string" name="ORDER" minOccurs="0"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

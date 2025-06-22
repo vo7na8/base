@@ -1,0 +1,79 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="PACKET">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element type="xs:string" name="VERSION"/>
+        <xs:element type="xs:date" name="DATE"/>
+        <xs:element name="insCompany" maxOccurs="unbounded" minOccurs="0">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="TF_OKATO"/>
+              <xs:element type="xs:string" name="smocod"/>
+              <xs:element type="xs:string" name="nam_smop"/>
+              <xs:element type="xs:string" name="nam_smok"/>
+              <xs:element type="xs:string" name="INN"/>
+              <xs:element type="xs:string" name="Ogrn"/>
+              <xs:element type="xs:string" name="KPP"/>
+              <xs:element name="jurAddress">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="INDEX_J"/>
+                    <xs:element type="xs:string" name="ADDR_J"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="pstAddress">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="INDEX_F"/>
+                    <xs:element type="xs:string" name="addr_f"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element type="xs:string" name="OKOPF"/>
+              <xs:element type="xs:string" name="fam_ruk"/>
+              <xs:element type="xs:string" name="im_ruk"/>
+              <xs:element type="xs:string" name="ot_ruk"/>
+              <xs:element type="xs:string" name="Phone"/>
+              <xs:element type="xs:string" name="Fax"/>
+              <xs:element type="xs:string" name="hot_line"/>
+              <xs:element type="xs:string" name="e_mail"/>
+              <xs:element type="xs:string" name="WWW"/>
+              <xs:element name="licenziy">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="N_DOC"/>
+                    <xs:element type="xs:string" name="D_START"/>
+                    <xs:element type="xs:string" name="DATE_E"/>
+                    <xs:element type="xs:string" name="D_TERM"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element type="xs:string" name="ORG"/>
+              <xs:element name="insInclude">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="d_begin"/>
+                    <xs:element type="xs:string" name="d_end"/>
+                    <xs:element type="xs:string" name="NAME_E"/>
+                    <xs:element type="xs:string" name="NAL_P"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="insAdvice" maxOccurs="unbounded" minOccurs="0">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="YEAR_WORK"/>
+                    <xs:element type="xs:string" name="DUVED"/>
+                    <xs:element type="xs:string" name="KOL_ZL"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element type="xs:string" name="D_EDIT"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
