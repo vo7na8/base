@@ -12,7 +12,7 @@
                     <xs:element type="xs:string" name="s_code" minOccurs="0"/>
                     <xs:element type="xs:string" name="name"/>
                     <xs:element type="xs:string" name="real"/>
-					<xs:element type="xs:string" name="dateout" minOccurs="0"/>
+                    <xs:element type="xs:string" name="dateout" minOccurs="0"/>
                   </xs:sequence>
                 </xs:complexType>
               </xs:element>
