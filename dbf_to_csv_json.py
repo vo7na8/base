@@ -1,4 +1,3 @@
-# dbf_to_csv_json.py
 import json
 import re
 from pathlib import Path
@@ -8,6 +7,15 @@ from config import Config
 from utils import setup_logger, validate_filename
 
 logger = setup_logger(__name__)
+
+def clean_string(value):
+    """Очищает строку от переносов и лишних пробелов"""
+    if isinstance(value, str):
+        # Заменяем переносы строк и возврат каретки на пробелы
+        value = re.sub(r'\r\n|\n|\r', ' ', value)
+        # Удаляем двойные пробелы, оставшиеся после замены
+        value = re.sub(r'\s{2,}', ' ', value)
+    return value
 
 def process_dbf(dbf_path):
     try:
@@ -20,8 +28,18 @@ def process_dbf(dbf_path):
         csv_path = Config.CSV_DIR / f"{base_name}.csv"
         json_path = Config.JSON_DIR / f"{base_name}.json"
 
-        dbf = DBF(dbf_path)
-        pd.DataFrame(dbf).to_csv(csv_path, index=False)
+        # Читаем DBF с обработкой текстовых полей
+        dbf = DBF(dbf_path, char_decode_errors='replace')
+        records = []
+        for record in dbf:
+            cleaned_record = {
+                key: clean_string(value) 
+                for key, value in record.items()
+            }
+            records.append(cleaned_record)
+
+        df = pd.DataFrame(records)
+        df.to_csv(csv_path, index=False)
         
         metadata = {
             "columns": [
@@ -41,7 +59,7 @@ def process_dbf(dbf_path):
         return True
 
     except Exception as e:
-        logger.error(f"DBF processing error: {str(e)}")
+        logger.error(f"{dbf_path.name} -> DBF processing error: {str(e)}")
         return False
 
 def main():

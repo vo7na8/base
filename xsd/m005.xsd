@@ -1,0 +1,33 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="book">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="entries">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="entry" maxOccurs="unbounded" minOccurs="0">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="ID"/>
+                    <xs:element type="xs:string" name="ShortNameOfTopography"/>
+                    <xs:element type="xs:string" name="ICDOTopography"/>
+                    <xs:element type="xs:string" name="Morphology"/>
+                    <xs:element type="xs:string" name="Stage"/>
+                    <xs:element type="xs:string" name="Tumor"/>
+                    <xs:element type="xs:string" name="ID_Tumor"/>
+                    <xs:element type="xs:string" name="Nodus"/>
+                    <xs:element type="xs:string" name="ID_Nodus"/>
+                    <xs:element type="xs:string" name="Metastasis"/>
+                    <xs:element type="xs:string" name="ID_Metastasis"/>
+                    <xs:element type="xs:string" name="Classification"/>
+                    <xs:element type="xs:string" name="Version"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,4 +1,3 @@
-#config.py
 import os
 from pathlib import Path
 
@@ -10,13 +9,13 @@ class Config:
     CSV_DIR = BASE_DIR / "csv"
     JSON_DIR = BASE_DIR / "json"
     XSD_DIR = BASE_DIR / "xsd"
-    SQL_DIR = BASE_DIR / "sql"
-
     REPORTS_DIR = BASE_DIR / "reports"
     LOGS_DIR = BASE_DIR / "logs"
+    SQL_DIR = BASE_DIR / "sql"
+    
+    MSSQL_CONN_STR = "DRIVER={ODBC Driver 17 for SQL Server};SERVER=10.26.56.7;DATABASE=nsi;UID=EVO_Admin;PWD=Dfyznrf_070106"
 
     NSI_ZIP_PATTERN = r"^NSI(\d{4})(\d{1,3})\.zip$"
-    
     XML_FILE_PATTERN = r"^([A-Za-z0-9]{4})(\d{4})\.xml$"
     DBF_FILE_PATTERN = r"^([A-Za-z0-9]{3,4})(\d{4})\.dbf$"
     CSV_ZIP_PATTERN = "NSI{period}{update}_CONVERTED.zip"

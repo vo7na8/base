@@ -1,9 +1,8 @@
-# main.py
 from pathlib import Path
 import sys
 from config import Config
 from utils import setup_logger
-import nsi_processor
+import nsi_imp
 import xml_to_csv
 import dbf_to_csv_json
 import pack_csv
@@ -12,7 +11,7 @@ logger = setup_logger("main")
 
 def process_nsi(zip_path: Path) -> bool:
     # Обрабатываем входящий архив
-    processing_result = nsi_processor.process_package(zip_path)
+    processing_result = nsi_imp.process_package(zip_path)
     if not processing_result:
         return False
     
@@ -28,6 +27,7 @@ def process_nsi(zip_path: Path) -> bool:
         return False
     
     # Очищаем временные данные
+    
     return pack_csv.cleanup_temp_data()
 
 if __name__ == "__main__":

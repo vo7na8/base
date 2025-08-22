@@ -1,4 +1,3 @@
-# pack_csv.py
 import zipfile
 import logging
 import shutil
@@ -46,15 +45,17 @@ def pack_converted_data(period: str, update: str, original_zip: Path) -> Path:
 def cleanup_temp_data():
     """Очищает временные директории"""
     try:
-        #shutil.rmtree(Config.CSV_DIR)
-        #shutil.rmtree(Config.DBF_DIR)
-        #shutil.rmtree(Config.XML_DIR)
-        #shutil.rmtree(Config.JSON_DIR)
-        #
-        #Config.CSV_DIR.mkdir()
-        #Config.DBF_DIR.mkdir()
-        #Config.XML_DIR.mkdir()
-        #Config.JSON_DIR.mkdir()
+        shutil.rmtree(Config.CSV_DIR)
+        shutil.rmtree(Config.DBF_DIR)
+        shutil.rmtree(Config.XML_DIR)
+        #shutil.rmtree(Config.XSD_DIR)
+        shutil.rmtree(Config.JSON_DIR)
+        
+        Config.CSV_DIR.mkdir()
+        Config.DBF_DIR.mkdir()
+        Config.XML_DIR.mkdir()
+        #Config.XSD_DIR.mkdir()
+        Config.JSON_DIRs.mkdir()
         
         logger.info("Cleaned temporary directories")
         return True
