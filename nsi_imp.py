@@ -57,7 +57,7 @@ def process_package(zip_path: Path):
             return False
 
         mmyy, nn = re.match(Config.NSI_ZIP_PATTERN, filename).groups()
-        report_path = Config.REPORTS_DIR / f"NSI_report_{mmyy}_{nn}.csv"
+        report_path = Config.LOGS_DIR / f"NSI_report_{mmyy}_{nn}.csv"
 
         original_copy = Config.NSI_DIR / filename
         shutil.copy(zip_path, original_copy)

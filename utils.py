@@ -4,6 +4,7 @@ import re
 from pathlib import Path
 from config import Config
 import pyodbc
+from datetime import datetime
 
 def save_to_mssql(df, table_name, connection_string, batch_size=1000):
     """
@@ -49,12 +50,12 @@ def save_to_mssql(df, table_name, connection_string, batch_size=1000):
 def setup_logger(name):
     logger = logging.getLogger(name)
     logger.setLevel(logging.DEBUG)
-
+    timestamp = datetime.now().strftime("%y%m%d_%H%M%S")
     formatter = logging.Formatter(
         "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
     )
 
-    file_handler = logging.FileHandler(Config.LOGS_DIR / "nsi_processing.log")
+    file_handler = logging.FileHandler(Config.LOGS_DIR / f"nsi_processing {timestamp}.log")
     file_handler.setFormatter(formatter)
     logger.addHandler(file_handler)
 

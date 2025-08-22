@@ -3,15 +3,15 @@ from pathlib import Path
 
 class Config:
     BASE_DIR = Path(__file__).parent
-    NSI_DIR = BASE_DIR / "nsi"
-    XML_DIR = BASE_DIR / "xml"
-    DBF_DIR = BASE_DIR / "dbf"
-    CSV_DIR = BASE_DIR / "csv"
-    JSON_DIR = BASE_DIR / "json"
-    XSD_DIR = BASE_DIR / "xsd"
+    NSI_DIR = BASE_DIR / "temp" / "nsi"
+    XML_DIR = BASE_DIR / "temp" / "xml"
+    DBF_DIR = BASE_DIR / "temp" / "dbf"
+    CSV_DIR = BASE_DIR / "temp" / "csv"
+    JSON_DIR = BASE_DIR / "temp" / "json"
+    XSD_DIR = BASE_DIR / "src" / "xsd"
     REPORTS_DIR = BASE_DIR / "reports"
-    LOGS_DIR = BASE_DIR / "logs"
-    SQL_DIR = BASE_DIR / "sql"
+    LOGS_DIR = BASE_DIR / "reports" / "logs"
+    SQL_DIR = BASE_DIR / "src" / "sql"
     
     MSSQL_CONN_STR = "DRIVER={ODBC Driver 17 for SQL Server};SERVER=10.26.56.7;DATABASE=nsi;UID=EVO_Admin;PWD=Dfyznrf_070106"
 
