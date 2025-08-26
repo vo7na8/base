@@ -1,0 +1,82 @@
+{
+  "columns": [
+    {
+      "name": "OT_PER",
+      "type": "C",
+      "length": 4,
+      "decimal": 0
+    },
+    {
+      "name": "CODE_LPU",
+      "type": "C",
+      "length": 6,
+      "decimal": 0
+    },
+    {
+      "name": "IDONKSL",
+      "type": "C",
+      "length": 10,
+      "decimal": 0
+    },
+    {
+      "name": "REGNUM",
+      "type": "C",
+      "length": 6,
+      "decimal": 0
+    },
+    {
+      "name": "CODE_SH",
+      "type": "C",
+      "length": 10,
+      "decimal": 0
+    },
+    {
+      "name": "REGNUM_DOP",
+      "type": "C",
+      "length": 25,
+      "decimal": 0
+    },
+    {
+      "name": "DATE_INJ",
+      "type": "D",
+      "length": 8,
+      "decimal": 0
+    },
+    {
+      "name": "KV_INJ",
+      "type": "N",
+      "length": 12,
+      "decimal": 3
+    },
+    {
+      "name": "KIZ_INJ",
+      "type": "N",
+      "length": 12,
+      "decimal": 3
+    },
+    {
+      "name": "S_INJ",
+      "type": "N",
+      "length": 16,
+      "decimal": 6
+    },
+    {
+      "name": "SV_INJ",
+      "type": "N",
+      "length": 16,
+      "decimal": 2
+    },
+    {
+      "name": "SIZ_INJ",
+      "type": "N",
+      "length": 16,
+      "decimal": 2
+    },
+    {
+      "name": "RED_INJ",
+      "type": "C",
+      "length": 1,
+      "decimal": 0
+    }
+  ]
+}

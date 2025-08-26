@@ -1,0 +1,58 @@
+{
+  "columns": [
+    {
+      "name": "OT_PER",
+      "type": "C",
+      "length": 4,
+      "decimal": 0
+    },
+    {
+      "name": "CODE_LPU",
+      "type": "C",
+      "length": 6,
+      "decimal": 0
+    },
+    {
+      "name": "MSK_OT",
+      "type": "C",
+      "length": 2,
+      "decimal": 0
+    },
+    {
+      "name": "PERSCODE",
+      "type": "C",
+      "length": 15,
+      "decimal": 0
+    },
+    {
+      "name": "NHISTORY",
+      "type": "C",
+      "length": 20,
+      "decimal": 0
+    },
+    {
+      "name": "CODE_USL",
+      "type": "C",
+      "length": 15,
+      "decimal": 0
+    },
+    {
+      "name": "DATE_OUT",
+      "type": "D",
+      "length": 8,
+      "decimal": 0
+    },
+    {
+      "name": "TEETH_CODE",
+      "type": "C",
+      "length": 3,
+      "decimal": 0
+    },
+    {
+      "name": "OCCLUSION",
+      "type": "C",
+      "length": 1,
+      "decimal": 0
+    }
+  ]
+}

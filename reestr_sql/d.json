@@ -1,0 +1,70 @@
+{
+  "columns": [
+    {
+      "name": "OT_PER",
+      "type": "C",
+      "length": 4,
+      "decimal": 0
+    },
+    {
+      "name": "CODE_LPU",
+      "type": "C",
+      "length": 6,
+      "decimal": 0
+    },
+    {
+      "name": "MPCOD",
+      "type": "C",
+      "length": 8,
+      "decimal": 0
+    },
+    {
+      "name": "PODR",
+      "type": "C",
+      "length": 17,
+      "decimal": 0
+    },
+    {
+      "name": "CODE_MD",
+      "type": "C",
+      "length": 6,
+      "decimal": 0
+    },
+    {
+      "name": "FIO_MD",
+      "type": "C",
+      "length": 50,
+      "decimal": 0
+    },
+    {
+      "name": "KATEG_MD",
+      "type": "C",
+      "length": 2,
+      "decimal": 0
+    },
+    {
+      "name": "SPEC_MD",
+      "type": "C",
+      "length": 10,
+      "decimal": 0
+    },
+    {
+      "name": "POST_MD",
+      "type": "C",
+      "length": 10,
+      "decimal": 0
+    },
+    {
+      "name": "MD_SS",
+      "type": "C",
+      "length": 14,
+      "decimal": 0
+    },
+    {
+      "name": "PRVS",
+      "type": "N",
+      "length": 4,
+      "decimal": 0
+    }
+  ]
+}

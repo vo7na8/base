@@ -1,0 +1,136 @@
+{
+  "columns": [
+    {
+      "name": "OT_PER",
+      "type": "C",
+      "length": 4,
+      "decimal": 0
+    },
+    {
+      "name": "CODE_LPU",
+      "type": "C",
+      "length": 6,
+      "decimal": 0
+    },
+    {
+      "name": "MSK_OT",
+      "type": "C",
+      "length": 2,
+      "decimal": 0
+    },
+    {
+      "name": "PERSCODE",
+      "type": "C",
+      "length": 15,
+      "decimal": 0
+    },
+    {
+      "name": "NHISTORY",
+      "type": "C",
+      "length": 20,
+      "decimal": 0
+    },
+    {
+      "name": "PROFIL",
+      "type": "N",
+      "length": 3,
+      "decimal": 0
+    },
+    {
+      "name": "CODE_USL",
+      "type": "C",
+      "length": 15,
+      "decimal": 0
+    },
+    {
+      "name": "MKB1",
+      "type": "C",
+      "length": 6,
+      "decimal": 0
+    },
+    {
+      "name": "DATE_IN",
+      "type": "D",
+      "length": 8,
+      "decimal": 0
+    },
+    {
+      "name": "DATE_OUT",
+      "type": "D",
+      "length": 8,
+      "decimal": 0
+    },
+    {
+      "name": "DISP",
+      "type": "C",
+      "length": 3,
+      "decimal": 0
+    },
+    {
+      "name": "VBR",
+      "type": "N",
+      "length": 1,
+      "decimal": 0
+    },
+    {
+      "name": "RSLT_D",
+      "type": "N",
+      "length": 2,
+      "decimal": 0
+    },
+    {
+      "name": "DS1_PR",
+      "type": "N",
+      "length": 1,
+      "decimal": 0
+    },
+    {
+      "name": "PR_D_N",
+      "type": "N",
+      "length": 1,
+      "decimal": 0
+    },
+    {
+      "name": "DS2_PR",
+      "type": "N",
+      "length": 1,
+      "decimal": 0
+    },
+    {
+      "name": "PR_DS2_N",
+      "type": "N",
+      "length": 1,
+      "decimal": 0
+    },
+    {
+      "name": "NAZ_R",
+      "type": "N",
+      "length": 2,
+      "decimal": 0
+    },
+    {
+      "name": "NAZ_SP",
+      "type": "N",
+      "length": 4,
+      "decimal": 0
+    },
+    {
+      "name": "NAZ_V",
+      "type": "N",
+      "length": 1,
+      "decimal": 0
+    },
+    {
+      "name": "NAZ_PMP",
+      "type": "N",
+      "length": 3,
+      "decimal": 0
+    },
+    {
+      "name": "NAZ_PK",
+      "type": "N",
+      "length": 3,
+      "decimal": 0
+    }
+  ]
+}

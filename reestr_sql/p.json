@@ -1,0 +1,256 @@
+{
+  "columns": [
+    {
+      "name": "OT_PER",
+      "type": "C",
+      "length": 4,
+      "decimal": 0
+    },
+    {
+      "name": "CODE_LPU",
+      "type": "C",
+      "length": 6,
+      "decimal": 0
+    },
+    {
+      "name": "MSK_OT",
+      "type": "C",
+      "length": 2,
+      "decimal": 0
+    },
+    {
+      "name": "PERSCODE",
+      "type": "C",
+      "length": 15,
+      "decimal": 0
+    },
+    {
+      "name": "ENP",
+      "type": "C",
+      "length": 16,
+      "decimal": 0
+    },
+    {
+      "name": "DOMC_TYPE",
+      "type": "C",
+      "length": 2,
+      "decimal": 0
+    },
+    {
+      "name": "SERIES",
+      "type": "C",
+      "length": 12,
+      "decimal": 0
+    },
+    {
+      "name": "NUMBER",
+      "type": "C",
+      "length": 20,
+      "decimal": 0
+    },
+    {
+      "name": "CODE_MSK",
+      "type": "C",
+      "length": 5,
+      "decimal": 0
+    },
+    {
+      "name": "NAME_MSK",
+      "type": "C",
+      "length": 250,
+      "decimal": 0
+    },
+    {
+      "name": "OKATO_INS",
+      "type": "C",
+      "length": 8,
+      "decimal": 0
+    },
+    {
+      "name": "FAM",
+      "type": "C",
+      "length": 40,
+      "decimal": 0
+    },
+    {
+      "name": "IM",
+      "type": "C",
+      "length": 40,
+      "decimal": 0
+    },
+    {
+      "name": "OT",
+      "type": "C",
+      "length": 40,
+      "decimal": 0
+    },
+    {
+      "name": "BIRTHDAY",
+      "type": "D",
+      "length": 8,
+      "decimal": 0
+    },
+    {
+      "name": "SEX",
+      "type": "C",
+      "length": 2,
+      "decimal": 0
+    },
+    {
+      "name": "OKATO_NAS",
+      "type": "C",
+      "length": 11,
+      "decimal": 0
+    },
+    {
+      "name": "COUNTRY",
+      "type": "C",
+      "length": 3,
+      "decimal": 0
+    },
+    {
+      "name": "PASP_SER",
+      "type": "C",
+      "length": 10,
+      "decimal": 0
+    },
+    {
+      "name": "PASP_NUM",
+      "type": "C",
+      "length": 12,
+      "decimal": 0
+    },
+    {
+      "name": "PASP_VID",
+      "type": "C",
+      "length": 2,
+      "decimal": 0
+    },
+    {
+      "name": "FAM1",
+      "type": "C",
+      "length": 40,
+      "decimal": 0
+    },
+    {
+      "name": "IM1",
+      "type": "C",
+      "length": 40,
+      "decimal": 0
+    },
+    {
+      "name": "OT1",
+      "type": "C",
+      "length": 40,
+      "decimal": 0
+    },
+    {
+      "name": "SEX_P",
+      "type": "C",
+      "length": 2,
+      "decimal": 0
+    },
+    {
+      "name": "BIRTHDAY_P",
+      "type": "D",
+      "length": 8,
+      "decimal": 0
+    },
+    {
+      "name": "PASP_SER_P",
+      "type": "C",
+      "length": 10,
+      "decimal": 0
+    },
+    {
+      "name": "PASP_NUM_P",
+      "type": "C",
+      "length": 12,
+      "decimal": 0
+    },
+    {
+      "name": "PASP_VID_P",
+      "type": "C",
+      "length": 2,
+      "decimal": 0
+    },
+    {
+      "name": "MR",
+      "type": "C",
+      "length": 100,
+      "decimal": 0
+    },
+    {
+      "name": "NOVOR",
+      "type": "C",
+      "length": 9,
+      "decimal": 0
+    },
+    {
+      "name": "OS_SLUCH",
+      "type": "N",
+      "length": 1,
+      "decimal": 0
+    },
+    {
+      "name": "SNILS",
+      "type": "C",
+      "length": 14,
+      "decimal": 0
+    },
+    {
+      "name": "VNOV",
+      "type": "N",
+      "length": 4,
+      "decimal": 0
+    },
+    {
+      "name": "DOST_FIO",
+      "type": "N",
+      "length": 1,
+      "decimal": 0
+    },
+    {
+      "name": "DOST_FIO_D",
+      "type": "N",
+      "length": 1,
+      "decimal": 0
+    },
+    {
+      "name": "DOST_DR",
+      "type": "N",
+      "length": 1,
+      "decimal": 0
+    },
+    {
+      "name": "VNOV_M",
+      "type": "N",
+      "length": 4,
+      "decimal": 0
+    },
+    {
+      "name": "PR_LG",
+      "type": "C",
+      "length": 2,
+      "decimal": 0
+    },
+    {
+      "name": "DOCDATE",
+      "type": "D",
+      "length": 8,
+      "decimal": 0
+    },
+    {
+      "name": "DOCORG",
+      "type": "C",
+      "length": 100,
+      "decimal": 0
+    },
+    {
+      "name": "IDRQSTDATE",
+      "type": "D",
+      "length": 8,
+      "decimal": 0
+    }
+  ]
+}

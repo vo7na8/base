@@ -1,0 +1,52 @@
+{
+  "columns": [
+    {
+      "name": "OT_PER",
+      "type": "C",
+      "length": 4,
+      "decimal": 0
+    },
+    {
+      "name": "CODE_LPU",
+      "type": "C",
+      "length": 6,
+      "decimal": 0
+    },
+    {
+      "name": "MSK_OT",
+      "type": "C",
+      "length": 2,
+      "decimal": 0
+    },
+    {
+      "name": "VID_MP",
+      "type": "N",
+      "length": 4,
+      "decimal": 0
+    },
+    {
+      "name": "USL_OK",
+      "type": "N",
+      "length": 1,
+      "decimal": 0
+    },
+    {
+      "name": "VID_SF",
+      "type": "C",
+      "length": 2,
+      "decimal": 0
+    },
+    {
+      "name": "VID_KOEFF",
+      "type": "C",
+      "length": 2,
+      "decimal": 0
+    },
+    {
+      "name": "VAL_KOEFF",
+      "type": "N",
+      "length": 12,
+      "decimal": 8
+    }
+  ]
+}

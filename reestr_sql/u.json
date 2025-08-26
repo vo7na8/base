@@ -1,0 +1,304 @@
+{
+  "columns": [
+    {
+      "name": "OT_PER",
+      "type": "C",
+      "length": 4,
+      "decimal": 0
+    },
+    {
+      "name": "CODE_LPU",
+      "type": "C",
+      "length": 6,
+      "decimal": 0
+    },
+    {
+      "name": "MPCOD",
+      "type": "C",
+      "length": 8,
+      "decimal": 0
+    },
+    {
+      "name": "PODR",
+      "type": "C",
+      "length": 17,
+      "decimal": 0
+    },
+    {
+      "name": "MSK_OT",
+      "type": "C",
+      "length": 2,
+      "decimal": 0
+    },
+    {
+      "name": "PERSCODE",
+      "type": "C",
+      "length": 15,
+      "decimal": 0
+    },
+    {
+      "name": "VID_MP",
+      "type": "N",
+      "length": 4,
+      "decimal": 0
+    },
+    {
+      "name": "USL_OK",
+      "type": "N",
+      "length": 1,
+      "decimal": 0
+    },
+    {
+      "name": "NHISTORY",
+      "type": "C",
+      "length": 20,
+      "decimal": 0
+    },
+    {
+      "name": "PROFIL",
+      "type": "N",
+      "length": 3,
+      "decimal": 0
+    },
+    {
+      "name": "MKB1",
+      "type": "C",
+      "length": 6,
+      "decimal": 0
+    },
+    {
+      "name": "MKB2",
+      "type": "C",
+      "length": 6,
+      "decimal": 0
+    },
+    {
+      "name": "MKB3",
+      "type": "C",
+      "length": 6,
+      "decimal": 0
+    },
+    {
+      "name": "CODE_USL",
+      "type": "C",
+      "length": 15,
+      "decimal": 0
+    },
+    {
+      "name": "CODE_MD",
+      "type": "C",
+      "length": 6,
+      "decimal": 0
+    },
+    {
+      "name": "DATE_IN",
+      "type": "D",
+      "length": 8,
+      "decimal": 0
+    },
+    {
+      "name": "DATE_OUT",
+      "type": "D",
+      "length": 8,
+      "decimal": 0
+    },
+    {
+      "name": "KOL_USL",
+      "type": "N",
+      "length": 6,
+      "decimal": 0
+    },
+    {
+      "name": "KOL_FACT",
+      "type": "N",
+      "length": 3,
+      "decimal": 0
+    },
+    {
+      "name": "RES_GOSP",
+      "type": "N",
+      "length": 3,
+      "decimal": 0
+    },
+    {
+      "name": "ISH_MOV",
+      "type": "N",
+      "length": 3,
+      "decimal": 0
+    },
+    {
+      "name": "VID_SF",
+      "type": "C",
+      "length": 2,
+      "decimal": 0
+    },
+    {
+      "name": "TARIF_B",
+      "type": "N",
+      "length": 10,
+      "decimal": 2
+    },
+    {
+      "name": "TARIF_S",
+      "type": "N",
+      "length": 10,
+      "decimal": 2
+    },
+    {
+      "name": "TARIF_D",
+      "type": "N",
+      "length": 10,
+      "decimal": 2
+    },
+    {
+      "name": "SUM_RUB",
+      "type": "N",
+      "length": 10,
+      "decimal": 2
+    },
+    {
+      "name": "VID_TR",
+      "type": "C",
+      "length": 2,
+      "decimal": 0
+    },
+    {
+      "name": "EXTR",
+      "type": "N",
+      "length": 1,
+      "decimal": 0
+    },
+    {
+      "name": "CODE_OTD",
+      "type": "C",
+      "length": 12,
+      "decimal": 0
+    },
+    {
+      "name": "SOUF",
+      "type": "N",
+      "length": 1,
+      "decimal": 0
+    },
+    {
+      "name": "MED_AREA",
+      "type": "C",
+      "length": 15,
+      "decimal": 0
+    },
+    {
+      "name": "TAL_HMP",
+      "type": "C",
+      "length": 17,
+      "decimal": 0
+    },
+    {
+      "name": "DATE_HMP",
+      "type": "D",
+      "length": 8,
+      "decimal": 0
+    },
+    {
+      "name": "INV",
+      "type": "N",
+      "length": 1,
+      "decimal": 0
+    },
+    {
+      "name": "MCOD_OUT",
+      "type": "C",
+      "length": 6,
+      "decimal": 0
+    },
+    {
+      "name": "NOM_NPR",
+      "type": "C",
+      "length": 20,
+      "decimal": 0
+    },
+    {
+      "name": "DATE_NPR",
+      "type": "D",
+      "length": 8,
+      "decimal": 0
+    },
+    {
+      "name": "FOR_POM",
+      "type": "N",
+      "length": 1,
+      "decimal": 0
+    },
+    {
+      "name": "MSE",
+      "type": "N",
+      "length": 1,
+      "decimal": 0
+    },
+    {
+      "name": "P_CEL",
+      "type": "C",
+      "length": 3,
+      "decimal": 0
+    },
+    {
+      "name": "MKB0",
+      "type": "C",
+      "length": 6,
+      "decimal": 0
+    },
+    {
+      "name": "DN",
+      "type": "N",
+      "length": 1,
+      "decimal": 0
+    },
+    {
+      "name": "TAL_P",
+      "type": "D",
+      "length": 8,
+      "decimal": 0
+    },
+    {
+      "name": "DS_ONK",
+      "type": "N",
+      "length": 1,
+      "decimal": 0
+    },
+    {
+      "name": "C_ZAB",
+      "type": "N",
+      "length": 1,
+      "decimal": 0
+    },
+    {
+      "name": "PROFIL_K",
+      "type": "N",
+      "length": 3,
+      "decimal": 0
+    },
+    {
+      "name": "NAPR_MO",
+      "type": "C",
+      "length": 6,
+      "decimal": 0
+    },
+    {
+      "name": "OT_PER_U",
+      "type": "C",
+      "length": 4,
+      "decimal": 0
+    },
+    {
+      "name": "IDCASE",
+      "type": "C",
+      "length": 11,
+      "decimal": 0
+    },
+    {
+      "name": "SCASE",
+      "type": "C",
+      "length": 2,
+      "decimal": 0
+    }
+  ]
+}

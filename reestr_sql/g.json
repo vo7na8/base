@@ -1,0 +1,304 @@
+{
+  "columns": [
+    {
+      "name": "OT_PER",
+      "type": "C",
+      "length": 4,
+      "decimal": 0
+    },
+    {
+      "name": "CODE_LPU",
+      "type": "C",
+      "length": 6,
+      "decimal": 0
+    },
+    {
+      "name": "MSK_OT",
+      "type": "C",
+      "length": 2,
+      "decimal": 0
+    },
+    {
+      "name": "PERSCODE",
+      "type": "C",
+      "length": 15,
+      "decimal": 0
+    },
+    {
+      "name": "VID_SF",
+      "type": "C",
+      "length": 2,
+      "decimal": 0
+    },
+    {
+      "name": "VID_MP",
+      "type": "N",
+      "length": 4,
+      "decimal": 0
+    },
+    {
+      "name": "USL_OK",
+      "type": "N",
+      "length": 1,
+      "decimal": 0
+    },
+    {
+      "name": "NHISTORY",
+      "type": "C",
+      "length": 20,
+      "decimal": 0
+    },
+    {
+      "name": "PROFIL",
+      "type": "N",
+      "length": 3,
+      "decimal": 0
+    },
+    {
+      "name": "MKB1",
+      "type": "C",
+      "length": 6,
+      "decimal": 0
+    },
+    {
+      "name": "MKB2",
+      "type": "C",
+      "length": 6,
+      "decimal": 0
+    },
+    {
+      "name": "MKB3",
+      "type": "C",
+      "length": 6,
+      "decimal": 0
+    },
+    {
+      "name": "CODE_USL",
+      "type": "C",
+      "length": 15,
+      "decimal": 0
+    },
+    {
+      "name": "CODE_OTD",
+      "type": "C",
+      "length": 12,
+      "decimal": 0
+    },
+    {
+      "name": "CODE_MD",
+      "type": "C",
+      "length": 6,
+      "decimal": 0
+    },
+    {
+      "name": "DATE_IN",
+      "type": "D",
+      "length": 8,
+      "decimal": 0
+    },
+    {
+      "name": "DATE_OUT",
+      "type": "D",
+      "length": 8,
+      "decimal": 0
+    },
+    {
+      "name": "KOL_FACT",
+      "type": "N",
+      "length": 3,
+      "decimal": 0
+    },
+    {
+      "name": "ISH_MOV",
+      "type": "N",
+      "length": 3,
+      "decimal": 0
+    },
+    {
+      "name": "RES_GOSP",
+      "type": "N",
+      "length": 3,
+      "decimal": 0
+    },
+    {
+      "name": "SUM_RUB",
+      "type": "N",
+      "length": 10,
+      "decimal": 2
+    },
+    {
+      "name": "CODE_NOM1",
+      "type": "C",
+      "length": 15,
+      "decimal": 0
+    },
+    {
+      "name": "CODE_NOM2",
+      "type": "C",
+      "length": 15,
+      "decimal": 0
+    },
+    {
+      "name": "CODE_NOM3",
+      "type": "C",
+      "length": 15,
+      "decimal": 0
+    },
+    {
+      "name": "EXTR",
+      "type": "N",
+      "length": 1,
+      "decimal": 0
+    },
+    {
+      "name": "VID_TR",
+      "type": "C",
+      "length": 2,
+      "decimal": 0
+    },
+    {
+      "name": "SP_CASE",
+      "type": "N",
+      "length": 1,
+      "decimal": 0
+    },
+    {
+      "name": "KZ",
+      "type": "N",
+      "length": 10,
+      "decimal": 5
+    },
+    {
+      "name": "KUS",
+      "type": "N",
+      "length": 6,
+      "decimal": 2
+    },
+    {
+      "name": "KU",
+      "type": "N",
+      "length": 6,
+      "decimal": 4
+    },
+    {
+      "name": "KSLP",
+      "type": "N",
+      "length": 7,
+      "decimal": 5
+    },
+    {
+      "name": "KPS",
+      "type": "N",
+      "length": 4,
+      "decimal": 2
+    },
+    {
+      "name": "VB_P",
+      "type": "N",
+      "length": 1,
+      "decimal": 0
+    },
+    {
+      "name": "KD",
+      "type": "N",
+      "length": 6,
+      "decimal": 4
+    },
+    {
+      "name": "KDZP",
+      "type": "N",
+      "length": 7,
+      "decimal": 5
+    },
+    {
+      "name": "PROFIL_K",
+      "type": "N",
+      "length": 3,
+      "decimal": 0
+    },
+    {
+      "name": "P_PER",
+      "type": "N",
+      "length": 1,
+      "decimal": 0
+    },
+    {
+      "name": "DKK1",
+      "type": "C",
+      "length": 15,
+      "decimal": 0
+    },
+    {
+      "name": "DKK2",
+      "type": "C",
+      "length": 10,
+      "decimal": 0
+    },
+    {
+      "name": "DKK3",
+      "type": "C",
+      "length": 10,
+      "decimal": 0
+    },
+    {
+      "name": "Z_SL1",
+      "type": "N",
+      "length": 7,
+      "decimal": 5
+    },
+    {
+      "name": "Z_SL2",
+      "type": "N",
+      "length": 7,
+      "decimal": 5
+    },
+    {
+      "name": "Z_SL3",
+      "type": "N",
+      "length": 7,
+      "decimal": 5
+    },
+    {
+      "name": "Z_SL4",
+      "type": "N",
+      "length": 7,
+      "decimal": 5
+    },
+    {
+      "name": "K_SL1",
+      "type": "C",
+      "length": 3,
+      "decimal": 0
+    },
+    {
+      "name": "K_SL2",
+      "type": "C",
+      "length": 3,
+      "decimal": 0
+    },
+    {
+      "name": "K_SL3",
+      "type": "C",
+      "length": 3,
+      "decimal": 0
+    },
+    {
+      "name": "K_SL4",
+      "type": "C",
+      "length": 3,
+      "decimal": 0
+    },
+    {
+      "name": "DKK4",
+      "type": "C",
+      "length": 10,
+      "decimal": 0
+    },
+    {
+      "name": "KGP",
+      "type": "C",
+      "length": 4,
+      "decimal": 0
+    }
+  ]
+}
