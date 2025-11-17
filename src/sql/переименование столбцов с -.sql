@@ -23,3 +23,9 @@ EXEC sp_rename 'nsi.dbo.f003.medadvice_year_work', 'medadvice-year_work', 'COLUM
 
 EXEC sp_rename 'nsi.dbo.v016.dtrule_rule', 'dtrule-rule', 'COLUMN'
 EXEC sp_rename 'nsi.dbo.q023.type_md_type_d', 'type_md-type_d', 'COLUMN'
+
+select * from f002 where nsi_ot_per = '0125'
+
+use nsi;
+
+select distinct code_oper from gdg where nsi_ot_per = '0825' and usl_ok = 1
