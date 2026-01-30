@@ -17,7 +17,7 @@ class Config:
 
     NSI_ZIP_PATTERN = r"^NSI(\d{4})(\d{1,3})\.zip$"
     XML_FILE_PATTERN = r"^([A-Za-z0-9]{4})(\d{4})\.xml$"
-    DBF_FILE_PATTERN = r"^([A-Za-z0-9]{3,4})(\d{4})\.dbf$"
+    DBF_FILE_PATTERN = r"^([A-Za-z0-9]{3,6})(\d{4})\.dbf$"
     CSV_ZIP_PATTERN = "NSI{period}{update}_CONVERTED.zip"
 
     @classmethod
