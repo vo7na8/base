@@ -25,3 +25,5 @@ logs/
 *.XLSX
 
 *.pyc
+reestr_oms/.vscode/tasks.json
+reestr_oms/reestr_oms.sqlproj
