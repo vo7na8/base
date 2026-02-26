@@ -85,26 +85,27 @@ def process_package(zip_path: Path):
                 target_dir = Config.XML_DIR if ext == "xml" else Config.DBF_DIR
                 target_path = target_dir / Path(file_name).name
 
-                with zip_ref.open(file_name) as f:
-                    content = f.read()
-                    file_hash = calculate_sha256(content)
-                    target_path.write_bytes(content)
+                try:
+                    with zip_ref.open(file_name) as f:
+                        content = f.read()
+                except zipfile.BadZipFile as e:
+                    logger.error(f"Failed to read {file_name} from {zip_path}: {e}")
+                    continue   # пропускаем этот файл
+
+                file_hash = calculate_sha256(content)
+                target_path.write_bytes(content)
 
                 modified = datetime(*file_info.date_time).strftime("%Y-%m-%d %H:%M:%S")
 
-                # считаем количество строк
+                # считаем количество строк (только если файл успешно извлечён)
                 if ext == "dbf":
                     records = count_dbf_records(target_path)
                 else:
                     records = count_xml_records(target_path, Config.XSD_DIR / (basename + ".xsd"))
 
-                row = [
-                    filename, mmyy, nn, 
-                    target_path.name, basename,
-                    ext.lower(), file_hash, 
-                    modified, records
-                ]
-
+                # добавляем запись в отчёт
+                row = [filename, mmyy, nn, target_path.name, basename, ext.lower(),
+                       file_hash, modified, records]
                 rows.append(row)
                 writer.writerow(row)
                 logger.info(f"Extracted: {target_path.name}, records={records}")
@@ -119,7 +120,7 @@ def process_package(zip_path: Path):
         # строка подключения (лучше вынести в Config)
         conn_str = Config.MSSQL_CONN_STR
         logger.info(f"Start upload to MSSQL")
-        save_to_mssql(df, "nsi_reports", conn_str)
+        #save_to_mssql(df, "nsi_reports", conn_str)
         logger.info(f"Upload completed!")
         
         logger.info(f"Processing complete: {report_path}")
