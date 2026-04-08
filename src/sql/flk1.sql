@@ -1,7 +1,0 @@
-CREATE TABLE [flk1] (
-    [IDRMP] INT,
-    [IDIZ] INT,
-    [OT_PER_Y] NVARCHAR(2),
-    [OT_PER_M] NVARCHAR(2),
-    [OT_PER_N] NVARCHAR(4)
-);
